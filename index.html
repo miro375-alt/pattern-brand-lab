@@ -112,9 +112,11 @@ $('loginForm').addEventListener('submit', async e => {
 /* 앱(iframe)과의 복호화 브리지 */
 window.addEventListener('message', async e => {
   const m = e.data || {};
-  if (m.t === 'getdoc' && CREDS && /^docs\/[a-z0-9]+\.enc\.json$/.test(m.src)) {
-    try { $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html: await decryptDoc(m.src)}, '*'); }
-    catch { $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html:'<p style="font-family:sans-serif;padding:20px">복호화 실패</p>'}, '*'); }
+  if (m.t === 'getdoc') {
+    const reply = html => $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html}, '*');
+    if (!CREDS || !/^docs\/[a-z0-9-]+\.enc\.json$/.test(m.src)) { reply('<p style="font-family:sans-serif;padding:20px">문서를 열 수 없습니다.</p>'); return; }
+    try { reply(await decryptDoc(m.src)); }
+    catch { reply('<p style="font-family:sans-serif;padding:20px">복호화 실패</p>'); }
   }
   if (m.t === 'lock') {
     CREDS = null; Object.keys(cache).forEach(k => delete cache[k]);
