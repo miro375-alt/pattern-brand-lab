@@ -9,40 +9,28 @@
 :root{
   color-scheme: light;
   --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
-  --grid:#e1e0d9; --border:rgba(11,11,11,.10); --s1:#2a78d6; --crit:#d03b3b; --wash:#eef4fc;
+  --grid:#e1e0d9; --border:rgba(11,11,11,.10); --s1:#2a78d6; --crit:#d03b3b;
 }
 @media (prefers-color-scheme: dark){
   :root{ color-scheme: dark;
     --page:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
-    --grid:#2c2c2a; --border:rgba(255,255,255,.10); --s1:#3987e5; --crit:#e66767; --wash:#16202e; }
+    --grid:#2c2c2a; --border:rgba(255,255,255,.10); --s1:#3987e5; --crit:#e66767; }
 }
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--page);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo",sans-serif;min-height:100vh}
-/* 로그인 */
+html,body{height:100%}
+body{background:var(--page);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo",sans-serif}
 #gate{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:40px 36px;width:100%;max-width:380px;box-shadow:0 8px 40px rgba(0,0,0,.06)}
 .logo{font-size:13px;letter-spacing:.18em;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
-.card h1{font-size:22px;letter-spacing:-.01em;margin-bottom:22px}
+h1{font-size:22px;margin-bottom:22px}
 label{display:block;font-size:12.5px;color:var(--ink2);margin:14px 0 6px;font-weight:600}
 input{width:100%;padding:11px 13px;border:1px solid var(--grid);border-radius:9px;background:var(--page);color:var(--ink);font-size:15px}
 input:focus{outline:2px solid var(--s1);outline-offset:-1px;border-color:transparent}
-button.go{width:100%;margin-top:22px;padding:12px;border:none;border-radius:9px;background:var(--s1);color:#fff;font-size:15px;font-weight:700;cursor:pointer}
-button.go:disabled{opacity:.5;cursor:wait}
+button{width:100%;margin-top:22px;padding:12px;border:none;border-radius:9px;background:var(--s1);color:#fff;font-size:15px;font-weight:700;cursor:pointer}
+button:disabled{opacity:.5;cursor:wait}
 #err{color:var(--crit);font-size:13px;margin-top:12px;min-height:18px}
 .note{font-size:11.5px;color:var(--muted);margin-top:18px;line-height:1.6}
-/* 서재 */
-#shelf{display:none;max-width:960px;margin:0 auto;padding:36px 20px 60px}
-#shelf header{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:22px}
-#shelf h1{font-size:22px}
-#shelf .hint{color:var(--muted);font-size:12.5px;margin-left:auto}
-.doclist{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:22px}
-.doc{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;cursor:pointer;text-align:left}
-.doc:hover{outline:2px solid var(--s1);outline-offset:-1px}
-.doc.on{background:var(--wash);outline:2px solid var(--s1);outline-offset:-1px}
-.doc .t{font-weight:700;font-size:15px}
-.doc .d{font-size:12.5px;color:var(--ink2);margin-top:4px;line-height:1.5}
-#viewer{width:100%;height:calc(100vh - 60px);border:1px solid var(--border);border-radius:12px;background:#fff;display:none}
-#lock{font-size:12.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
+#app{display:none;width:100%;height:100vh;border:none}
 </style>
 </head>
 <body>
@@ -50,49 +38,24 @@ button.go:disabled{opacity:.5;cursor:wait}
 <div id="gate">
   <form class="card" id="loginForm">
     <div class="logo">Pattern Brand Lab</div>
-    <h1>내부 전략 문서고</h1>
+    <h1>업무 공간</h1>
     <label for="uid">아이디</label>
     <input id="uid" autocomplete="username" autocapitalize="none" spellcheck="false">
     <label for="upw">비밀번호</label>
     <input id="upw" type="password" autocomplete="current-password">
-    <button class="go" id="goBtn" type="submit">열기</button>
+    <button id="goBtn" type="submit">열기</button>
     <div id="err"></div>
-    <div class="note">문서는 AES-256으로 암호화되어 있으며 올바른 계정 정보로만 복호화됩니다.</div>
+    <div class="note">문서·업무툴은 AES-256으로 암호화되어 있으며 올바른 계정 정보로만 열립니다. 메모·캘린더는 이 브라우저에만 저장됩니다.</div>
   </form>
 </div>
 
-<div id="shelf">
-  <header>
-    <h1>전략 문서고</h1>
-    <span id="lock">잠그기</span>
-    <span class="hint">문서는 이 브라우저 안에서만 복호화됩니다</span>
-  </header>
-  <div class="doclist">
-    <button class="doc" data-src="docs/charter.enc.json">
-      <div class="t">📖 1권 브랜드 헌장 (v1.0)</div>
-      <div class="d">이중 구조 · 모티프 실측(별/구름/당근 상승) · 네이밍 후보 6종 · 금지목록</div>
-    </button>
-    <button class="doc" data-src="docs/plan.enc.json">
-      <div class="t">📘 사업 아이템 기획서 (v5)</div>
-      <div class="d">키워드 5,422개 조사 · 경쟁/수요 실측 · LTV 삼층 구조 · 경쟁사 12사 · 팝업 생태계</div>
-    </button>
-    <button class="doc" data-src="docs/strategy.enc.json">
-      <div class="t">🚀 브랜드 론칭 실행전략</div>
-      <div class="d">세계관 설계 · 0단계 인스타 플랜 · 드랍 운영 표준 · 예산/KPI/킬 기준</div>
-    </button>
-    <button class="doc" data-src="docs/simulator.enc.json">
-      <div class="t">🧮 손익 시뮬레이터</div>
-      <div class="d">품목 프리셋 4종 · 실측 단가 기본값 · 손익분기 계산 (편집 가능)</div>
-    </button>
-  </div>
-  <iframe id="viewer" title="document"></iframe>
-</div>
+<iframe id="app" title="workspace"></iframe>
 
 <script>
 const $ = id => document.getElementById(id);
 const enc = new TextEncoder(), dec = new TextDecoder();
 const b64d = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
-let KEY = null;
+let CREDS = null;
 const cache = {};
 
 async function derive(id, pw, salt, iter){
@@ -100,50 +63,43 @@ async function derive(id, pw, salt, iter){
   return crypto.subtle.deriveKey({name:'PBKDF2', salt, iterations:iter, hash:'SHA-256'},
     mat, {name:'AES-GCM', length:256}, false, ['decrypt']);
 }
-
 async function fetchEnc(src){
-  if(!cache[src]) cache[src] = await (await fetch(src)).json();
+  if (!cache[src]) cache[src] = await (await fetch(src)).json();
   return cache[src];
 }
-
-async function tryOpen(id, pw){
-  const probe = await fetchEnc('docs/simulator.enc.json');
-  const key = await derive(id, pw, b64d(probe.salt), probe.iter);
-  await crypto.subtle.decrypt({name:'AES-GCM', iv: b64d(probe.iv)}, key, b64d(probe.ct)); // throws on wrong creds
-  return { id, pw };
-}
-
-async function openDoc(src){
+async function decryptDoc(src){
   const d = await fetchEnc(src);
-  const key = await derive(KEY.id, KEY.pw, b64d(d.salt), d.iter);
+  const key = await derive(CREDS.id, CREDS.pw, b64d(d.salt), d.iter);
   const pt = await crypto.subtle.decrypt({name:'AES-GCM', iv: b64d(d.iv)}, key, b64d(d.ct));
-  const v = $('viewer');
-  v.style.display = 'block';
-  v.srcdoc = dec.decode(pt);
-  document.querySelectorAll('.doc').forEach(b => b.classList.toggle('on', b.dataset.src === src));
+  return dec.decode(pt);
 }
 
 $('loginForm').addEventListener('submit', async e => {
   e.preventDefault();
   const btn = $('goBtn'); btn.disabled = true; $('err').textContent = '';
   try {
-    KEY = await tryOpen($('uid').value.trim(), $('upw').value);
+    CREDS = { id: $('uid').value.trim(), pw: $('upw').value };
+    const html = await decryptDoc('docs/app.enc.json'); // 잘못된 계정이면 여기서 throw
     $('gate').style.display = 'none';
-    $('shelf').style.display = 'block';
-    openDoc('docs/charter.enc.json');
+    const app = $('app'); app.style.display = 'block'; app.srcdoc = html;
   } catch {
+    CREDS = null;
     $('err').textContent = '아이디 또는 비밀번호가 올바르지 않습니다.';
   } finally { btn.disabled = false; }
 });
 
-document.querySelectorAll('.doc').forEach(b =>
-  b.addEventListener('click', () => openDoc(b.dataset.src).catch(() => alert('복호화 실패'))));
-
-$('lock').addEventListener('click', () => {
-  KEY = null; Object.keys(cache).forEach(k => delete cache[k]);
-  $('viewer').srcdoc = ''; $('viewer').style.display = 'none';
-  $('shelf').style.display = 'none'; $('gate').style.display = 'flex';
-  $('upw').value = '';
+/* 앱(iframe)과의 복호화 브리지 */
+window.addEventListener('message', async e => {
+  const m = e.data || {};
+  if (m.t === 'getdoc' && CREDS && /^docs\/[a-z0-9]+\.enc\.json$/.test(m.src)) {
+    try { $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html: await decryptDoc(m.src)}, '*'); }
+    catch { $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html:'<p style="font-family:sans-serif;padding:20px">복호화 실패</p>'}, '*'); }
+  }
+  if (m.t === 'lock') {
+    CREDS = null; Object.keys(cache).forEach(k => delete cache[k]);
+    const app = $('app'); app.srcdoc = ''; app.style.display = 'none';
+    $('gate').style.display = 'flex'; $('upw').value = '';
+  }
 });
 </script>
 </body>
