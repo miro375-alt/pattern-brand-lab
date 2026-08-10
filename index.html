@@ -68,6 +68,10 @@ button.go:disabled{opacity:.5;cursor:wait}
     <span class="hint">문서는 이 브라우저 안에서만 복호화됩니다</span>
   </header>
   <div class="doclist">
+    <button class="doc" data-src="docs/charter.enc.json">
+      <div class="t">📖 1권 브랜드 헌장 (v1.0)</div>
+      <div class="d">이중 구조 · 모티프 실측(별/구름/당근 상승) · 네이밍 후보 6종 · 금지목록</div>
+    </button>
     <button class="doc" data-src="docs/plan.enc.json">
       <div class="t">📘 사업 아이템 기획서 (v5)</div>
       <div class="d">키워드 5,422개 조사 · 경쟁/수요 실측 · LTV 삼층 구조 · 경쟁사 12사 · 팝업 생태계</div>
@@ -126,7 +130,7 @@ $('loginForm').addEventListener('submit', async e => {
     KEY = await tryOpen($('uid').value.trim(), $('upw').value);
     $('gate').style.display = 'none';
     $('shelf').style.display = 'block';
-    openDoc('docs/plan.enc.json');
+    openDoc('docs/charter.enc.json');
   } catch {
     $('err').textContent = '아이디 또는 비밀번호가 올바르지 않습니다.';
   } finally { btn.disabled = false; }
