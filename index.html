@@ -39,6 +39,8 @@ button:disabled{opacity:.5;cursor:wait}
   <form class="card" id="loginForm">
     <div class="logo">Pattern Brand Lab</div>
     <h1>업무 공간</h1>
+    <label for="uname">이름 (작성자 표시용)</label>
+    <input id="uname" autocapitalize="none" spellcheck="false" placeholder="예: 정우">
     <label for="uid">아이디</label>
     <input id="uid" autocomplete="username" autocapitalize="none" spellcheck="false">
     <label for="upw">비밀번호</label>
@@ -74,6 +76,7 @@ async function decryptDoc(src){
   return dec.decode(pt);
 }
 
+$('uname').value = localStorage.getItem('pbl.name') || '';
 $('loginForm').addEventListener('submit', async e => {
   e.preventDefault();
   const btn = $('goBtn'); btn.disabled = true; $('err').textContent = '';
@@ -81,7 +84,13 @@ $('loginForm').addEventListener('submit', async e => {
     CREDS = { id: $('uid').value.trim(), pw: $('upw').value };
     const html = await decryptDoc('docs/app.enc.json'); // 잘못된 계정이면 여기서 throw
     $('gate').style.display = 'none';
-    const app = $('app'); app.style.display = 'block'; app.srcdoc = html;
+    const app = $('app'); app.style.display = 'block';
+    const name = $('uname').value.trim() || localStorage.getItem('pbl.name') || '나';
+    localStorage.setItem('pbl.name', name);
+    app.addEventListener('load', () => {
+      app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name}, '*');
+    }, {once: true});
+    app.srcdoc = html;
   } catch {
     CREDS = null;
     $('err').textContent = '아이디 또는 비밀번호가 올바르지 않습니다.';
