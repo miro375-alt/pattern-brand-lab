@@ -1,6 +1,9 @@
-build_encrypt.mjs
-test-auto.html
-app.html
-verify.mjs
+.secrets.json
 ARCHITECTURE.md
 _t.html
+app.html
+build.mjs
+build_encrypt.mjs
+src/
+test-auto.html
+verify.mjs
