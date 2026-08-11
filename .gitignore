@@ -1,9 +1,1 @@
-.secrets.json
-ARCHITECTURE.md
-_t.html
-app.html
-build.mjs
-build_encrypt.mjs
-src/
-test-auto.html
-verify.mjs
+.DS_Store
