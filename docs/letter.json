@@ -1,0 +1,275 @@
+{
+ "id": "lt_mt7wnysq",
+ "issueNo": 1,
+ "date": "2026-08-31",
+ "region": "서울",
+ "week": "2026-08-31",
+ "items": [
+  {
+   "cat": "gov",
+   "title": "단기 육아휴직 제도가 도입됩니다",
+   "lines": [
+    "급한 돌봄 공백이 생겼을 때 쓸 수 있는 단기 육아휴직 제도가 신설될 예정입니다.",
+    "만 8세 이하 자녀를 둔 근로자라면 연 1회에 한해 1주 또는 2주간 사용할 수 있습니다.",
+    "2026년 하반기 시행을 목표로 관련 법령 개정이 추진 중입니다."
+   ],
+   "meta": "2026년 하반기 시행 예정",
+   "caution": "구체적인 법안 통과 및 실제 시행 일자는 국회 처리 상황에 따라 달라질 수 있습니다.",
+   "source": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500176",
+   "srcType": "news",
+   "brandName": "",
+   "placeName": "",
+   "images": [
+    {
+     "u": "http://imgnews.naver.net/image/022/2026/07/01/20260630518788_20260701060212961.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F022%2F2026%2F07%2F01%2F20260630518788_20260701060212961.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5098/2024/11/27/0000470441_001_20241127210411763.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5098%2F2024%2F11%2F27%2F0000470441_001_20241127210411763.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/009/2024/06/19/0005321626_002_20240620110012129.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F009%2F2024%2F06%2F19%2F0005321626_002_20240620110012129.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/016/2024/11/28/202411280646113100287_20241128065130_01_20241128065211218.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F016%2F2024%2F11%2F28%2F202411280646113100287_20241128065130_01_20241128065211218.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/417/2026/08/11/0001155031_001_20260811152312401.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F417%2F2026%2F08%2F11%2F0001155031_001_20260811152312401.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5295/2026/08/12/0000102897_001_20260812155015985.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5295%2F2026%2F08%2F12%2F0000102897_001_20260812155015985.png"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/666/2026/08/11/0000118730_001_20260811144614772.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F666%2F2026%2F08%2F11%2F0000118730_001_20260811144614772.jpg"
+    }
+   ],
+   "inc": true,
+   "verify": {
+    "status": "ok",
+    "note": "2026년 8월 20일 단기 육아휴직 제도 시행 확인",
+    "source2": "https://blog.naver.com/gibuni94/224387709560"
+   },
+   "auditOrig": {
+    "title": "단기 육아휴직 제도가 생겨요",
+    "lines": [
+     "급한 돌봄 공백이 생겼을 때 쓸 수 있는 단기 육아휴직 제도가 신설됩니다.",
+     "만 8세 이하 자녀를 둔 근로자라면 연 1회에 한해 1주 또는 2주간 사용할 수 있어요.",
+     "2026년 8월 20일부터 시행되어 필요할 때 유연하게 나누어 쓸 수 있습니다."
+    ],
+    "meta": "2026년 8월 20일 시행"
+   },
+   "audit": {
+    "verdict": "fix",
+    "rule": "C4",
+    "note": "2026년 8월 20일 시행은 근거가 없으며, 하반기 중 시행 예정인 법안입니다."
+   }
+  },
+  {
+   "cat": "event",
+   "title": "부가부 프리미엄 베이비 페어",
+   "lines": [
+    "네덜란드 프리미엄 유모차 브랜드 부가부의 하반기 페어가 열립니다.",
+    "연중 딱 두 번만 진행되는 행사로 유모차와 카시트 등 인기 품목이 총출동해요.",
+    "여러 품목을 동시에 구매하려는 분들을 위한 맞춤 혜택과 사은품이 준비되어 있습니다."
+   ],
+   "meta": "08.27~08.30, 부가부 직영 매장 및 온·오프라인 공식 판매처",
+   "caution": "매장별 혜택 및 재고 상황이 다를 수 있음",
+   "source": "https://www.fashionbiz.co.kr/article/228582",
+   "srcType": "news",
+   "brandName": "",
+   "placeName": "",
+   "images": [
+    {
+     "u": "http://imgnews.naver.net/image/018/2025/08/13/0006088509_001_20250813083414634.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F018%2F2025%2F08%2F13%2F0006088509_001_20250813083414634.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5295/2024/01/11/0000069683_001_20240116100603852.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5295%2F2024%2F01%2F11%2F0000069683_001_20240116100603852.png"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5272/2025/01/08/0000064367_002_20250108100017230.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5272%2F2025%2F01%2F08%2F0000064367_002_20250108100017230.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/082/2021/02/22/0001069337_001_20210222120936829.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F082%2F2021%2F02%2F22%2F0001069337_001_20210222120936829.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5347/2020/02/18/0000208581_001_20200218173438474.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5347%2F2020%2F02%2F18%2F0000208581_001_20200218173438474.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5381/2024/09/09/0000038988_001_20240909102009240.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5381%2F2024%2F09%2F09%2F0000038988_001_20240909102009240.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5381/2026/01/14/0000046500_001_20260114105007334.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5381%2F2026%2F01%2F14%2F0000046500_001_20260114105007334.jpg"
+    }
+   ],
+   "inc": true,
+   "verify": {
+    "status": "ok",
+    "note": "8월 27일부터 30일까지 행사 일정 일치",
+    "source2": "https://n.news.naver.com/mnews/article/022/0004151261?sid=101"
+   },
+   "auditOrig": {
+    "title": "부가부 프리미엄 베이비 페어",
+    "lines": [
+     "네덜란드 프리미엄 유모차 브랜드 부가부의 하반기 페어가 열립니다.",
+     "연중 딱 두 번만 진행되는 행사로 유모차와 카시트 등 인기 품목이 총출동해요.",
+     "여러 품목을 동시에 구매하려는 분들을 위한 맞춤 혜택과 사은품이 준비되어 있습니다."
+    ],
+    "meta": "08.27~08.30, 부가부 직영 매장 및 공식 판매처"
+   },
+   "audit": {
+    "verdict": "fix",
+    "rule": "C6",
+    "note": "온라인 공식 판매처에서도 동시에 진행되는 점을 보강하여 독자의 행동 선택지를 넓힙니다."
+   }
+  },
+  {
+   "cat": "brand",
+   "title": "미마, 신제품 휴대용 유모차 '미로 플러스' 출시",
+   "lines": [
+    "프리미엄 베이비 브랜드 미마에서 신제품 휴대용 유모차 '미로 플러스'를 공식 출시했습니다.",
+    "가벼운 무게와 부드러운 핸들링이 특징이며 지난 8월 17일부터 정식 판매를 시작했습니다.",
+    "공식 판매처 및 네이버 브랜드 스토어 등에서 제품 상세 정보와 구매 혜택을 확인할 수 있습니다."
+   ],
+   "meta": "공식 판매처 및 네이버 브랜드 스토어",
+   "caution": "런칭 기념 라이브 방송 및 일부 초기 사은품 혜택은 종료되었을 수 있습니다.",
+   "source": "http://www.beyondpost.co.kr/view.php?ud=2026081917034327819aeda69934_30",
+   "srcType": "news",
+   "brandName": "미마",
+   "placeName": "",
+   "images": [
+    {
+     "u": "http://imgnews.naver.net/image/5832/2026/08/14/202608131649430246209aeda6993417521136223_20260814083016644.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5832%2F2026%2F08%2F14%2F202608131649430246209aeda6993417521136223_20260814083016644.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/421/2026/02/24/0008790191_001_20260224144311793.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2026%2F02%2F24%2F0008790191_001_20260224144311793.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5310/2026/03/06/0000060480_001_20260306090017568.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5310%2F2026%2F03%2F06%2F0000060480_001_20260306090017568.png"
+    },
+    {
+     "u": "https://cdn.momq.co.kr/product/50270/%EB%AA%A8%EC%B9%B4_20260528172148571.jpg",
+     "t": "https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fcdn.momq.co.kr%2Fproduct%2F50270%2F%25EB%25AA%25A8%25EC%25B9%25B4_20260528172148571.jpg"
+    },
+    {
+     "u": "http://shop1.phinf.naver.net/20260624_171/1782282444526jO39V_JPEG/36728857349447838_90654249.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20260624_171%2F1782282444526jO39V_JPEG%2F36728857349447838_90654249.jpg"
+    },
+    {
+     "u": "http://shop1.phinf.naver.net/20260313_115/1773384949700D8OgA_JPEG/107517797435578869_197788839.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20260313_115%2F1773384949700D8OgA_JPEG%2F107517797435578869_197788839.jpg"
+    },
+    {
+     "u": "http://shopping.phinf.naver.net/main_5937696/59376969071.20260601110325.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshopping.phinf.naver.net%2Fmain_5937696%2F59376969071.20260601110325.jpg"
+    }
+   ],
+   "inc": true,
+   "verify": {
+    "status": "ok",
+    "note": "8월 17일 미로 플러스 신제품 출시 확인",
+    "source2": "https://cafe.naver.com/babyhausbucheon/1007"
+   },
+   "auditOrig": {
+    "title": "미마 신제품 미로 플러스 런칭",
+    "lines": [
+     "프리미엄 베이비 브랜드 미마에서 새로운 휴대용 유모차를 선보였습니다.",
+     "이번에 출시된 미로 플러스는 가벼운 무게와 부드러운 핸들링이 특징이에요.",
+     "공식 라이브 방송을 시작으로 본격적인 런칭 프로모션과 혜택을 제공합니다."
+    ],
+    "meta": "가격대 판매처 확인 필요"
+   },
+   "audit": {
+    "verdict": "fix",
+    "rule": "C1",
+    "note": "핵심 혜택인 런칭 라이브 방송이 오늘(8월 25일) 기준 어제인 8월 24일에 이미 종료되어 관련 내용을 수정해야 합니다."
+   }
+  },
+  {
+   "cat": "food",
+   "title": "기저귀 갈이대 있는 사델스서울",
+   "lines": [
+    "성수동에서 아기랑 브런치를 편하게 즐길 수 있는 레스토랑입니다.",
+    "아기의자는 물론이고 성수동 개인 식당에서 보기 드문 기저귀 갈이대까지 갖췄어요.",
+    "후기마다 힙한 분위기 속에서 눈치 보지 않고 아기와 식사하기 좋았다는 평이 가득해요."
+   ],
+   "meta": "서울 성동구 성수동",
+   "caution": "매일 10:00~20:00 운영하며, 주차 공간이 협소하므로 대중교통 이용을 권장합니다.",
+   "source": "https://blog.naver.com/yisoyeong/224308099380",
+   "srcType": "blog",
+   "brandName": "",
+   "placeName": "사델스서울",
+   "images": [
+    {
+     "u": "https://ldb-phinf.pstatic.net/20241024_140/1729747592302TnIVK_JPEG/sadelleskith_1636539438_2703811239241151453_44911040461.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241024_140%2F1729747592302TnIVK_JPEG%2Fsadelleskith_1636539438_2703811239241151453_44911040461.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20241224_80/1735016439327q2Oii_JPEG/k_11863_2.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_80%2F1735016439327q2Oii_JPEG%2Fk_11863_2.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20250109_36/1736407049150rKjG5_JPEG/%C8%AD%B8%E9_%C4%B8%C3%B3_2025-01-09_161717.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250109_36%2F1736407049150rKjG5_JPEG%2F%25C8%25AD%25B8%25E9_%25C4%25B8%25C3%25B3_2025-01-09_161717.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20241224_221/1735016439282Qc5Iz_JPEG/k_11892_1.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_221%2F1735016439282Qc5Iz_JPEG%2Fk_11892_1.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20241024_285/1729747856919gt66s_JPEG/sadelleskith_1724515203_3441805444268693140_44911040461.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241024_285%2F1729747856919gt66s_JPEG%2Fsadelleskith_1724515203_3441805444268693140_44911040461.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20241224_157/1735016449252G2zgN_JPEG/k_11986_1.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_157%2F1735016449252G2zgN_JPEG%2Fk_11986_1.jpg"
+    },
+    {
+     "u": "https://ldb-phinf.pstatic.net/20250109_8/1736407121089e7f0U_JPEG/k_11907_1.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250109_8%2F1736407121089e7f0U_JPEG%2Fk_11907_1.jpg"
+    }
+   ],
+   "inc": true,
+   "verify": {
+    "status": "ok",
+    "note": "성수동 사델스서울 기저귀 갈이대 구비 확인",
+    "source2": "https://blog.naver.com/dossiyam/223714253351"
+   },
+   "auditOrig": {
+    "title": "기저귀 갈이대 있는 사델스서울",
+    "lines": [
+     "성수동에서 아기랑 브런치를 편하게 즐길 수 있는 레스토랑입니다.",
+     "아기의자는 물론이고 성수동 개인 식당에서 보기 드문 기저귀 갈이대까지 갖췄어요.",
+     "후기마다 힙한 분위기 속에서 눈치 보지 않고 아기와 식사하기 좋았다는 평이 가득해요."
+    ],
+    "meta": "서울 성동구 성수동"
+   },
+   "audit": {
+    "verdict": "fix",
+    "rule": "P5",
+    "note": "영업시간 정보가 검색 결과와 상이하고, 주차 및 예약 관련 주의사항 보강이 필요합니다."
+   }
+  }
+ ],
+ "status": "draft",
+ "auto": true,
+ "at": "2026-08-25T00:07:06.986Z",
+ "collectedAt": "2026-08-25",
+ "supplemented": 0,
+ "audited": 4
+}
