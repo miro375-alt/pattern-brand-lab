@@ -78,7 +78,11 @@ async function derive(id, pw, salt, iter){
     mat, {name:'AES-GCM', length:256}, false, ['decrypt']);
 }
 async function fetchEnc(src){
-  if (!cache[src]) cache[src] = await (await fetch(src)).json();
+  // cache:'reload' — HTTP 캐시를 건너뛰고 항상 새로 받는다(응답은 캐시에 채워지므로 오프라인 폴백은 유지).
+  // 없으면 docs/*.enc.json 의 max-age=600 때문에 **배포 직후 10분 동안 이전 앱 뭉치가 뜬다**
+  // (2026-08-25 실사고: 우쥬레터 탭이 라이브엔 있는데 화면엔 없었다). sw.js의 /docs/ 네트워크 우선도
+  // 요청의 캐시 모드를 물려받으므로 여기서 안 끄면 서비스워커도 못 막는다.
+  if (!cache[src]) cache[src] = await (await fetch(src, {cache:'reload'})).json();
   return cache[src];
 }
 async function decryptDoc(src){

@@ -1,4 +1,6 @@
-const C = 'pbl-v5';
+// 캐시 이름을 올리면 activate에서 옛 캐시를 전부 지운다 — 셸(index.html)이 캐시 우선이라
+// 이름을 안 올리면 고친 index.html이 한 번 더 열어야 반영된다 (2026-08-25 캐시 사고)
+const C = 'pbl-v6';
 self.addEventListener('install', e => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(
   caches.keys().then(ks => Promise.all(ks.filter(k => k !== C).map(k => caches.delete(k)))).then(() => self.clients.claim())
