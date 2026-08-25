@@ -1,274 +1,486 @@
 {
- "id": "lt_mt7wnysq",
- "issueNo": 1,
+ "id": "lt_mt8bux3w",
+ "issueNo": 2,
  "date": "2026-08-31",
  "region": "서울",
  "week": "2026-08-31",
  "items": [
   {
    "cat": "gov",
-   "title": "단기 육아휴직 제도가 도입됩니다",
+   "title": "양육지원 급여 하나로 뭉쳐요",
    "lines": [
-    "급한 돌봄 공백이 생겼을 때 쓸 수 있는 단기 육아휴직 제도가 신설될 예정입니다.",
-    "만 8세 이하 자녀를 둔 근로자라면 연 1회에 한해 1주 또는 2주간 사용할 수 있습니다.",
-    "2026년 하반기 시행을 목표로 관련 법령 개정이 추진 중입니다."
+    "첫만남이용권과 부모급여 그리고 아동수당이 하나로 통합됩니다.",
+    "정부가 양육지원급여 통합 사업계획을 최종 처리했습니다.",
+    "복잡했던 현금성 지원 제도가 출산지원금과 아동기본수당으로 개편됩니다."
    ],
-   "meta": "2026년 하반기 시행 예정",
-   "caution": "구체적인 법안 통과 및 실제 시행 일자는 국회 처리 상황에 따라 달라질 수 있습니다.",
-   "source": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500176",
+   "meta": "출산지원금 및 아동기본수당으로 통합 추진",
+   "caution": "구체적인 시행 시기와 세부 지급 기준은 추후 공식 발표를 확인해야 합니다",
+   "source": "https://n.news.naver.com/mnews/article/421/0009131642?sid=100",
    "srcType": "news",
    "brandName": "",
    "placeName": "",
    "images": [
     {
-     "u": "http://imgnews.naver.net/image/022/2026/07/01/20260630518788_20260701060212961.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F022%2F2026%2F07%2F01%2F20260630518788_20260701060212961.jpg"
+     "u": "http://imgnews.naver.net/image/079/2012/09/24/24150239578_60200020_59_20120924150901.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F079%2F2012%2F09%2F24%2F24150239578_60200020_59_20120924150901.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/5098/2024/11/27/0000470441_001_20241127210411763.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5098%2F2024%2F11%2F27%2F0000470441_001_20241127210411763.jpg"
+     "u": "http://imgnews.naver.net/image/5697/2024/04/22/0000049210_002_20240422150602653.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5697%2F2024%2F04%2F22%2F0000049210_002_20240422150602653.png"
     },
     {
-     "u": "http://imgnews.naver.net/image/009/2024/06/19/0005321626_002_20240620110012129.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F009%2F2024%2F06%2F19%2F0005321626_002_20240620110012129.jpg"
+     "u": "http://imgnews.naver.net/image/5295/2018/05/25/0000036692_001_20180525141230056.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5295%2F2018%2F05%2F25%2F0000036692_001_20180525141230056.png"
     },
     {
-     "u": "http://imgnews.naver.net/image/016/2024/11/28/202411280646113100287_20241128065130_01_20241128065211218.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F016%2F2024%2F11%2F28%2F202411280646113100287_20241128065130_01_20241128065211218.jpg"
+     "u": "http://imgnews.naver.net/image/5193/2025/04/13/0000593398_001_20250413150009481.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5193%2F2025%2F04%2F13%2F0000593398_001_20250413150009481.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/417/2026/08/11/0001155031_001_20260811152312401.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F417%2F2026%2F08%2F11%2F0001155031_001_20260811152312401.jpg"
+     "u": "http://imgnews.naver.net/image/5646/2024/11/07/0000057411_002_20250124134417108.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5646%2F2024%2F11%2F07%2F0000057411_002_20250124134417108.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/5295/2026/08/12/0000102897_001_20260812155015985.png",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5295%2F2026%2F08%2F12%2F0000102897_001_20260812155015985.png"
+     "u": "http://imgnews.naver.net/image/5161/2023/12/14/0000317439_001_20231214201021915.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5161%2F2023%2F12%2F14%2F0000317439_001_20231214201021915.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/666/2026/08/11/0000118730_001_20260811144614772.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F666%2F2026%2F08%2F11%2F0000118730_001_20260811144614772.jpg"
+     "u": "http://imgnews.naver.net/image/047/2021/11/24/0002333799_001_20211124193201209.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F047%2F2021%2F11%2F24%2F0002333799_001_20211124193201209.jpg"
     }
    ],
    "inc": true,
-   "verify": {
-    "status": "ok",
-    "note": "2026년 8월 20일 단기 육아휴직 제도 시행 확인",
-    "source2": "https://blog.naver.com/gibuni94/224387709560"
-   },
-   "auditOrig": {
-    "title": "단기 육아휴직 제도가 생겨요",
-    "lines": [
-     "급한 돌봄 공백이 생겼을 때 쓸 수 있는 단기 육아휴직 제도가 신설됩니다.",
-     "만 8세 이하 자녀를 둔 근로자라면 연 1회에 한해 1주 또는 2주간 사용할 수 있어요.",
-     "2026년 8월 20일부터 시행되어 필요할 때 유연하게 나누어 쓸 수 있습니다."
-    ],
-    "meta": "2026년 8월 20일 시행"
-   },
-   "audit": {
-    "verdict": "fix",
-    "rule": "C4",
-    "note": "2026년 8월 20일 시행은 근거가 없으며, 하반기 중 시행 예정인 법안입니다."
-   }
-  },
-  {
-   "cat": "event",
-   "title": "부가부 프리미엄 베이비 페어",
-   "lines": [
-    "네덜란드 프리미엄 유모차 브랜드 부가부의 하반기 페어가 열립니다.",
-    "연중 딱 두 번만 진행되는 행사로 유모차와 카시트 등 인기 품목이 총출동해요.",
-    "여러 품목을 동시에 구매하려는 분들을 위한 맞춤 혜택과 사은품이 준비되어 있습니다."
-   ],
-   "meta": "08.27~08.30, 부가부 직영 매장 및 온·오프라인 공식 판매처",
-   "caution": "매장별 혜택 및 재고 상황이 다를 수 있음",
-   "source": "https://www.fashionbiz.co.kr/article/228582",
-   "srcType": "news",
-   "brandName": "",
-   "placeName": "",
-   "images": [
+   "evidence": [
     {
-     "u": "http://imgnews.naver.net/image/018/2025/08/13/0006088509_001_20250813083414634.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F018%2F2025%2F08%2F13%2F0006088509_001_20250813083414634.jpg"
+     "t": "[정치 ON] 야, '갑질' 의혹 강선우에 화력 집중...강선우 \"심심한 사과\"",
+     "d": "실업급여는 퇴직자들이 최소한 생활할 수 있도록 지원하는 급여입니다. 또 퇴직 후 취업방해까지 했다고... 하나로 뭉쳐서 청문회 정국에 대응해야 된다, 이렇게 말씀을 하셨는데 그런데 윤희숙 위원장이 말한 8대 사건 외에...",
+     "u": "https://n.news.naver.com/mnews/article/052/0002218746?sid=100"
     },
     {
-     "u": "http://imgnews.naver.net/image/5295/2024/01/11/0000069683_001_20240116100603852.png",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5295%2F2024%2F01%2F11%2F0000069683_001_20240116100603852.png"
+     "t": "\"푸른 뱀의 해 2025년 을사년(乙巳年), 변화와 성장 이뤄지길\"",
+     "d": "첫만남이용권 급여액 확대, 난임시술비 지원 소득기준 폐지 등 출산·양육을 위한 지원을 강화했습니다.... 병원계가 하나로 뭉쳐 과감하게 변화하고 도전한다면 어떤 어려움도 극복할 수 있을 것입니다. 의료의 질과...",
+     "u": "https://www.medipana.com/article/view.php?news_idx=335999&sch_cate=A"
     },
     {
-     "u": "http://imgnews.naver.net/image/5272/2025/01/08/0000064367_002_20250108100017230.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5272%2F2025%2F01%2F08%2F0000064367_002_20250108100017230.jpg"
+     "t": "[생생경제]이용해 절세하세요",
+     "d": "양육비 비용을 경감시키기 위해서 실시하는 제도거든요. 이 제도는 13년도 3월부터 시행이 됐습니다. 지원... 우리가 흔히 얘기하는 통합임대로 하나로 뭉쳐놨습니다. 근데 여기에 들어가는게 질좋은 평생주택이잖아요?...",
+     "u": "https://radio.ytn.co.kr/program/?f=2&id=74743&s_mcd=0206&s_hcd=15"
     },
     {
-     "u": "http://imgnews.naver.net/image/082/2021/02/22/0001069337_001_20210222120936829.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F082%2F2021%2F02%2F22%2F0001069337_001_20210222120936829.jpg"
+     "t": "[생생경제] '국세청의 맞벌이 근로자 절세안내' 이용해 절세하세요",
+     "d": "양육비 비용을 경감시키기 위해서 실시하는 제도거든요. 이 제도는 13년도 3월부터 시행이 됐습니다. 지원... 우리가 흔히 얘기하는 통합임대로 하나로 뭉쳐놨습니다. 근데 여기에 들어가는게 질좋은 평생주택이잖아요?...",
+     "u": "https://n.news.naver.com/mnews/article/052/0001541520?sid=101"
     },
     {
-     "u": "http://imgnews.naver.net/image/5347/2020/02/18/0000208581_001_20200218173438474.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5347%2F2020%2F02%2F18%2F0000208581_001_20200218173438474.jpg"
+     "t": "[패트롤] 고양시-김포시-남양주시-양주시-파주시",
+     "d": "김포=에너지경제신문 강근주기자 김포시가 민선9기 출범 이후 첫 추가경정예산인 '2026년도 제3회... 민생-복지 지원을 위해 △기초연금 299억원 △고유가 피해지원금86.5억원 △주거급여 30억원 △여성청소년 생리용품...",
+     "u": "https://www.ekn.kr/web/view.php?key=20260825023186031"
     },
     {
-     "u": "http://imgnews.naver.net/image/5381/2024/09/09/0000038988_001_20240909102009240.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5381%2F2024%2F09%2F09%2F0000038988_001_20240909102009240.jpg"
+     "t": "아이가 아팠다, 일상이 무너졌다",
+     "d": "2026년 8월4일 오후 2시 서울 서대문구의 한 다세대주택. 계단을 내려가 반지하 현관문을 열고 들어가자 작은... 나중에 혹시 재발하면 또 돈이 필요할 텐데 이 돈을 다 쓸 수도 없고, 가지고 있자니 지원금은 끊기고. 조금...",
+     "u": "https://n.news.naver.com/mnews/article/036/0000054075?sid=102"
     },
     {
-     "u": "http://imgnews.naver.net/image/5381/2026/01/14/0000046500_001_20260114105007334.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5381%2F2026%2F01%2F14%2F0000046500_001_20260114105007334.jpg"
+     "t": "[경제소식] 우리금융, 스포츠 유망주 초청해 국가대표 멘토링·선수촌 ...",
+     "d": "포쓰저널 성은숙 기자 2026년 8월 20일 충북 진천 국가대표선수촌에서 우리드림브릿지 스포츠 유망주들이... 성장지원금을 지원하는 미래 국가대표 육성 프로젝트다. 우리금융은 경제적 지원을 넘어 유망주들이 자신의...",
+     "u": "http://www.4th.kr/news/articleView.html?idxno=2116683"
+    },
+    {
+     "t": "[육아뉴스] 서울 동부권직장맘지원센터, '아빠육아휴직 안심3종 패키지...",
+     "d": "추진하는 '2026년 육아쉼표' 사업의 창원시육아종합지원센터 거점 어린이집으로 선정됐다. '육아쉼표'는... 개원 지원금과 다자녀 입학금 지원 등도 이어가고 있다. 이 같은 지원을 바탕으로 부영 사랑으로 어린이집은...",
+     "u": "https://www.ibabynews.com/news/articleView.html?idxno=153789"
+    },
+    {
+     "t": "[산업소식] 삼성전자, 기술 혁신 집대성 '폴더블 헤리티지' 전시",
+     "d": "효성이 2026년 8월 11일 마포구청을 찾아 지역 내 취약계층을 위한 '사랑의 쌀' 전달식을 진행했다. 사진은... 개원 지원금과 다자녀 입학금 지원도 제공한다. 현재 부영 사랑으로 어린이집은 전국 64개원이 운영되고 있다....",
+     "u": "http://www.4th.kr/news/articleView.html?idxno=2116119"
+    },
+    {
+     "t": "[알기 쉬운 노무 가이드] 2026년 하반기에 시행되는 노동법은",
+     "d": "분담 지원금을 받을 수 있다. 이어 8월 20일부터는 만 8세 이하 또는 초등학교 2학년 이하 자녀를 둔 근로자가 돌봄 공백이 발생한 경우 연 1회, 1주 또는 2주의 단기 육아휴직을 사용할 수 있게 된다. 9월 18일부터는...",
+     "u": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500176"
+    },
+    {
+     "t": "[희망기획-저출산·고령화시대, 지역答하다(56) 충북 단양군편] 100년 정...",
+     "d": "2019년 8월엔 3만 명 선마저 무너졌다. 2026년 5월 기준 2만 6623명으로 집계되고 있다. 단양의 또 다른 얼굴... 산후조리비는 최대 150만 원까지 지원하며, 셋째 자녀 이상 양육수당과 초·중·고 입학생 지원금을 차등 지급해...",
+     "u": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=520552"
+    },
+    {
+     "t": "[패트롤] 광명시-시흥시-안산시-안양시-하남시",
+     "d": "특히 '지원금', '신혼부부', '1인가구' 등 청년이 자주 찾는 키워드를 중심으로 맞춤형 지원사업을 쉽고... 안산시는 △2025년 8월 기존 도선 운항을 시작으로 △2026년 8월 신규 도선 취항 △유람선 운항으로 이어지는 단계별...",
+     "u": "https://www.ekn.kr/web/view.php?key=20260806022070012"
     }
    ],
-   "inc": true,
    "verify": {
-    "status": "ok",
-    "note": "8월 27일부터 30일까지 행사 일정 일치",
-    "source2": "https://n.news.naver.com/mnews/article/022/0004151261?sid=101"
-   },
-   "auditOrig": {
-    "title": "부가부 프리미엄 베이비 페어",
-    "lines": [
-     "네덜란드 프리미엄 유모차 브랜드 부가부의 하반기 페어가 열립니다.",
-     "연중 딱 두 번만 진행되는 행사로 유모차와 카시트 등 인기 품목이 총출동해요.",
-     "여러 품목을 동시에 구매하려는 분들을 위한 맞춤 혜택과 사은품이 준비되어 있습니다."
-    ],
-    "meta": "08.27~08.30, 부가부 직영 매장 및 공식 판매처"
+    "status": "trusted",
+    "note": "언론 보도 단독 출처 — 기사 신뢰 인정",
+    "source2": ""
    },
    "audit": {
-    "verdict": "fix",
-    "rule": "C6",
-    "note": "온라인 공식 판매처에서도 동시에 진행되는 점을 보강하여 독자의 행동 선택지를 넓힙니다."
+    "verdict": "escalate",
+    "rule": "",
+    "note": "감사 결과 없음 — 사람 검수"
    }
   },
   {
    "cat": "brand",
-   "title": "미마, 신제품 휴대용 유모차 '미로 플러스' 출시",
+   "title": "크림하우스 복도매트 신제품",
    "lines": [
-    "프리미엄 베이비 브랜드 미마에서 신제품 휴대용 유모차 '미로 플러스'를 공식 출시했습니다.",
-    "가벼운 무게와 부드러운 핸들링이 특징이며 지난 8월 17일부터 정식 판매를 시작했습니다.",
-    "공식 판매처 및 네이버 브랜드 스토어 등에서 제품 상세 정보와 구매 혜택을 확인할 수 있습니다."
+    "프리미엄 유아매트 브랜드 크림하우스가 신제품을 선보였습니다.",
+    "아파트 복도 구조에 딱 맞춘 팬트리형 규격이 새로 추가되었습니다.",
+    "별도의 재단이나 시공 부담 없이 틈새 공간을 깔끔하게 채워줍니다."
    ],
-   "meta": "공식 판매처 및 네이버 브랜드 스토어",
-   "caution": "런칭 기념 라이브 방송 및 일부 초기 사은품 혜택은 종료되었을 수 있습니다.",
-   "source": "http://www.beyondpost.co.kr/view.php?ud=2026081917034327819aeda69934_30",
+   "meta": "크림하우스 복도매트 팬트리형 출시",
+   "caution": "",
+   "source": "https://www.ibabynews.com/news/articleView.html?idxno=153982",
    "srcType": "news",
-   "brandName": "미마",
+   "brandName": "크림하우스",
    "placeName": "",
    "images": [
     {
-     "u": "http://imgnews.naver.net/image/5832/2026/08/14/202608131649430246209aeda6993417521136223_20260814083016644.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5832%2F2026%2F08%2F14%2F202608131649430246209aeda6993417521136223_20260814083016644.jpg"
+     "u": "http://shop1.phinf.naver.net/20240805_208/17228364267456xr59_JPEG/39212890311158596_834451020.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20240805_208%2F17228364267456xr59_JPEG%2F39212890311158596_834451020.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/421/2026/02/24/0008790191_001_20260224144311793.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2026%2F02%2F24%2F0008790191_001_20260224144311793.jpg"
+     "u": "http://imgnews.naver.net/image/421/2018/12/10/0003732578_001_20181210113741959.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2018%2F12%2F10%2F0003732578_001_20181210113741959.jpg"
     },
     {
-     "u": "http://imgnews.naver.net/image/5310/2026/03/06/0000060480_001_20260306090017568.png",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5310%2F2026%2F03%2F06%2F0000060480_001_20260306090017568.png"
+     "u": "http://imgnews.naver.net/image/5369/2022/11/11/0000127071_001_20221111090405483.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2022%2F11%2F11%2F0000127071_001_20221111090405483.png"
     },
     {
-     "u": "https://cdn.momq.co.kr/product/50270/%EB%AA%A8%EC%B9%B4_20260528172148571.jpg",
-     "t": "https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fcdn.momq.co.kr%2Fproduct%2F50270%2F%25EB%25AA%25A8%25EC%25B9%25B4_20260528172148571.jpg"
+     "u": "http://imgnews.naver.net/image/421/2019/08/14/0004145520_001_20190814160637032.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2019%2F08%2F14%2F0004145520_001_20190814160637032.jpg"
     },
     {
-     "u": "http://shop1.phinf.naver.net/20260624_171/1782282444526jO39V_JPEG/36728857349447838_90654249.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20260624_171%2F1782282444526jO39V_JPEG%2F36728857349447838_90654249.jpg"
+     "u": "http://imgnews.naver.net/image/5500/2019/10/25/0000052698_001_20191025133151179.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5500%2F2019%2F10%2F25%2F0000052698_001_20191025133151179.jpg"
     },
     {
-     "u": "http://shop1.phinf.naver.net/20260313_115/1773384949700D8OgA_JPEG/107517797435578869_197788839.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20260313_115%2F1773384949700D8OgA_JPEG%2F107517797435578869_197788839.jpg"
+     "u": "http://shop1.phinf.naver.net/20230524_28/1684925739636OFjBQ_JPEG/2972264426366697_793237712.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230524_28%2F1684925739636OFjBQ_JPEG%2F2972264426366697_793237712.jpg"
     },
     {
-     "u": "http://shopping.phinf.naver.net/main_5937696/59376969071.20260601110325.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fshopping.phinf.naver.net%2Fmain_5937696%2F59376969071.20260601110325.jpg"
+     "u": "http://imgnews.naver.net/image/277/2021/04/12/0004883234_001_20210412150159747.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F277%2F2021%2F04%2F12%2F0004883234_001_20210412150159747.jpg"
     }
    ],
    "inc": true,
+   "evidence": [
+    {
+     "t": "조선호텔앤리조트, 110주년 의미 담은 각양각색 리테일 상품 선봬",
+     "d": "와인, 하우스 커피 및 110주년 스페셜 에디션을 출시하며 대대적인 고객 감사 프로모션을 준비, 올해... 조선 제주 힐 스위트관 내 웰컴 로비의 아치형 복도에서 디자인 영감을 받은 '루나 플로어매트 세트'등도 판매한다.",
+     "u": "https://www.slist.kr/news/articleView.html?idxno=561759"
+    },
+    {
+     "t": "조선호텔앤리조트, 110주년 의미 담은 리테일 상품 출시",
+     "d": "조선호텔앤리조트는 지난 100주년 당시 개발한 하우스 커피 브랜드 비벤떼를 110주년 에디션으로... 아치형 복도에서 디자인 영감을 받은 '루나 플로어매트 세트'등도 판매한다. 모든 리테일 브랜드 상품은 네이버 '더...",
+     "u": "https://www.pointdaily.co.kr/news/articleView.html?idxno=209140"
+    },
+    {
+     "t": "조선호텔앤리조트, 개관 110주년 한정판 상품 출시 ‘와인컬렉션부터 이...",
+     "d": "와인, 하우스 커피 및 110주년 스페셜 에디션을 올해 연말까지 지속적으로 선보인다. 110주년을 기념해... 아치형 복도에서 디자인 영감을 받은 ‘루나 플로어매트 세트’등도 판매한다. 모든 리테일 브랜드 상품은...",
+     "u": "http://www.fntimes.com/html/view.php?ud=202407041436277400b5b890e35c_18"
+    },
+    {
+     "t": "조선호텔앤리조트, 110주년 기념 리테일 상품 출시",
+     "d": "개관 110주년 기념 와인, 하우스 커피, 가정 간편식, 베이커리 등 스페셜 에디션 출시 110번째 생일 축하 의미... 아치형 복도에서 디자인 영감을 받은 ‘루나 플로어매트 세트’등도 판매한다. 모든 리테일 브랜드 상품은...",
+     "u": "http://kor.theasian.asia/archives/362689"
+    },
+    {
+     "t": "크림하우스 하이프리 베이비룸, 프리2S 매트 두달 사용 후기",
+     "d": "[업체를 통해 제품을 제공받아 작성하는 후기입니다] 크림하우스의 신제품 프리2S매트와 하이프리 베이비룸 사용 후기예요~ 두달 가까이... 저희 집은 거실 주방 복도까지 시공매트를 했는데요 그래서 매트를 해야...",
+     "u": "https://cafe.naver.com/imsanbu/76838503"
+    },
+    {
+     "t": "환경까지 생각한 놀이방매트 크림하우스 매직프리",
+     "d": "도톰한 크림하우스 매트로 선택했어요 뒷면은 미끄럼방지처리되어있어서 복도에 깔아둬도 미끄러지지않네요 이번신제품 매직프리는요 환경을... 만들어준것같죠 ㅎㅎ #놀이방매트 #크림하우스매트 #프리매직 #제품협찬",
+     "u": "https://cafe.naver.com/imsanbu/55543077"
+    },
+    {
+     "t": "미마, 휴대용 유모차 '미로 플러스' 첫 런칭 라이브 방송 24일 진행",
+     "d": "프리미엄 베이비 브랜드 미마(mima)는 지난 8월 17일 출시한 신제품 휴대용 유모차 '미로 플러스(miro+)'의 첫 런칭 라이브 방송을 오는 8월 24일 진행한다고 밝혔다. 이번 방송은 네이버 쇼핑라이브 '맘편한육아' 채널을 통해...",
+     "u": "http://www.beyondpost.co.kr/view.php?ud=2026081917034327819aeda69934_30"
+    },
+    {
+     "t": "[패션·잡화 트렌드] 크록스, 엔시티 위시와 함께한 새로운 'Do Your Thing'...",
+     "d": "직장과 육아를 병행하는 일상 속에서 활동성과 편안함을 갖추면서도 스타일을 놓치지 않는 코디법, 체형... 선런칭 다슈_드라이어_기사이미지. ⓒ다슈 남성 토털 그루밍 브랜드 다슈(DASHU)가 8월 18일부터 27일까지...",
+     "u": "https://www.ibabynews.com/news/articleView.html?idxno=153806"
+    },
+    {
+     "t": "이시영, 모모라HT042 들고 환한 미소…키 성장 영양제 런칭",
+     "d": "모모라랩스와 협업해 키 성장 관련 제품 모모라HT042 홍보를 이어가고 있다. 개인 계정을 통해 제품 성분과 육아 경험을 함께 전하며 댓글 이벤트와 런칭 기념 할인 소식을 알리는 등 브랜드와의 협업 활동에 나서고 있다.",
+     "u": "https://www.topstarnews.net/news/articleView.html?idxno=16159920"
+    },
+    {
+     "t": "[오늘의 브랜드] 삼성전자, 삼성 월렛에 '삼성 월렛 하나 트래블로그 체...",
+     "d": "'오늘의 브랜드'는 영유아 및 아동을 양육하는 양육자들에게 도움이 되는 육아·생활 분야의 주요 브랜드... 신제품 출시를 기념해 바른생각 공식몰에서는 8월 17일까지 런칭 프로모션을 진행한다. 행사 기간 동안...",
+     "u": "https://www.ibabynews.com/news/articleView.html?idxno=153479"
+    },
+    {
+     "t": "[줌] '전북청년사업가' 크리미웨이 김세환 대표 “건강한 식문화 브랜드...",
+     "d": "전주 출신 농부이자 청년사업가 김세환 국내산 농산물 활용한 단백질쉐이크 브랜드 런칭, 간편한 영양... 출근과 육아, 다이어트 등으로 바쁜 일상을 보내면서도 간편하게 영양을 챙기려는 소비자를 주요 대상으로 삼고...",
+     "u": "https://www.jjan.kr/article/20260729500395"
+    },
+    {
+     "t": "[유아동브랜드 트렌드] 크림하우스, 복도매트 '팬트리형' 신규 출시",
+     "d": "ⓒ크림하우스 프리미엄 유아매트 브랜드 크림하우스가 기존 복도매트에 새로운 규격의 '팬트리형'을 추가로 선보였다고 25일 밝혔다. 크림하우스 복도매트는 아파트 복도 구조에 맞춰 별도의 재단이나 시공 부담 없이...",
+     "u": "https://www.ibabynews.com/news/articleView.html?idxno=153982"
+    }
+   ],
    "verify": {
-    "status": "ok",
-    "note": "8월 17일 미로 플러스 신제품 출시 확인",
-    "source2": "https://cafe.naver.com/babyhausbucheon/1007"
-   },
-   "auditOrig": {
-    "title": "미마 신제품 미로 플러스 런칭",
-    "lines": [
-     "프리미엄 베이비 브랜드 미마에서 새로운 휴대용 유모차를 선보였습니다.",
-     "이번에 출시된 미로 플러스는 가벼운 무게와 부드러운 핸들링이 특징이에요.",
-     "공식 라이브 방송을 시작으로 본격적인 런칭 프로모션과 혜택을 제공합니다."
-    ],
-    "meta": "가격대 판매처 확인 필요"
+    "status": "trusted",
+    "note": "언론 보도 단독 출처 — 기사 신뢰 인정",
+    "source2": ""
    },
    "audit": {
-    "verdict": "fix",
-    "rule": "C1",
-    "note": "핵심 혜택인 런칭 라이브 방송이 오늘(8월 25일) 기준 어제인 8월 24일에 이미 종료되어 관련 내용을 수정해야 합니다."
+    "verdict": "escalate",
+    "rule": "",
+    "note": "감사 결과 없음 — 사람 검수"
    }
   },
   {
    "cat": "food",
-   "title": "기저귀 갈이대 있는 사델스서울",
+   "title": "더현대서울에서 편안한 우동 한 그릇",
    "lines": [
-    "성수동에서 아기랑 브런치를 편하게 즐길 수 있는 레스토랑입니다.",
-    "아기의자는 물론이고 성수동 개인 식당에서 보기 드문 기저귀 갈이대까지 갖췄어요.",
-    "후기마다 힙한 분위기 속에서 눈치 보지 않고 아기와 식사하기 좋았다는 평이 가득해요."
+    "더현대 서울 6층 식당가에 위치한 우동 전문점 송입니다.",
+    "유모차를 배려해 주는 넓은 공간과 소파 자리가 마련되어 있습니다.",
+    "후기마다 유모차 진입이 쉽고 아기를 배려해 준다는 칭찬이 가득해요."
    ],
-   "meta": "서울 성동구 성수동",
-   "caution": "매일 10:00~20:00 운영하며, 주차 공간이 협소하므로 대중교통 이용을 권장합니다.",
-   "source": "https://blog.naver.com/yisoyeong/224308099380",
+   "meta": "더현대 서울 6층 식당가 / 돌냄비우동, 메밀국수",
+   "caution": "주말이나 공휴일 피크 타임에는 대기 시간이 길어질 수 있습니다",
+   "source": "https://blog.naver.com/latulipe20/224322940711",
    "srcType": "blog",
    "brandName": "",
-   "placeName": "사델스서울",
+   "placeName": "더현대 서울 송",
    "images": [
     {
-     "u": "https://ldb-phinf.pstatic.net/20241024_140/1729747592302TnIVK_JPEG/sadelleskith_1636539438_2703811239241151453_44911040461.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241024_140%2F1729747592302TnIVK_JPEG%2Fsadelleskith_1636539438_2703811239241151453_44911040461.jpg"
+     "u": "https://d12zq4w4guyljn.cloudfront.net/20251004074512385_photo_502362b6e7f6.webp",
+     "t": "https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fd12zq4w4guyljn.cloudfront.net%2F20251004074512385_photo_502362b6e7f6.webp"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20241224_80/1735016439327q2Oii_JPEG/k_11863_2.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_80%2F1735016439327q2Oii_JPEG%2Fk_11863_2.jpg"
+     "u": "https://d12zq4w4guyljn.cloudfront.net/20251004074512207_photo_502362b6e7f6.webp",
+     "t": "https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fd12zq4w4guyljn.cloudfront.net%2F20251004074512207_photo_502362b6e7f6.webp"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20250109_36/1736407049150rKjG5_JPEG/%C8%AD%B8%E9_%C4%B8%C3%B3_2025-01-09_161717.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250109_36%2F1736407049150rKjG5_JPEG%2F%25C8%25AD%25B8%25E9_%25C4%25B8%25C3%25B3_2025-01-09_161717.jpg"
+     "u": "https://pup-post-phinf.pstatic.net/MjAyNjAyMDFfMjU2/MDAxNzY5OTE4MzI1NDE1.q6pxymYzZo681gToiC5AXHt0QX5sz2eUlW7Ek3xU8lQg.psCDtVW6A6L7uW0fFpT2wDa5ZF-3tzWm8am_7p0xtI0g.JPEG/POST_IMAGE_ENCODING_20260201_125845_481.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fpup-post-phinf.pstatic.net%2FMjAyNjAyMDFfMjU2%2FMDAxNzY5OTE4MzI1NDE1.q6pxymYzZo681gToiC5AXHt0QX5sz2eUlW7Ek3xU8lQg.psCDtVW6A6L7uW0fFpT2wDa5ZF-3tzWm8am_7p0xtI0g.JPEG%2FPOST_IMAGE_ENCODING_20260201_125845_481.jpg"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20241224_221/1735016439282Qc5Iz_JPEG/k_11892_1.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_221%2F1735016439282Qc5Iz_JPEG%2Fk_11892_1.jpg"
+     "u": "https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Fpotenshop%2F70391f0092974d73ae1b549e257f24b6.JPG",
+     "t": "https://search.pstatic.net/sunny/?type=b150&src=https%3A%2F%2Fimg1.daumcdn.net%2Fthumb%2FR720x0%2F%3Ffname%3Dhttps%253A%252F%252Ft1.daumcdn.net%252Fliveboard%252Fpotenshop%252F70391f0092974d73ae1b549e257f24b6.JPG"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20241024_285/1729747856919gt66s_JPEG/sadelleskith_1724515203_3441805444268693140_44911040461.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241024_285%2F1729747856919gt66s_JPEG%2Fsadelleskith_1724515203_3441805444268693140_44911040461.jpg"
+     "u": "https://pup-post-phinf.pstatic.net/MjAyNTEyMTlfMTkz/MDAxNzY2MDc0MjAzMTY2.N9_s0PYBlP9JYa3q2VZFp_jdiNqDMOCUbIHpa0H3EQEg.RYfQodes9hgtIKNNsmrf-XL78oUcrQfJvCV0I6QC6_gg.JPEG/POST_IMAGE_ENCODING_20251219_011001_536.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fpup-post-phinf.pstatic.net%2FMjAyNTEyMTlfMTkz%2FMDAxNzY2MDc0MjAzMTY2.N9_s0PYBlP9JYa3q2VZFp_jdiNqDMOCUbIHpa0H3EQEg.RYfQodes9hgtIKNNsmrf-XL78oUcrQfJvCV0I6QC6_gg.JPEG%2FPOST_IMAGE_ENCODING_20251219_011001_536.jpg"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20241224_157/1735016449252G2zgN_JPEG/k_11986_1.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241224_157%2F1735016449252G2zgN_JPEG%2Fk_11986_1.jpg"
+     "u": "https://pup-post-phinf.pstatic.net/MjAyNTEyMTlfMTI4/MDAxNzY2MDc0MjAyMjE5.SMizoFicaPEaHaDl8KU5gH2DhuNLK_xoQp9a4hXVU4Ag.eTJeCnvB4soyE0KQEnnnplLDtpvFLL_5lkAEK89AA8Ag.JPEG/POST_IMAGE_ENCODING_20251219_011001_427.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fpup-post-phinf.pstatic.net%2FMjAyNTEyMTlfMTI4%2FMDAxNzY2MDc0MjAyMjE5.SMizoFicaPEaHaDl8KU5gH2DhuNLK_xoQp9a4hXVU4Ag.eTJeCnvB4soyE0KQEnnnplLDtpvFLL_5lkAEK89AA8Ag.JPEG%2FPOST_IMAGE_ENCODING_20251219_011001_427.jpg"
     },
     {
-     "u": "https://ldb-phinf.pstatic.net/20250109_8/1736407121089e7f0U_JPEG/k_11907_1.jpg",
-     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250109_8%2F1736407121089e7f0U_JPEG%2Fk_11907_1.jpg"
+     "u": "https://pup-post-phinf.pstatic.net/MjAyNjAxMTJfMjQx/MDAxNzY4MjAzOTAwNTY1.QnEzlcmBFaKYUH_-keEeiA3Z3QTk0eLSxtP8KysmW18g.TpIT177tCLG8GabR53MDQEJ6VSWdwMlC02hHt2IX2Vsg.JPEG/57BB292F-4ADB-45E3-9E30-F9BBCB48E906.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=https%3A%2F%2Fpup-post-phinf.pstatic.net%2FMjAyNjAxMTJfMjQx%2FMDAxNzY4MjAzOTAwNTY1.QnEzlcmBFaKYUH_-keEeiA3Z3QTk0eLSxtP8KysmW18g.TpIT177tCLG8GabR53MDQEJ6VSWdwMlC02hHt2IX2Vsg.JPEG%2F57BB292F-4ADB-45E3-9E30-F9BBCB48E906.jpg"
     }
    ],
    "inc": true,
+   "evidence": [
+    {
+     "t": "“늙음이 삶을 링 위에 눕혀도… 죽음에 지겠단 생각 안해”[M 인터뷰]",
+     "d": "가서 우동 한 그릇을 먹고 온종일 음악을 듣다 집에 돌아갔다. 가장 아끼는 LP판도 실은 ‘돈 조반니’다. “나는 모차르트를 좋아했어요. 고1 때는 반년 동안 음대를 꿈꾸기도 했었죠. 중3 때 부산에서 서울에 올라오니...",
+     "u": "https://n.news.naver.com/mnews/article/021/0002642929?sid=103"
+    },
+    {
+     "t": "[손의 기억, 침선의 기록②] “‘한국복식’의 약자, 한복…지켜야만 하...",
+     "d": "[침선의 기억을 따라 만난 사람들②] 성신여자대학교 박광훈복식박물관 전문위원 김기상 (서울시 무형문화재... 사업차 일본을 갔을 때 현지 가이드가 ‘우동 한 그릇 하실래요’라고 해서 따라갔죠. 그 우동집이 3대째...",
+     "u": "https://n.news.naver.com/mnews/article/057/0001008270?sid=103"
+    },
+    {
+     "t": "[박정배의 Food in the City] 색깔 있는 식당들 그곳에 가면 특별한 맛 있...",
+     "d": "맥주를 현대적 공간에서 먹는 재미가 있다. 사케 보관 창고를 개조한 덕에 공간은 널찍하고 단순하지만 편안... 커다란 그릇에 나오는 제대로 된 우동 한 그릇을 비우다 보면 우동보다 더 비싼 교통비를 생각지 않고 먹던...",
+     "u": "https://n.news.naver.com/mnews/article/037/0000017728?sid=103"
+    },
+    {
+     "t": "서울 한 귀퉁이의 따뜻한 그곳…심야식당",
+     "d": "편안할 만큼 지친 밤이면 찾아가는 곳이 바로 이찌멘이다. 주소 서울시 서대문구 창천동 72-1(신촌 현대백화... 특히 3월의 차가운 바람 앞에서 탱글하게 익혀낸 우동 한 그릇과 사케 한잔을 먹으며 온 몸이 뜨거워진다....",
+     "u": "https://n.news.naver.com/mnews/article/009/0002656598?sid=103"
+    },
+    {
+     "t": "서울여행 필수 코스 남산타워 맛집 아기랑 가기 좋은 101번지남산돈....",
+     "d": "아기 의자도 다량 마련되어 있어 서울 남산타워 맛집 아기랑 가기 좋은 곳 찾으실 때에도 딱이에요✨ 실제로 제가 방문한날 매장 손님의... 어느 식당을 가든 무조건 근본을 맛보는걸 선호하기 때문에...",
+     "u": "https://blog.naver.com/dungdang17/224381493163"
+    },
+    {
+     "t": "[선정안내] '오늘의딜/1+1톡딜/만원톡딜' 상품 선정 공지",
+     "d": "18시 서울랩스 516614235 29,900 14,900 8/31(월) 18시 선비찬 423622204 17,800 13,500 8/31(월) 18시 단일 개수 옵션은 삭제 필요 신세계리빙 745432217 18,900 9,900 8/31(월) 18시 알랑몰랑...",
+     "u": "https://kakaotalkstore.tistory.com/509"
+    },
+    {
+     "t": "잠실 한국의 집 롯데월드몰점 솔직 후기｜아기랑 가기 좋은 한정식",
+     "d": "찾은 아기랑 가기좋은 한식집인 한국의집 한국의집 롯데월드몰점 주소 : 서울 송파구 올림픽로 300 5층 매일 10:30 - 22:00 전화번호 0507-1352-4560 롯데월드몰 5층 식당가에 위치하고 있다. 한국의집 찾아서 가고...",
+     "u": "https://blog.naver.com/cjsdms1111/224321142353"
+    },
+    {
+     "t": "어린이대공원 맛집, 서울상상나라 방문 후 아기랑 가기 좋은 중식 ....",
+     "d": "하이난 서울 광진구 능동로 243-1 영업시간 : 오전 11시 30분 ~ 밤 10시 (일요일 휴무) 02-466-0832 일단 저희는 두돌 아기가 있기 때문에 아기랑도 가기 좋은 식당을 찾아본거였는데 때마침 상상나라 부근에 아기랑도...",
+     "u": "https://blog.naver.com/chaerin_fm/224343460781"
+    },
+    {
+     "t": "서울근교 사람없는 워터파크/화성 율암온천/프로방스율암/아기랑 ....",
+     "d": "식당에 아기의자 있음 (이유식 식당에서 먹여야함) 사람이 많이 안붐벼서, 차도 안막혀~ 주차도 줄... 미끄러질 일 없어서 가장 좋았다! 물도 깨끗, 시설도 깨끗! 매년 가기 딱 좋은 화성율암온천 프로방스 율암 끝",
+     "u": "https://blog.naver.com/mj_9311/224361749993"
+    },
+    {
+     "t": "과천 서울대공원 동물원 입장료 다둥이혜택 무료입장 아기랑 갈만....",
+     "d": "1층에 아기쉼터도 있으니 간단하게 기저귀를 갈아주거나 수유할 수... 들어가기 전 사진 한번 찍어주고요 :) 서울대공원 동물원 순환버스... 있는 식당으로 이동했어요. 하도 정신이 없어서 음식사진 찍은거...",
+     "u": "https://blog.naver.com/cuteboram99/224365281152"
+    },
+    {
+     "t": "인천 하나개해수욕장 아기랑 주말 나들이 서울근교바다 인천바다 ....",
+     "d": "생각했던건 ✔️아기 모래놀이 장난감 + 뜰채+ 채집통 ✔️아기... 따라서 식당가들이 길~게 늘어져있는데 이곳은 그런거 없다!! 좋다!!... 하나개주차 #아기랑갯벌 #을왕리해수욕장 #왕산해수욕장 #서울근교나들...",
+     "u": "https://blog.naver.com/yywillow/224351326726"
+    },
+    {
+     "t": "서울 근교 용인 아기랑 계곡식당 누룽지백숙 장수가든 웨이팅 예약 ....",
+     "d": "내돈내산 서울 근교 용인 아기랑 계곡식당 누룽지백숙 장수가든 웨이팅 예약 주차 아기의자 안녕하세요 ! 용인 고기리 유원지 장수가든에 다녀왔습니다. 서울 근교에서 아이와 함께 방문하기 좋은...",
+     "u": "https://blog.naver.com/ohoh0512/224362007666"
+    }
+   ],
    "verify": {
-    "status": "ok",
-    "note": "성수동 사델스서울 기저귀 갈이대 구비 확인",
-    "source2": "https://blog.naver.com/dossiyam/223714253351"
-   },
-   "auditOrig": {
-    "title": "기저귀 갈이대 있는 사델스서울",
-    "lines": [
-     "성수동에서 아기랑 브런치를 편하게 즐길 수 있는 레스토랑입니다.",
-     "아기의자는 물론이고 성수동 개인 식당에서 보기 드문 기저귀 갈이대까지 갖췄어요.",
-     "후기마다 힙한 분위기 속에서 눈치 보지 않고 아기와 식사하기 좋았다는 평이 가득해요."
-    ],
-    "meta": "서울 성동구 성수동"
+    "status": "unverified",
+    "note": "검증 결과 없음",
+    "source2": ""
    },
    "audit": {
-    "verdict": "fix",
-    "rule": "P5",
-    "note": "영업시간 정보가 검색 결과와 상이하고, 주차 및 예약 관련 주의사항 보강이 필요합니다."
+    "verdict": "escalate",
+    "rule": "",
+    "note": "감사 결과 없음 — 사람 검수"
+   }
+  },
+  {
+   "cat": "cafe",
+   "title": "한성백제박물관 속 무료 키즈카페",
+   "lines": [
+    "송파구에 위치한 서울형 키즈카페 한성백제박물관점입니다.",
+    "쾌적하고 안전한 실내 놀이 공간을 무료로 이용할 수 있습니다.",
+    "후기마다 시설이 깔끔하고 예약 경쟁이 치열하다는 평이 많아요."
+   ],
+   "meta": "서울 송파구 / 이용료 무료",
+   "caution": "사전 예약이 필수이며 주차 공간이 협소할 수 있습니다",
+   "source": "https://blog.naver.com/iam_mumu/224379410471",
+   "srcType": "blog",
+   "brandName": "",
+   "placeName": "서울형 키즈카페 한성백제박물관점",
+   "images": [
+    {
+     "u": "http://imgnews.naver.net/image/5002/2026/01/07/0003064313_001_20260107060220938.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5002%2F2026%2F01%2F07%2F0003064313_001_20260107060220938.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/003/2026/01/07/NISI20260106_0002034673_web_20260106161540_20260107070514813.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F003%2F2026%2F01%2F07%2FNISI20260106_0002034673_web_20260106161540_20260107070514813.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5415/2026/01/07/0000245166_001_20260107083817092.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5415%2F2026%2F01%2F07%2F0000245166_001_20260107083817092.jpg"
+    },
+    {
+     "u": "http://www.thesegye.com/news/data/2026/06/09/p1065587426088289_364_thum.jpg",
+     "t": "https://search.pstatic.net/sunny/?type=b150&src=http%3A%2F%2Fwww.thesegye.com%2Fnews%2Fdata%2F2026%2F06%2F09%2Fp1065587426088289_364_thum.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/5689/2021/04/07/0000028686_001_20210407155222951.png",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5689%2F2021%2F04%2F07%2F0000028686_001_20210407155222951.png"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/421/2018/03/20/0003266862_001_20180320060142604.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F421%2F2018%2F03%2F20%2F0003266862_001_20180320060142604.jpg"
+    },
+    {
+     "u": "http://imgnews.naver.net/image/001/2026/06/09/AKR20260609072800004_02_i_P4_20260609111531933.jpg",
+     "t": "https://search.pstatic.net/common/?type=b150&src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F001%2F2026%2F06%2F09%2FAKR20260609072800004_02_i_P4_20260609111531933.jpg"
+    }
+   ],
+   "inc": true,
+   "evidence": [
+    {
+     "t": "한성백제박물관 키즈카페 무료 개방",
+     "d": "누구나 무료로 이용할 수 있다. 서울형 키즈카페 한성백제박물관점의 시설은 백제금동대향로의 동물 형상을 재해석한 디자인을 적용해 전설 속 세계를 연상시키는 분위기 속에서 아이들이 자연스럽게 움직이며 촉감·신체...",
+     "u": "https://n.news.naver.com/mnews/article/020/0003694686?sid=102"
+    },
+    {
+     "t": "한성백제박물관에 ‘서울형 키즈카페’…영아 전용 놀이공간 시범 운영",
+     "d": "영아 동반 가족이라면 누구나 무료로 이용할 수 있다. ‘서울형 키즈카페’는 서울시의 대표적인 양육친화... 서울형 키즈카페 한성백제박물관점은 지난해 12월 26일 임시 개관했으며, 1월부터 3개월간 시범 운영된다. 운영...",
+     "u": "https://n.news.naver.com/mnews/article/021/0002762712?sid=102"
+    },
+    {
+     "t": "영아 동반 가족 전용…박물관에 생긴 무료 '서울형 키즈카페'",
+     "d": "영아 동반 가족은 누구나 무료로 이용할 수 있다. 서울형 키즈카페 한성백제박물관점은 기존 어린이박물관... 아이들이 자연스럽게 움직이며 촉감과 신체 활동을 경험할 수 있도록 전설 속 세계를 연상시키는 환경으로...",
+     "u": "https://www.econovill.com/news/articleView.html?idxno=724985"
+    },
+    {
+     "t": "[1월 7일(수) 오늘, 서울시] 5억5000만원 규모 '양성평등가족 기금지원 ...",
+     "d": "마을세무사, 무료 상담 지원 서울시는 무료로 세무 상담과 권리구제를 지원하는 마을세무사 300명을 새롭게... 공공형 키즈카페다. 한성백제박물관점은 기존 어린이박물관 전시가 유아~초등학생(6~10세) 중심으로 구성돼...",
+     "u": "https://n.news.naver.com/mnews/article/119/0003045432?sid=102"
+    },
+    {
+     "t": "우이동 베이커리 대형카페 아기랑 가기 좋은 '하이그라운드제빵소'",
+     "d": "베이커리 카페 하이그라운드 제빵소! 사실 바로 옆 옥류헌이랑도 많이 고민했는데 맛있는 빵이 더 끌려서 하이그라운드로 선택했다. 결과적으로는 정말 괜찮은 선택이었던 것 같다.  서울 강북구 삼양로181길 161...",
+     "u": "https://blog.naver.com/srladbwlsc/224354874396"
+    },
+    {
+     "t": "[맛집] 아기랑 가기 좋은 서울근교 카페 '언캐니'",
+     "d": "영업) 아기랑 함께 갈 수 있는 카페를 찾아보다 발견한 '언캐니' 내부 모습 가기 전에 모던한 분위기에 오~ '-'하며 갔는데 실제로 가니... 언캐니의 좋은 점은 아기 배려 공간이 구비되어 있는 건데요 위의...",
+     "u": "https://blog.naver.com/heediary_/224337329189"
+    },
+    {
+     "t": "서울형 키즈카페 한성백제박물관점 아기랑 후기｜무료 예약방법 주....",
+     "d": "요즘 아기랑 어디 갈지 찾다 보면 생각보다 선택지가 애매할 때가 많아요... 키즈카페에 데려가기에는 조금 걱정되고 그렇다고 집에만 있기에는 아기도 심심해하고요 이번에 다녀온 곳은 바로 서울형 키즈카페...",
+     "u": "https://blog.naver.com/iam_mumu/224379410471"
+    },
+    {
+     "t": "포천 고모리 카페 숨 아기랑 가기 좋은 서울근교 숲속 대형카페 가....",
+     "d": "훨씬 가기 좋아졌어요!! 숲속에 들어온 듯한 분위기에 넓은 공간... 싶다면 서울근교 숲속 카페로 딱 어울리는 분위기였어요 테라스 좌석도 있어서 아름다운 정원 바라보며 여유를 즐길 수 있어요 아기의자...",
+     "u": "https://blog.naver.com/jieun2197/224380955126"
+    },
+    {
+     "t": "김포 아기랑 갈만한곳 실내 추천 2탄! 게으른농부 대형 체험카페 알....",
+     "d": "우리집에서 김포가 거리로 가깝기도 하고 주말에는 서울쪽 가려면... 여기는 아기도 어른들도 너무 편하게 있을수있었다 김포 아기랑 갈만한곳 실내 추천 2탄 김포 대형카페 게으른농부 야외시설 그리고...",
+     "u": "https://blog.naver.com/unengee/224371051406"
+    },
+    {
+     "t": "동대문구 서울형 키즈카페 제기동점 14개월 아기랑 주말후기 주차팁",
+     "d": "14개월 아기오월이 첫 동대문구 서울형 키즈카페 후기 요즘 주말마다 서울형 키즈카페 도장깨기를 하고... 그래서 14개월 아기랑 가기에는 오히려 더 좋았던 서울형키카 제기동점! 집만 가까우면 더 자주 올텐데...",
+     "u": "https://blog.naver.com/kohj219/224357683658"
+    },
+    {
+     "t": "31개월 아기랑 서울형키즈카페 여의도 영어키즈카페 후기, 예약꿀팁",
+     "d": "엄마랑 아기랑 둘이서 보내는 하루 서울형키즈카페 - 어린이도서관 - 더현대서울 점심 더운날 최고의... 브라이튼 도서관 내부에 키즈카페가 있다. 주차지원은 안돼니 대중교통 추천 아기+보호자1인 3천원이고 kt...",
+     "u": "https://blog.naver.com/jyoung5103/224358413306"
+    },
+    {
+     "t": "어린이대공원 서울상상나라 아기랑｜전시·서울형키즈카페 총정리",
+     "d": "어린이대공원 서울 상상나라 아기랑 전시 서울형 키즈카페 후기 지난 주말 어린이대공원 안에 있는... 수유룸, 아기의자, 전자레인지 구비⭕) 어린이대공원 서울상상나라 총평 장점 ✅ 실내공간이라 날씨...",
+     "u": "https://blog.naver.com/ksytree/224367532152"
+    }
+   ],
+   "verify": {
+    "status": "unverified",
+    "note": "검증 결과 없음",
+    "source2": ""
+   },
+   "audit": {
+    "verdict": "escalate",
+    "rule": "",
+    "note": "감사 결과 없음 — 사람 검수"
    }
   }
  ],
  "status": "draft",
  "auto": true,
- "at": "2026-08-25T00:07:06.986Z",
+ "at": "2026-08-25T07:12:25.628Z",
  "collectedAt": "2026-08-25",
  "supplemented": 0,
  "audited": 4

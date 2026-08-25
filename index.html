@@ -63,7 +63,8 @@ button:disabled{opacity:.5;cursor:wait}
   </form>
 </div>
 
-<iframe id="app" title="workspace"></iframe>
+<!-- clipboard-write: 앱이 iframe이라 이게 없으면 navigator.clipboard가 막힌다(캡션·블로그 글 복사) -->
+<iframe id="app" title="workspace" allow="clipboard-write"></iframe>
 
 <script>
 const $ = id => document.getElementById(id);
