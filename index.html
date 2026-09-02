@@ -120,8 +120,11 @@ $('loginForm').addEventListener('submit', async e => {
     const app = $('app'); app.style.display = 'block';
     const name = (u && u.name) || localStorage.getItem('pbl.name') || '나';
     localStorage.setItem('pbl.name', name);
+    /* 단축어 진입(?q=카드 문자) — 앱에 넘기고 URL에서 지운다(새로고침 재실행 방지) */
+    const q = new URLSearchParams(location.search).get('q') || '';
+    if (q) history.replaceState(null, '', location.pathname);
     app.addEventListener('load', () => {
-      app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name}, '*');
+      app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, '*');
     }, {once: true});
     app.srcdoc = html;
   } catch {
