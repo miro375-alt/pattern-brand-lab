@@ -25,7 +25,7 @@
   }
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%;touch-action:manipulation}   /* iOS 더블탭 확대 방지 — 앱(style.css)과 같은 줄. 이유는 그쪽 주석 */
 body{background:var(--ground);color:var(--ink);font-family:'Pretendard',system-ui,-apple-system,"Apple SD Gothic Neo","Segoe UI",sans-serif}
 #gate{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
 .card{background:var(--surface);border:1px solid var(--hairline);border-radius:18px;padding:44px 40px 36px;width:100%;max-width:392px;box-shadow:0 2px 6px rgba(26,25,23,.04), 0 24px 64px rgba(26,25,23,.08);position:relative;overflow:hidden}
