@@ -64,6 +64,11 @@ button:disabled{opacity:.5;cursor:wait}
     <div id="err"></div>
     <div class="note">문서·업무툴은 AES-256으로 암호화되어 있으며 올바른 계정 정보로만 열립니다. 이름은 계정에서 자동으로 표시됩니다.</div>
   </form>
+  <div class="card" id="wait" hidden>
+    <div class="logo">Pattern Brand Lab</div>
+    <h1>여는 중…</h1>
+    <div class="tagline" style="border-bottom:none;padding-bottom:0">저장된 로그인으로 잠금을 해제하는 중입니다</div>
+  </div>
 </div>
 
 <!-- clipboard-write: 앱이 iframe이라 이게 없으면 navigator.clipboard가 막힌다(캡션·블로그 글 복사) -->
@@ -96,6 +101,61 @@ async function decryptDoc(src){
   return dec.decode(pt);
 }
 
+/* ── 로그인 유지 (2026-09-17) — 이 기기에서만 하루, 쓸 때마다 다시 하루 ───────────────
+   ⚠ **비밀번호를 localStorage에 평문으로 넣지 않는다.** 이 파일은 공개 저장소에 그대로 올라가므로
+   설계가 드러나도 안전해야 한다. 그래서 브라우저가 만든 AES-GCM 키를 **추출 불가(extractable:false)**
+   로 IndexedDB에 두고, 자격은 그 키로 암호화한 조각만 함께 둔다 — 스크립트가 레코드를 통째로 꺼내도
+   키 원문(raw)은 뽑을 수 없고, 다른 기기·다른 오리진으로 옮겨도 쓸 수 없다.
+   자격 **원문**을 복구할 수 있게 만든 이유: 앱(iframe)이 init으로 받은 id·pw로 원격 state.json 을
+   직접 암·복호화한다(src/core/sync.js). 여기서 키 객체만 넘기면 앱이 자격을 만들지 못해
+   **사용자 데이터를 엉뚱한 키로 덮어쓴다.** 「그냥 localStorage에 넣자」로 되돌리지 말 것.
+   만료·복호화 실패·잠금(🔒)은 전부 레코드 삭제로 끝난다. IndexedDB가 막힌 환경(사파리 프라이빗 등)
+   에서는 조용히 예전 동작(매번 로그인)으로 떨어진다 — 여기서 throw로 화면을 막지 않는다.
+   localStorage의 'pbl.keep'은 비밀이 아니라 **만료 시각 힌트**다. IndexedDB는 비동기라 이게 없으면
+   레코드가 있어도 로그인 폼이 한 번 깜빡인다. */
+const KEEP_MS = 864e5, KEEP_DB = 'pbl-keep', KEEP_ST = 'k', KEEP_ID = 'c';
+function keepIdb(mode, fn){
+  return new Promise(res => {
+    let done = false; const fin = v => { if (!done) { done = true; res(v); } };
+    try {
+      const rq = indexedDB.open(KEEP_DB, 1);
+      rq.onupgradeneeded = () => { try { rq.result.createObjectStore(KEEP_ST); } catch {} };
+      rq.onerror = rq.onblocked = () => fin(null);
+      rq.onsuccess = () => {
+        const db = rq.result;
+        try {
+          const tx = db.transaction(KEEP_ST, mode), q = fn(tx.objectStore(KEEP_ST));
+          tx.oncomplete = () => { fin(q ? q.result : null); db.close(); };
+          tx.onerror = tx.onabort = () => { fin(null); db.close(); };
+        } catch { fin(null); db.close(); }
+      };
+    } catch { fin(null); }
+  });
+}
+function keepForget(){
+  try { localStorage.removeItem('pbl.keep'); } catch {}
+  return keepIdb('readwrite', s => s.delete(KEEP_ID));
+}
+async function keepSave(creds, name){
+  try {
+    const wk = await crypto.subtle.generateKey({name:'AES-GCM', length:256}, false, ['encrypt','decrypt']);
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, wk, enc.encode(JSON.stringify(creds)));
+    const exp = Date.now() + KEEP_MS;
+    await keepIdb('readwrite', s => s.put({wk, iv, ct, name, exp}, KEEP_ID));
+    try { localStorage.setItem('pbl.keep', String(exp)); } catch {}
+  } catch {}
+}
+async function keepLoad(){
+  try {
+    const r = await keepIdb('readonly', s => s.get(KEEP_ID));
+    if (!r || !(r.exp > Date.now())) { keepForget(); return null; }
+    const pt = await crypto.subtle.decrypt({name:'AES-GCM', iv: r.iv}, r.wk, r.ct);
+    const creds = JSON.parse(dec.decode(pt));
+    return creds && creds.id && creds.pw ? { creds, name: r.name || '' } : (keepForget(), null);
+  } catch { keepForget(); return null; }
+}
+
 /* 다중 계정 (2026-09-02) — docs/users.enc.json 열쇠꾸러미를 입력한 id:pw로 하나씩 열어본다.
    열리면 안에 든 마스터 자격 + 표시 이름으로 진행 — 문서·state 암호화는 마스터 하나라 데이터는 공유된다.
    꾸러미가 없거나 안 열리면 예전처럼 입력값을 마스터로 직접 시도한다(구버전 호환·비상 통로). */
@@ -113,30 +173,57 @@ async function unwrapUser(id, pw){
   } catch {}
   return null;
 }
+/* 로그인 성공 뒤 실제로 여는 부분 — 폼 제출과 자동 해제가 같은 길을 쓴다.
+   자격이 틀리면 decryptDoc이 throw하므로 화면을 바꾸기 전에 걸러진다. */
+async function enterApp(creds, name){
+  CREDS = creds;
+  const html = await decryptDoc('docs/app.enc.json'); // 잘못된 계정이면 여기서 throw
+  $('gate').style.display = 'none';
+  const app = $('app'); app.style.display = 'block';
+  localStorage.setItem('pbl.name', name);
+  /* 단축어 진입(?q=카드 문자) — 앱에 넘기고 URL에서 지운다(새로고침 재실행 방지) */
+  const q = new URLSearchParams(location.search).get('q') || '';
+  if (q) history.replaceState(null, '', location.pathname);
+  app.addEventListener('load', () => {
+    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, '*');
+  }, {once: true});
+  app.srcdoc = html;
+}
+function showForm(){ $('wait').hidden = true; $('loginForm').hidden = false; }
+function showWait(){ $('loginForm').hidden = true; $('wait').hidden = false; }
+
 $('loginForm').addEventListener('submit', async e => {
   e.preventDefault();
   const btn = $('goBtn'); btn.disabled = true; $('err').textContent = '';
   try {
     const entered = { id: $('uid').value.trim(), pw: $('upw').value };
     const u = await unwrapUser(entered.id, entered.pw);
-    CREDS = u ? { id: u.id, pw: u.pw } : entered;
-    const html = await decryptDoc('docs/app.enc.json'); // 잘못된 계정이면 여기서 throw
-    $('gate').style.display = 'none';
-    const app = $('app'); app.style.display = 'block';
+    const creds = u ? { id: u.id, pw: u.pw } : entered;
     const name = (u && u.name) || localStorage.getItem('pbl.name') || '나';
-    localStorage.setItem('pbl.name', name);
-    /* 단축어 진입(?q=카드 문자) — 앱에 넘기고 URL에서 지운다(새로고침 재실행 방지) */
-    const q = new URLSearchParams(location.search).get('q') || '';
-    if (q) history.replaceState(null, '', location.pathname);
-    app.addEventListener('load', () => {
-      app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, '*');
-    }, {once: true});
-    app.srcdoc = html;
+    await enterApp(creds, name);
+    keepSave(creds, name);
   } catch {
     CREDS = null;
     $('err').textContent = '아이디 또는 비밀번호가 올바르지 않습니다.';
   } finally { btn.disabled = false; }
 });
+
+/* 자동 해제 — 저장된 자격이 살아 있으면 폼을 거치지 않는다. 실패하면 무조건 레코드를 지우고 폼으로. */
+(async () => {
+  const hinted = +(localStorage.getItem('pbl.keep') || 0) > Date.now();
+  if (hinted) showWait();
+  const k = await keepLoad();
+  if (k) {
+    if (!hinted) showWait();
+    try {
+      const name = k.name || localStorage.getItem('pbl.name') || '나';
+      await enterApp(k.creds, name);
+      keepSave(k.creds, name);   // 슬라이딩 — 쓸 때마다 만료를 다시 하루 뒤로
+      return;
+    } catch { CREDS = null; keepForget(); }
+  }
+  showForm();
+})();
 
 /* 앱(iframe)과의 복호화 브리지 */
 window.addEventListener('message', async e => {
@@ -149,8 +236,9 @@ window.addEventListener('message', async e => {
   }
   if (m.t === 'lock') {
     CREDS = null; Object.keys(cache).forEach(k => delete cache[k]);
+    keepForget();   // 🔒는 「이 기기에서 그만」이다 — 유지 레코드를 남기면 버튼이 무의미해진다
     const app = $('app'); app.srcdoc = ''; app.style.display = 'none';
-    $('gate').style.display = 'flex'; $('upw').value = '';
+    $('gate').style.display = 'flex'; $('upw').value = ''; showForm();
   }
 });
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js');
