@@ -1,8 +1,8 @@
 {
   "v": 2,
   "updated": "2026-10-28",
-  "at": "2026-10-28T01:04:06.854Z",
-  "lastAttemptAt": "2026-10-28T01:04:06.854Z",
+  "at": "2026-10-28T01:37:13.575Z",
+  "lastAttemptAt": "2026-10-28T01:37:13.575Z",
   "items": [
     {
       "kind": "APT",
@@ -650,7 +650,31 @@
       "c2": "2027-02-03",
       "cnt": 300,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
-      "typeOp": "getAPTLttotPblancMdl"
+      "typeOp": "getAPTLttotPblancMdl",
+      "types": [
+        {
+          "type": "059.9000A",
+          "area": 78.7184,
+          "amount": 41110,
+          "general": 3,
+          "special": 10
+        },
+        {
+          "type": "059.8000B",
+          "area": 78.587,
+          "amount": 41042,
+          "general": 5,
+          "special": 15
+        },
+        {
+          "type": "084.8900A",
+          "area": 111.5594,
+          "amount": 57026,
+          "general": 19,
+          "special": 53
+        }
+      ],
+      "typesAt": "2026-10-28T01:37:13.575Z"
     },
     {
       "kind": "APT",
@@ -901,7 +925,7 @@
           "special": 6
         }
       ],
-      "typesAt": "2026-10-28T01:04:06.854Z"
+      "typesAt": "2026-10-28T01:37:13.575Z"
     },
     {
       "kind": "무순위",
@@ -979,7 +1003,7 @@
           "special": 0
         }
       ],
-      "typesAt": "2026-10-28T01:04:06.854Z"
+      "typesAt": "2026-10-28T01:37:13.575Z"
     },
     {
       "kind": "무순위",
@@ -1053,8 +1077,8 @@
       "14:15",
       "20:15"
     ],
-    "startedAt": "2026-10-28T01:04:06.838Z",
-    "completedAt": "2026-10-28T01:04:12.134Z",
+    "startedAt": "2026-10-28T01:37:13.559Z",
+    "completedAt": "2026-10-28T01:37:19.619Z",
     "healthy": true,
     "problems": []
   }

@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "collectedAt": "2026-10-28T01:04:06.911Z",
-  "lastAttemptAt": "2026-10-28T01:04:06.911Z",
+  "collectedAt": "2026-10-28T01:37:13.634Z",
+  "lastAttemptAt": "2026-10-28T01:37:13.634Z",
   "products": [
     {
       "id": "hf-bogeum",
@@ -13,7 +13,7 @@
         "상품구조": "대출한도 최대 3.6억원(다자녀 &middot; 전세사기피해자 4억원, 생애최초 4.2억원) 대출만기 10,15,20,30,40,50년 (만기 40,50년은 특정 조건을 충족하셔야 합니다.) 원리금 균등, 원금 균등, 체증식 분할상환"
       },
       "hash": "a7bb0b1a706f4e48d18ac77704b8f1abb92b504e0cba04011ee5af7231edca01",
-      "checkedAt": "2026-10-28T01:04:06.911Z",
+      "checkedAt": "2026-10-28T01:37:13.634Z",
       "changedAt": null,
       "changeFields": [],
       "previousFields": null,
@@ -30,7 +30,7 @@
         "대출기간": "10년, 15년, 20년, 30년 (거치 1년 또는 비거치)"
       },
       "hash": "73fc62ac23a66246eb3bf568d7acd99903f49f3d3535615401b80d4c4d2d57df",
-      "checkedAt": "2026-10-28T01:04:06.911Z",
+      "checkedAt": "2026-10-28T01:37:13.634Z",
       "changedAt": null,
       "changeFields": [],
       "previousFields": null,
@@ -47,7 +47,7 @@
         "대출기간": "10년, 15년, 20년, 30년 (거치 1년 또는 비거치)"
       },
       "hash": "9d378f8316fcd0516d10b57b7c454f4b10ea5d3bfaae765ecafbb5981e5a400c",
-      "checkedAt": "2026-10-28T01:04:06.911Z",
+      "checkedAt": "2026-10-28T01:37:13.634Z",
       "changedAt": null,
       "changeFields": [],
       "previousFields": null,
@@ -64,7 +64,7 @@
         "대출기간": "10년, 15년, 20년, 30년(거치 1년 또는 비거치)"
       },
       "hash": "8b7c50f1d43afb8017743181ec847add8d4bd744c46ffa7aaa076c011c89a015",
-      "checkedAt": "2026-10-28T01:04:06.911Z",
+      "checkedAt": "2026-10-28T01:37:13.634Z",
       "changedAt": null,
       "changeFields": [],
       "previousFields": null,
@@ -78,8 +78,8 @@
       "14:15",
       "20:15"
     ],
-    "startedAt": "2026-10-28T01:04:06.838Z",
-    "completedAt": "2026-10-28T01:04:12.134Z",
+    "startedAt": "2026-10-28T01:37:13.559Z",
+    "completedAt": "2026-10-28T01:37:19.619Z",
     "healthy": true,
     "problems": []
   }
