@@ -1,0 +1,1855 @@
+{
+  "v": 1,
+  "collectedAt": "2026-10-28T07:10:23.114Z",
+  "lastAttemptAt": "2026-10-28T07:10:23.114Z",
+  "sources": [
+    {
+      "id": "sh-rent",
+      "name": "SH 임대·전세",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T297C4476/www/brd/m_247/list.do?multi_itm_seq=2&itm_seq_1=1",
+      "coverage": "최근 120일 모집공고 및 이전 수집 중 접수 유효 공고",
+      "ok": true,
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "lastAttemptAt": "2026-10-28T07:10:23.114Z",
+      "error": null,
+      "count": 22
+    },
+    {
+      "id": "sh-sale",
+      "name": "SH 분양",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C296/www/brd/m_244/list.do?multi_itm_seq=1&itm_seq_1=1",
+      "coverage": "최근 120일 모집공고 및 이전 수집 중 접수 유효 공고",
+      "ok": true,
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "lastAttemptAt": "2026-10-28T07:10:23.114Z",
+      "error": null,
+      "count": 1
+    },
+    {
+      "id": "lh-rent",
+      "name": "LH 임대·전세",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026",
+      "coverage": "서울·경기·전국 표시의 공고중·접수중 목록",
+      "ok": true,
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "lastAttemptAt": "2026-10-28T07:10:23.114Z",
+      "error": null,
+      "count": 9
+    },
+    {
+      "id": "lh-sale",
+      "name": "LH 분양",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1027",
+      "coverage": "서울·경기·전국 표시의 공고중·접수중 목록",
+      "ok": true,
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "lastAttemptAt": "2026-10-28T07:10:23.114Z",
+      "error": null,
+      "count": 3
+    }
+  ],
+  "items": [
+    {
+      "id": "SH-306722",
+      "pno": "306722",
+      "name": "2026년 성북구 연극인주택 잔여세대 입주자 모집공고(26. 7. 8.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=306722",
+      "publishedAt": "2026-07-08",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "○ 신청접수 일정",
+          "start": "2026-07-20",
+          "end": "2026-07-21",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "○ 신청접수 일정: 2026. 7. 20.(월) 10:00 ~ 2026. 7. 21.(화) 17:00"
+        }
+      ],
+      "d1": "2026-07-20",
+      "d2": "2026-07-21",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=306722&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "ab016cf281a52032a8a2",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-306986",
+      "pno": "306986",
+      "name": "2026-2차 충신동 두레주택 잔여세대 입주자모집공고(26. 7. 15.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=306986",
+      "publishedAt": "2026-07-15",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "○ 신청접수 기간",
+          "start": "2026-07-27",
+          "end": "2026-07-29",
+          "startTime": null,
+          "endTime": null,
+          "origin": "첨부 공고문 접수표",
+          "evidence": "○ 신청접수 기간 : 2026. 7. 27.(월) ~ 2026. 7. 29.(수)"
+        }
+      ],
+      "d1": "2026-07-27",
+      "d2": "2026-07-29",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=306986&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "6011d2b14e9e7e0c47c6",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308167",
+      "pno": "308167",
+      "name": "(수정) 2026년 1~2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고(26. 8. 5.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308167",
+      "publishedAt": "2026-08-06",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "- 우편접수 기간",
+          "start": "2026-08-13",
+          "end": "2026-08-14",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "- 우편접수 기간: 2026. 8. 13.(목) ~ 2026. 8. 14.(금) [8. 14.(금) 소인분, 8. 18.(화) 도착분까지 유효]"
+        }
+      ],
+      "d1": "2026-08-13",
+      "d2": "2026-08-14",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308167&fileSeq=5&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "376e4b03151b2aa943de",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308123",
+      "pno": "308123",
+      "name": "2026년 1~2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고(26. 8. 5.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308123",
+      "publishedAt": "2026-08-05",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "- 우편접수 기간",
+          "start": "2026-08-13",
+          "end": "2026-08-14",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "- 우편접수 기간: 2026. 8. 13.(목) ~ 2026. 8. 14.(금) [8. 14.(금) 소인분, 8. 18.(화) 도착분까지 유효]"
+        }
+      ],
+      "d1": "2026-08-13",
+      "d2": "2026-08-14",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308123&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "be51a27da8e0c07b962d",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308887",
+      "pno": "308887",
+      "name": "2026-3차 충신동 연극인 두레주택 잔여세대 입주자 모집공고(26. 8. 21.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308887",
+      "publishedAt": "2026-08-21",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "○ 신청접수 기간",
+          "start": "2026-09-01",
+          "end": "2026-09-03",
+          "startTime": null,
+          "endTime": null,
+          "origin": "첨부 공고문 접수표",
+          "evidence": "○ 신청접수 기간 : 2026. 9. 1.(화) ~ 2026. 9. 3.(목)"
+        }
+      ],
+      "d1": "2026-09-01",
+      "d2": "2026-09-03",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308887&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "093303c87f95fa946dbc",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308340",
+      "pno": "308340",
+      "name": "2026년 국민임대주택 입주자 모집공고(2026.08.20.공고)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308340",
+      "publishedAt": "2026-08-20",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "- 방문접수 기간",
+          "start": "2026-09-01",
+          "end": "2026-09-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "- 방문접수 기간 : 2026.09.01.(화) ~ 2026.09.03.(목) 10:00 ~ 17:00"
+        }
+      ],
+      "d1": "2026-09-01",
+      "d2": "2026-09-03",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308340&fileSeq=4&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "689033bf815940756663",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308971",
+      "pno": "308971",
+      "name": "2026년 일반주택형 미리내집(공공한옥) 잔여세대 입주자 모집공고(2026. 8. 24.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308971",
+      "publishedAt": "2026-08-24",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "신청접수 - 방문청약",
+          "start": "2026-09-03",
+          "end": "2026-09-04",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "신청접수 - 방문청약: ‘26. 9. 3.(목)~9. 4.(금) 10:00~17:00(점심시간 12:00~13:00 제외)"
+        }
+      ],
+      "d1": "2026-09-03",
+      "d2": "2026-09-04",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308971&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "b611114cddf43be8dda6",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-309337",
+      "pno": "309337",
+      "name": "2026년 2차 행복주택 입주자 모집공고 (2026. 8. 28. 공고)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=309337",
+      "publishedAt": "2026-08-28",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "○ 인터넷 청약기간",
+          "start": "2026-09-09",
+          "end": "2026-09-11",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "○ 인터넷 청약기간: 2026. 9. 9.(수) 10:00 ~ 9. 11.(금) 17:00"
+        },
+        {
+          "label": "○ 방문 청약기간",
+          "start": "2026-09-10",
+          "end": "2026-09-11",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "○ 방문 청약기간: 2026. 9. 10.(목) ~ 9. 11.(금) 10:00 ~ 17:00"
+        }
+      ],
+      "d1": "2026-09-09",
+      "d2": "2026-09-11",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=309337&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "4370d255eb58b7c433eb",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-310258",
+      "pno": "310258",
+      "name": "2026년 2차 희망하우징(공공기숙사) 입주자 모집공고(2026. 9. 17.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310258",
+      "publishedAt": "2026-09-17",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "접수기간 ◻ 2026. 10. 1.(목) 10",
+          "start": "2026-10-01",
+          "end": "2026-10-02",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "접수기간 ◻ 2026. 10. 1.(목) 10:00 ~ 2026. 10. 2.(금) 17:00"
+        }
+      ],
+      "d1": "2026-10-01",
+      "d2": "2026-10-02",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=310258&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "c1294b021cb7e2ce9b31",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-310673",
+      "pno": "310673",
+      "name": "2026년 신정도시마을 잔여세대 입주자모집공고(26. 9. 23.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310673",
+      "publishedAt": "2026-09-23",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "- 우편접수 기간",
+          "start": "2026-10-02",
+          "end": "2026-10-06",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "- 우편접수 기간: 2026. 10. 2.(금) ~ 2026. 10. 6.(화) (10.6. 도착분까지 유효)"
+        }
+      ],
+      "d1": "2026-10-02",
+      "d2": "2026-10-06",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=310673&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "279f90a073730012ea48",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-310653",
+      "pno": "310653",
+      "name": "2026년 하반기 신혼·신생아 매입임대주택Ⅱ 입주자 모집공고(2026.09.30.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310653",
+      "publishedAt": "2026-09-30",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "■ 접수일정",
+          "start": "2026-10-13",
+          "end": "2026-10-15",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "첨부 공고문 접수표",
+          "evidence": "■ 접수일정 : 2026. 10. 13.(화) 10:00 ~ 10. 15.(목) 17:00 (3일간) (1~5순위 동시 접수)"
+        }
+      ],
+      "d1": "2026-10-13",
+      "d2": "2026-10-15",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=310653&fileSeq=2&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "016977068c61555c6342",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-311549",
+      "pno": "311549",
+      "name": "성북구 도전숙(수요자맞춤) 잔여세대 입주자 모집 공고",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=311549",
+      "publishedAt": "2026-10-14",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "■ 접수기간",
+          "start": "2026-10-21",
+          "end": "2026-10-28",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "■ 접수기간 : 2026.10.21.(수) ~ 10.28.(수)"
+        }
+      ],
+      "d1": "2026-10-21",
+      "d2": "2026-10-28",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=311549&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "2badc5dd8c2d63e707c6",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-311908",
+      "pno": "311908",
+      "name": "노원구 도전숙(수요자맞춤형) 잔여세대 입주자 모집 공고",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=311908",
+      "publishedAt": "2026-10-23",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "■ 접수기간",
+          "start": "2026-10-23",
+          "end": "2026-11-09",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "■ 접수기간 : 2026.10.23.(금) ~11.09.(월)"
+        }
+      ],
+      "d1": "2026-10-23",
+      "d2": "2026-11-09",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=311908&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "cf9b340648dda9f3e3ce",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-311962",
+      "pno": "311962",
+      "name": "구로구 도전숙(수요자맞춤형) 잔여세대 입주자 모집 공고",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=311962",
+      "publishedAt": "2026-10-28",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "■ 접수기간",
+          "start": "2026-10-28",
+          "end": "2026-11-12",
+          "startTime": null,
+          "endTime": "18:00",
+          "origin": "공고 본문",
+          "evidence": "■ 접수기간 : 2026.10.28.(수) ~ 2026.11.12.(목) 18시까지"
+        }
+      ],
+      "d1": "2026-10-28",
+      "d2": "2026-11-12",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=311962&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "e28bdd987d6c6443d150",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-311965",
+      "pno": "311965",
+      "name": "강북구 신혼부부(수요자맞춤형)주택 1~4차 잔여세대 입주자 모집 공고",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=311965",
+      "publishedAt": "2026-10-26",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [
+        {
+          "label": "■ 접수기간",
+          "start": "2026-11-02",
+          "end": "2026-11-12",
+          "startTime": null,
+          "endTime": "18:00",
+          "origin": "공고 본문",
+          "evidence": "■ 접수기간 : 2026.11.02.(월) ~ 11.12.(목) 18시까지"
+        }
+      ],
+      "d1": "2026-11-02",
+      "d2": "2026-11-12",
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=311965&fileSeq=1&fileTp=A",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "ce4e63fb01630819dc9d",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-0000061195",
+      "pno": "0000061195",
+      "name": "[정정공고]시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05",
+      "publishedAt": "2026-10-27",
+      "boardDeadline": "2026-11-17",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 시흥시 거모동 시흥거모 S-1BL"
+      ],
+      "adres": "경기도 시흥시 거모동 시흥거모 S-1BL",
+      "schedules": [
+        {
+          "label": "사전청약당첨자",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
+        },
+        {
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "신혼부부특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "생애최초특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "기관추천",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "신생아특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "일반공급(우선)",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        },
+        {
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        },
+        {
+          "label": "신생아 우선공급",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        }
+      ],
+      "d1": "2026-11-02",
+      "d2": "2026-11-17",
+      "types": [
+        {
+          "type": "59.9000A",
+          "area": 59.9,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "59.8000B",
+          "area": 59.8,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "84.8900A",
+          "area": 84.89,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69171330",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "a1bc2e89845012c2362d",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-0000061186",
+      "pno": "0000061186",
+      "name": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05",
+      "publishedAt": "2026-10-23",
+      "boardDeadline": "2026-11-17",
+      "boardStatus": "정정공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 시흥시 거모동 시흥거모 S-1BL"
+      ],
+      "adres": "경기도 시흥시 거모동 시흥거모 S-1BL",
+      "schedules": [
+        {
+          "label": "사전청약당첨자",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
+        },
+        {
+          "label": "다자녀특별(85㎡이하)",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "신혼부부특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "생애최초특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "노부모부양특별(85㎡이하)",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "기관추천",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "신생아특별",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.16 10:00 ~ 2026.11.16 17:00"
+        },
+        {
+          "label": "일반공급(우선)",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        },
+        {
+          "label": "일반공급(추첨)",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        },
+        {
+          "label": "신생아 우선공급",
+          "start": "2026-11-17",
+          "end": "2026-11-17",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.17 10:00 ~ 2026.11.17 17:00"
+        }
+      ],
+      "d1": "2026-11-02",
+      "d2": "2026-11-17",
+      "types": [
+        {
+          "type": "59.9000A",
+          "area": 59.9,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "59.8000B",
+          "area": 59.8,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "84.8900A",
+          "area": 84.89,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69118224",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "5c7e5ddfb1346a71fa1f",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-0000061165",
+      "pno": "0000061165",
+      "name": "시흥하중 A1블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39",
+      "publishedAt": "2026-10-23",
+      "boardDeadline": "2026-11-03",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 시흥시 하중동 시흥하중 A1블록"
+      ],
+      "adres": "경기도 시흥시 하중동 시흥하중 A1블록",
+      "schedules": [
+        {
+          "label": "예비신혼부부",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
+        },
+        {
+          "label": "신혼부부",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
+        },
+        {
+          "label": "한부모가족",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
+        }
+      ],
+      "d1": "2026-11-02",
+      "d2": "2026-11-03",
+      "types": [
+        {
+          "type": "55.0000A",
+          "area": 55.95,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55.0000B",
+          "area": 55.74,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55.0000C",
+          "area": 55.85,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69083286",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "baa32c06e631cf30ee30",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-0000061190",
+      "pno": "0000061190",
+      "name": "구리갈매 S1블록 10년공공임대주택 예비입주자 모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=0000061190&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08",
+      "publishedAt": "2026-10-22",
+      "boardDeadline": "2026-11-04",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [
+        "경기도 구리시 갈매동 갈매중앙로25 (갈매6단지)"
+      ],
+      "adres": "경기도 구리시 갈매동 갈매중앙로25 (갈매6단지)",
+      "schedules": [
+        {
+          "label": "일반공급(우선) - 해당주택건설지역",
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "startTime": "09:00",
+          "endTime": "16:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.03 09:00 ~ 2026.11.03 16:00"
+        },
+        {
+          "label": "일반공급(추첨)",
+          "start": "2026-11-04",
+          "end": "2026-11-04",
+          "startTime": "09:00",
+          "endTime": "16:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.04 09:00 ~ 2026.11.04 16:00"
+        }
+      ],
+      "d1": "2026-11-03",
+      "d2": "2026-11-04",
+      "types": [
+        {
+          "type": "59.0000H",
+          "area": 59.97,
+          "deposit": 57636000,
+          "rent": 565050
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102241",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "fde35634e57637d75c88",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020960",
+      "pno": "2015122300020960",
+      "name": "과천지식정보타운 S12블록 행복주택 입주자 모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020960&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10",
+      "publishedAt": "2026-10-28",
+      "boardDeadline": "2026-11-12",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [
+        "경기도 과천시 갈현동 581-1"
+      ],
+      "adres": "경기도 과천시 갈현동 581-1",
+      "schedules": [
+        {
+          "label": "접수기간",
+          "start": "2026-11-10",
+          "end": "2026-11-12",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "접수기간 : 2026.11.10 ~ 2026.11.12"
+        }
+      ],
+      "d1": "2026-11-10",
+      "d2": "2026-11-12",
+      "types": [
+        {
+          "type": "16A형(대학생,청년)",
+          "area": 16.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16A형(주거급여수급자)",
+          "area": 16.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16B형(고령자-주거약자용)",
+          "area": 16.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A형(대학생,청년)",
+          "area": 26.89,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A형(주거급여수급자)",
+          "area": 26.89,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26B형(고령자-주거약자용)",
+          "area": 26.89,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(고령자)",
+          "area": 36.85,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(신혼부부·한부모가족)",
+          "area": 36.85,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(청년)",
+          "area": 36.85,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36B형(고령자-주거약자용)",
+          "area": 36.81,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36C형(신혼부부·한부모가족)",
+          "area": 36.88,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36C형(청년)",
+          "area": 36.88,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69178684",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "f298ef157f52fb4dcb85",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020958",
+      "pno": "2015122300020958",
+      "name": "화성시 동탄지역 행복주택 입주자 모집 공고[입주자격완화/선계약후검증]('26.10.27.)",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10",
+      "publishedAt": "2026-10-27",
+      "boardDeadline": "2026-11-12",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [
+        "경기도 화성시 동탄구 동탄신리천로5길 90(신동)",
+        "경기도 화성시 동탄구 동탄신리천로5가길 35(신동)",
+        "경기도 화성시 동탄구 동탄순환대로2길 13(장지동)",
+        "경기도 화성시 동탄구 동탄영천로 108-21(영천동)",
+        "경기도 화성시 동탄구 동탄신리천로8길 15(신동)",
+        "경기도 화성시 동탄구 동탄순환대로10길 42(산척동)",
+        "경기도 화성시 동탄구 동탄기흥로277번길 12(여울동,동탄2 LH C26단지) (LH C26단지)",
+        "경기도 화성시 동탄구 동탄첨단산업1로 57(영천동)"
+      ],
+      "adres": "경기도 화성시 동탄구 동탄신리천로5길 90(신동)",
+      "schedules": [
+        {
+          "label": "접수기간",
+          "start": "2026-11-10",
+          "end": "2026-11-12",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "접수기간 : 2026.11.10 ~ 2026.11.12"
+        }
+      ],
+      "d1": "2026-11-10",
+      "d2": "2026-11-12",
+      "types": [
+        {
+          "type": "21A/21A-1 (고령자-주거약자용)",
+          "area": 21.92,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21A/21A-2 (청년,대학생,주거급여수급자)",
+          "area": 21.92,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A/36A-1 (청년, 신혼부부·한부모가족, 장기근속자, 주거급여수급자, 고령자-주거약자外)",
+          "area": 36.86,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36B/B-1/B-2/B-3 (청년, 신혼부부·한부모가족, 장기근속자,주거급여수급자,고령자-주거약자外)",
+          "area": 36.8,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "44A/A-1/A-2/A-3 (청년, 신혼부부·한부모가족, 고령자, 주거급여수급자外)",
+          "area": 44.75,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21Aa/21Ab(대학생,청년,주거급여수급자)",
+          "area": 21.33,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21B(대학생,청년,주거급여수급자)",
+          "area": 21.14,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A(대학생,청년,주거급여수급자)",
+          "area": 26.18,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "37Aa(고령자-주거약자용)",
+          "area": 37.95,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "37Ab(청년,신혼부부·한부모,주거급여수급자)",
+          "area": 37.6,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "45Aa/45B(청년, 신혼부부·한부모, 주거급여수급자)",
+          "area": 45.61,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "45Ab(청년, 신혼부부·한부모, 주거급여수급자)",
+          "area": 45.04,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16AS형",
+          "area": 16.65,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16A형",
+          "area": 16.65,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26AS형(주거약자)",
+          "area": 26.26,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A형(청년,주거급여수급자)",
+          "area": 26.26,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "34A형(청년)",
+          "area": 34.91,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(청년,신혼부부·한부모가족,고령자)",
+          "area": 36.43,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "42A형(신혼부부·한부모가족)",
+          "area": 42.42,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16A형(대학생, 청년)",
+          "area": 16.3,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "23A-S~23C-S형(청년)",
+          "area": 23.19,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A-1형[고령자(주거약자용)]",
+          "area": 26.64,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A형(청년,주거급여수급자)",
+          "area": 26.64,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A-1형(고령자(주거약자용))",
+          "area": 36.39,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A-S~36F-S형(청년,신혼부부.한부모가족)",
+          "area": 36.44,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(청년,신혼부부,한부모가족)",
+          "area": 36.39,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36B/36C(청년,신혼부부.한부모가족)",
+          "area": 36.34,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "37A-S~37E-S형(청년,신혼부부.한부모가족)",
+          "area": 37.21,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "38A-S~38F-S형(청년,신혼부부.한부모가족)",
+          "area": 38.13,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "41A/41B형(청년, 신혼부부.한부모가족)",
+          "area": 41.34,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "41C형(청년, 신혼부부.한부모가족)",
+          "area": 41.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "44A-S~44R-S형(청년, 신혼부부.한부모가족)",
+          "area": 44.02,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "44A형(청년, 신혼부부.한부모가족)",
+          "area": 44.41,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "44B/44C형[청년, 신혼부부.한부모가족,고령자(주거약자용外)]",
+          "area": 44.43,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16A(대학생,청년)",
+          "area": 16.7,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21AH/21AL(대학생,청년)",
+          "area": 21.14,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26AH/26AL(대학생, 청년, 주거급여수급자)",
+          "area": 26.06,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26B(고령자-주거약자용)",
+          "area": 26.25,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36AH/36AL(청년, 신혼, 한부모)",
+          "area": 36.5,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "44A(신혼부부·한부모가족)",
+          "area": 44.7,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21A형",
+          "area": 21.7,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26A/26B형(청년, 주거급여수급자)",
+          "area": 26.03,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "26C형(주거약자용)",
+          "area": 26.03,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "36A형(청년,신혼부부·한부모가족,고령자)",
+          "area": 36.04,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "16A형",
+          "area": 16.86,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "21A형(대학생,청년,산업단지근로자)",
+          "area": 21.81,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "31A-1형(주거약자)",
+          "area": 31.96,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "31A형(대학생,청년,산업단지근로자,고령자)",
+          "area": 31.97,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "20A",
+          "area": 20.94,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "20B(주거약자)",
+          "area": 20.94,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "28A",
+          "area": 28.92,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69163175",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "6981f4d336a0842b666d",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020936",
+      "pno": "2015122300020936",
+      "name": "구리갈매역세권 A-1BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.10.27)",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020936&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42",
+      "publishedAt": "2026-10-27",
+      "boardDeadline": "2026-11-12",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [
+        "경기도 구리시 갈매동 10"
+      ],
+      "adres": "경기도 구리시 갈매동 10",
+      "schedules": [
+        {
+          "label": "접수기간",
+          "start": "2026-11-10",
+          "end": "2026-11-12",
+          "startTime": null,
+          "endTime": null,
+          "origin": "공고 본문",
+          "evidence": "접수기간 : 2026.11.10 ~ 2026.11.12"
+        }
+      ],
+      "d1": "2026-11-10",
+      "d2": "2026-11-12",
+      "types": [
+        {
+          "type": "46A-1",
+          "area": 46.94,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "46A-2",
+          "area": 46.85,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "46A-H1(주거약자형)",
+          "area": 46.94,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "46A-H2(주거약자형)",
+          "area": 46.85,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55A-1",
+          "area": 55.94,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55A-2",
+          "area": 55.71,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55B-1",
+          "area": 55.95,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55B-2",
+          "area": 55.76,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55C-1",
+          "area": 55.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55C-2",
+          "area": 55.89,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55D-1",
+          "area": 55.98,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55D-2",
+          "area": 55.76,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69138783",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "0448d005f22752821ab6",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-310650",
+      "pno": "310650",
+      "name": "2026년 하반기 신혼·신생아 매입임대주택Ⅰ 입주자 모집공고(2026.09.30.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310650",
+      "publishedAt": "2026-09-30",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=310650&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "d2c153909476823c3b5f",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-309467",
+      "pno": "309467",
+      "name": "제51차 장기전세주택 입주자 모집공고(2026.08.31.공고)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=309467",
+      "publishedAt": "2026-08-31",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=309467&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "c5dc6077e5cb62cc8c58",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-310107",
+      "pno": "310107",
+      "name": "(수정) 2026년 2차 장기미임대 매입임대주택 입주자모집공고(2026. 8. 28.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310107",
+      "publishedAt": "2026-08-28",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=310107&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "737a877d07ea2f40f904",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308446",
+      "pno": "308446",
+      "name": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.) 주택정보 추가",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308446",
+      "publishedAt": "2026-08-28",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308446&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "9f13aeb4f8adbf37386f",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308944",
+      "pno": "308944",
+      "name": "제8차 장기전세주택2(미리내집) 입주자 모집 공고(2026. 8. 21.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308944",
+      "publishedAt": "2026-08-21",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308944&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "a3d794afdb0df48ceb60",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308644",
+      "pno": "308644",
+      "name": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.)",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308644",
+      "publishedAt": "2026-08-14",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=308644&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "3f6705c3284d2834227a",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-308394",
+      "pno": "308394",
+      "name": "2026년 재개발임대주택 입주자 모집 일정 연기 안내",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308394",
+      "publishedAt": "2026-08-10",
+      "agency": "SH",
+      "sourceId": "sh-rent",
+      "tenure": "rent",
+      "kind": "SH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": null,
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "3a73897587da66b4316a",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "SH-312005",
+      "pno": "312005",
+      "name": "[정정] 고덕강일지구 3단지 토지임대부 분양주택 입주자모집공고",
+      "area": "서울",
+      "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=312005",
+      "publishedAt": "2026-10-16",
+      "agency": "SH",
+      "sourceId": "sh-sale",
+      "tenure": "sale",
+      "kind": "SH 분양",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://www.i-sh.co.kr/main/com/file/innoFD.do?brdId=GS0401&seq=312005&fileSeq=1&fileTp=A",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "e0b76d25f0521051502f",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020928",
+      "pno": "2015122300020928",
+      "name": "경남 의령군 화정면 다자녀 매입임대주택 예비입주자 모집공고",
+      "area": "전국",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020928&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26",
+      "publishedAt": "2026-10-27",
+      "boardDeadline": "2026-11-13",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69107811",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "18098d90458225953e6e",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020933",
+      "pno": "2015122300020933",
+      "name": "경남 거창군 신원면 다자녀 매입임대주택 예비입주자 모집공고",
+      "area": "전국",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020933&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26",
+      "publishedAt": "2026-10-27",
+      "boardDeadline": "2026-11-13",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69108015",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "46943680f07df18f15de",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020900",
+      "pno": "2015122300020900",
+      "name": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26",
+      "publishedAt": "2026-10-16",
+      "boardDeadline": "2026-10-29",
+      "boardStatus": "접수중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69008404",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "582c440c41ed04b880b0",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020769",
+      "pno": "2015122300020769",
+      "name": "[정정공고][온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26",
+      "publishedAt": "2026-09-15",
+      "boardDeadline": "2026-10-28",
+      "boardStatus": "접수중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615191",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "d84fc530fd03932d4f55",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-2015122300020731",
+      "pno": "2015122300020731",
+      "name": "[온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=2015122300020731&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26",
+      "publishedAt": "2026-09-10",
+      "boardDeadline": "2026-10-28",
+      "boardStatus": "정정공고중",
+      "agency": "LH",
+      "sourceId": "lh-rent",
+      "tenure": "rent",
+      "kind": "LH 임대·전세",
+      "addresses": [],
+      "schedules": [],
+      "d1": null,
+      "d2": null,
+      "types": [],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68560127",
+      "scheduleStatus": "unknown",
+      "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
+      "revision": "6c6b688cc9f6e2bd8c95",
+      "checkedAt": "2026-10-28T07:10:23.114Z",
+      "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    }
+  ],
+  "collector": {
+    "mode": "server",
+    "scheduleKst": [
+      "08:15"
+    ],
+    "startedAt": "2026-10-28T07:10:23.070Z",
+    "completedAt": "2026-10-28T07:11:58.498Z",
+    "healthy": true,
+    "problems": []
+  }
+}
