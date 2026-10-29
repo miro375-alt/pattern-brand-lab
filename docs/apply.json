@@ -1,45 +1,9 @@
 {
   "v": 2,
-  "updated": "2026-10-28",
-  "at": "2026-10-28T07:10:23.079Z",
-  "lastAttemptAt": "2026-10-28T07:10:23.079Z",
+  "updated": "2026-10-29",
+  "at": "2026-10-29T02:27:57.556Z",
+  "lastAttemptAt": "2026-10-29T02:27:57.556Z",
   "items": [
-    {
-      "kind": "APT",
-      "name": "인천계양지구 A6블록 공공분양주택(본청약)",
-      "area": "인천",
-      "adres": "인천광역시 계양구 귤현동, 동양동, 박촌동, 병방동, 상야동 및 경기도 부천시 대장동, 서울특별시 강서구 오곡동 일원 인천계양 테크노밸리 공공주택지구 내 A6블록",
-      "mno": "2026000414",
-      "pno": "2026000414",
-      "d1": "2026-09-17",
-      "d2": "2026-10-02",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-21",
-      "c1": "2026-12-15",
-      "c2": "2026-12-18",
-      "cnt": 663,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000414&pblancNo=2026000414",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "진도 승원팰리체 더 테라스",
-      "area": "전남",
-      "adres": "전남광주통합특별시 진도군 진도읍 교동리 618번지 일원",
-      "mno": "2026000466",
-      "pno": "2026000466",
-      "d1": "2026-10-13",
-      "d2": "2026-10-15",
-      "sp1": "2026-10-13",
-      "sp2": "2026-10-13",
-      "win": "2026-10-21",
-      "c1": "2026-11-02",
-      "c2": "2026-11-04",
-      "cnt": 58,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000466&pblancNo=2026000466",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
     {
       "kind": "APT",
       "name": "청주 가경 아이파크 8단지",
@@ -674,7 +638,7 @@
           "special": 53
         }
       ],
-      "typesAt": "2026-10-28T07:10:23.079Z"
+      "typesAt": "2026-10-29T02:27:57.556Z"
     },
     {
       "kind": "APT",
@@ -925,7 +889,43 @@
           "special": 6
         }
       ],
-      "typesAt": "2026-10-28T07:10:23.079Z"
+      "typesAt": "2026-10-29T02:27:57.556Z"
+    },
+    {
+      "kind": "무순위",
+      "name": "과천 디에트르 퍼스티지(S2BL)",
+      "area": "경기",
+      "adres": "경기도 과천시 지식정보타운 공공주택지구 S2BL",
+      "mno": "2026930043",
+      "pno": "2026930043",
+      "d1": "2026-11-02",
+      "d2": "2026-11-02",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-05",
+      "c1": "2026-11-12",
+      "c2": "2026-11-12",
+      "cnt": 2,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930043&pblancNo=2026930043",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "무순위",
+      "name": "숭의역 노르웨이숲 더 스카이",
+      "area": "인천",
+      "adres": "인천광역시 미추홀구 숭의동 350-1번지 일원",
+      "mno": "2026910278",
+      "pno": "2026910278",
+      "d1": "2026-11-02",
+      "d2": "2026-11-02",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-05",
+      "c1": "2026-11-06",
+      "c2": "2026-11-06",
+      "cnt": 13,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910278&pblancNo=2026910278",
+      "typeOp": "getRemndrLttotPblancMdl"
     },
     {
       "kind": "무순위",
@@ -1003,7 +1003,7 @@
           "special": 0
         }
       ],
-      "typesAt": "2026-10-28T07:10:23.079Z"
+      "typesAt": "2026-10-29T02:27:57.556Z"
     },
     {
       "kind": "무순위",
@@ -1075,8 +1075,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-10-28T07:10:23.070Z",
-    "completedAt": "2026-10-28T07:11:58.498Z",
+    "startedAt": "2026-10-29T02:27:57.542Z",
+    "completedAt": "2026-10-29T02:31:15.734Z",
     "healthy": true,
     "problems": []
   }
