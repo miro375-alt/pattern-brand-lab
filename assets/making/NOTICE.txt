@@ -1,0 +1,5 @@
+U²-Net small model: Xuebin Qin et al., U²-Net (Pattern Recognition 2020). Apache-2.0.
+ONNX conversion distributed by danielgatis/rembg, MIT.
+ONNX Runtime Web 1.22.0: Microsoft Corporation, MIT.
+See accompanying license files and manifest.json for original URLs, exact versions and SHA-256 digests.
+No NAS assets, credentials or company data are included.
