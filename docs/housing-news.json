@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "collectedAt": "2026-10-29T02:27:57.595Z",
-  "lastAttemptAt": "2026-10-29T02:27:57.595Z",
+  "collectedAt": "2026-10-30T02:37:09.721Z",
+  "lastAttemptAt": "2026-10-30T02:37:09.721Z",
   "items": [
     {
       "title": "제4차 범부처 주택 신속공급 점검회의 — 공급 실적·정비 지연 요인 점검",
@@ -466,8 +466,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-10-29T02:27:57.542Z",
-    "completedAt": "2026-10-29T02:31:15.734Z",
+    "startedAt": "2026-10-30T02:37:09.674Z",
+    "completedAt": "2026-10-30T02:39:38.153Z",
     "healthy": true,
     "problems": []
   }

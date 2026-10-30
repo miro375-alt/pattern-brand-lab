@@ -1,8 +1,8 @@
 {
   "v": 2,
-  "updated": "2026-10-29",
-  "at": "2026-10-29T02:27:57.556Z",
-  "lastAttemptAt": "2026-10-29T02:27:57.556Z",
+  "updated": "2026-10-30",
+  "at": "2026-10-30T02:37:09.687Z",
+  "lastAttemptAt": "2026-10-30T02:37:09.687Z",
   "items": [
     {
       "kind": "APT",
@@ -150,60 +150,6 @@
     },
     {
       "kind": "무순위",
-      "name": "화성 송산 동원로얄듀크 포레(2차)",
-      "area": "경기",
-      "adres": "경기도 화성시 병점구 화산로 9",
-      "mno": "2026910262",
-      "pno": "2026910262",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-10-26",
-      "c2": "2026-10-26",
-      "cnt": 5,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910262&pblancNo=2026910262",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "그랑라크 에일린의 뜰",
-      "area": "울산",
-      "adres": "울산광역시 남구 야음동 350-5번지 일원 ",
-      "mno": "2026910252",
-      "pno": "2026910252",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-10-29",
-      "c2": "2026-10-29",
-      "cnt": 18,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910252&pblancNo=2026910252",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "청계 노르웨이숲(13차)",
-      "area": "서울",
-      "adres": "서울특별시 중구 황학동 1756번지 일원",
-      "mno": "2026910263",
-      "pno": "2026910263",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-10-26",
-      "c2": "2026-10-28",
-      "cnt": 10,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910263&pblancNo=2026910263",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
       "name": "의왕역 한신더휴",
       "area": "경기",
       "adres": "경기도 의왕시 삼동 244-1번지 일원",
@@ -218,60 +164,6 @@
       "c2": "2026-10-29",
       "cnt": 8,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "시티오씨엘 9단지 오션파크뷰",
-      "area": "인천",
-      "adres": "인천광역시 미추홀구 학익동 인천 용현·학익 1블록 도시개발구역 공동3BL",
-      "mno": "2026910259",
-      "pno": "2026910259",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-10-23",
-      "c2": "2026-10-23",
-      "cnt": 68,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "e편한세상 에코델타 센터포인트(19BL)",
-      "area": "부산",
-      "adres": "부산광역시 강서구 강동동 에코델타시티 내 공동 19BL",
-      "mno": "2026910255",
-      "pno": "2026910255",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-11-06",
-      "c2": "2026-11-06",
-      "cnt": 1,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910255&pblancNo=2026910255",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "에코델타시티 푸르지오 센터파크(18BL)",
-      "area": "부산",
-      "adres": "부산광역시 강서구 강동동 에코델타시티 내 공동 18BL",
-      "mno": "2026910254",
-      "pno": "2026910254",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-22",
-      "c1": "2026-11-06",
-      "c2": "2026-11-06",
-      "cnt": 1,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910254&pblancNo=2026910254",
       "typeOp": "getRemndrLttotPblancMdl"
     },
     {
@@ -638,7 +530,7 @@
           "special": 53
         }
       ],
-      "typesAt": "2026-10-29T02:27:57.556Z"
+      "typesAt": "2026-10-30T02:37:09.687Z"
     },
     {
       "kind": "APT",
@@ -889,7 +781,7 @@
           "special": 6
         }
       ],
-      "typesAt": "2026-10-29T02:27:57.556Z"
+      "typesAt": "2026-10-30T02:37:09.687Z"
     },
     {
       "kind": "무순위",
@@ -1003,7 +895,7 @@
           "special": 0
         }
       ],
-      "typesAt": "2026-10-29T02:27:57.556Z"
+      "typesAt": "2026-10-30T02:37:09.687Z"
     },
     {
       "kind": "무순위",
@@ -1022,6 +914,78 @@
       "cnt": 2,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910257&pblancNo=2026910257",
       "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "무순위",
+      "name": "교대역 모아엘가 그랑데",
+      "area": "광주",
+      "adres": "전남광주통합특별시 동구 무등로 373",
+      "mno": "2026910267",
+      "pno": "2026910267",
+      "d1": "2026-11-03",
+      "d2": "2026-11-03",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-06",
+      "c1": "2026-11-10",
+      "c2": "2026-11-10",
+      "cnt": 1,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910267&pblancNo=2026910267",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "중앙하이츠 구성 플랫폼시티",
+      "area": "경기",
+      "adres": "경기도 용인시 기흥구 마북동 298-1번지 일원",
+      "mno": "2026000535",
+      "pno": "2026000535",
+      "d1": "2026-11-09",
+      "d2": "2026-11-12",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-18",
+      "c1": "2026-11-30",
+      "c2": "2026-12-02",
+      "cnt": 76,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000535&pblancNo=2026000535",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "엘리프 시흥 더프라임",
+      "area": "경기",
+      "adres": "경기도 시흥시 거모동 시흥거모지구 B-5블록",
+      "mno": "2026000525",
+      "pno": "2026000525",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-11-28",
+      "c2": "2026-11-30",
+      "cnt": 304,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000525&pblancNo=2026000525",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "한화포레나 지제역",
+      "area": "경기",
+      "adres": "경기도 평택시 세교동 725번지 일원",
+      "mno": "2026000499",
+      "pno": "2026000499",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-18",
+      "c1": "2026-11-29",
+      "c2": "2026-12-01",
+      "cnt": 1098,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000499&pblancNo=2026000499",
+      "typeOp": "getAPTLttotPblancMdl"
     },
     {
       "kind": "APT",
@@ -1075,8 +1039,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-10-29T02:27:57.542Z",
-    "completedAt": "2026-10-29T02:31:15.734Z",
+    "startedAt": "2026-10-30T02:37:09.674Z",
+    "completedAt": "2026-10-30T02:39:38.153Z",
     "healthy": true,
     "problems": []
   }
