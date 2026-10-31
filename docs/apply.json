@@ -1,8 +1,8 @@
 {
   "v": 2,
-  "updated": "2026-10-30",
-  "at": "2026-10-30T02:37:09.687Z",
-  "lastAttemptAt": "2026-10-30T02:37:09.687Z",
+  "updated": "2026-10-31",
+  "at": "2026-10-31T02:24:03.938Z",
+  "lastAttemptAt": "2026-10-31T02:24:03.938Z",
   "items": [
     {
       "kind": "APT",
@@ -149,60 +149,6 @@
       "typeOp": "getAPTLttotPblancMdl"
     },
     {
-      "kind": "무순위",
-      "name": "의왕역 한신더휴",
-      "area": "경기",
-      "adres": "경기도 의왕시 삼동 244-1번지 일원",
-      "mno": "2026910260",
-      "pno": "2026910260",
-      "d1": "2026-10-19",
-      "d2": "2026-10-19",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-23",
-      "c1": "2026-10-29",
-      "c2": "2026-10-29",
-      "cnt": 8,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "시흥 은계 에피트(조합원 취소분)",
-      "area": "경기",
-      "adres": "경기도 시흥시 은행동 289-31번지 일원",
-      "mno": "2026910264",
-      "pno": "2026910264",
-      "d1": "2026-10-20",
-      "d2": "2026-10-20",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-23",
-      "c1": "2026-10-28",
-      "c2": "2026-10-28",
-      "cnt": 16,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
-      "kind": "무순위",
-      "name": "올 뉴 챔피언스시티 1차",
-      "area": "광주",
-      "adres": "전남광주통합특별시 북구 임동 100-1 일원 (구)전방·일신방직 부지 지구단위계획구역 A2BL)",
-      "mno": "2026910261",
-      "pno": "2026910261",
-      "d1": "2026-10-20",
-      "d2": "2026-10-20",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-23",
-      "c1": "2026-10-28",
-      "c2": "2026-10-28",
-      "cnt": 729,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910261&pblancNo=2026910261",
-      "typeOp": "getRemndrLttotPblancMdl"
-    },
-    {
       "kind": "APT",
       "name": "익산 부송에코르 10년 공공임대주택",
       "area": "전북",
@@ -327,6 +273,167 @@
       "cnt": 144,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000495&pblancNo=2026000495",
       "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "고덕강일지구 3단지 토지임대부(본청약)",
+      "area": "서울",
+      "adres": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
+      "mno": "2026000373",
+      "pno": "2026000373",
+      "d1": "2026-10-26",
+      "d2": "2026-11-06",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-26",
+      "c1": "2027-03-22",
+      "c2": "2027-04-02",
+      "cnt": 1305,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+      "typeOp": "getAPTLttotPblancMdl",
+      "types": [
+        {
+          "type": "049.0000A",
+          "area": 72.54,
+          "amount": 30800,
+          "general": 5,
+          "special": 18
+        },
+        {
+          "type": "049.0000B",
+          "area": 72.56,
+          "amount": 30800,
+          "general": 2,
+          "special": 6
+        },
+        {
+          "type": "049.0000C",
+          "area": 72.19,
+          "amount": 31416,
+          "general": 19,
+          "special": 74
+        },
+        {
+          "type": "049.0000D",
+          "area": 72.21,
+          "amount": 30800,
+          "general": 3,
+          "special": 10
+        },
+        {
+          "type": "049.0000E",
+          "area": 72.32,
+          "amount": 30800,
+          "general": 4,
+          "special": 20
+        },
+        {
+          "type": "049.0000F",
+          "area": 72.64,
+          "amount": 31724,
+          "general": 14,
+          "special": 58
+        },
+        {
+          "type": "049.0000G",
+          "area": 72.05,
+          "amount": 31724,
+          "general": 2,
+          "special": 5
+        },
+        {
+          "type": "049.0000H",
+          "area": 73.5,
+          "amount": 29567,
+          "general": 8,
+          "special": 31
+        },
+        {
+          "type": "049.0000I",
+          "area": 73.26,
+          "amount": 31416,
+          "general": 2,
+          "special": 7
+        },
+        {
+          "type": "049.0000J",
+          "area": 72.38,
+          "amount": 31416,
+          "general": 2,
+          "special": 5
+        },
+        {
+          "type": "049.0000K",
+          "area": 72.24,
+          "amount": 30184,
+          "general": 3,
+          "special": 11
+        },
+        {
+          "type": "059.0000A",
+          "area": 86.54,
+          "amount": 38670,
+          "general": 6,
+          "special": 18
+        },
+        {
+          "type": "059.0000B",
+          "area": 86.76,
+          "amount": 39050,
+          "general": 12,
+          "special": 48
+        },
+        {
+          "type": "059.0000C",
+          "area": 87.19,
+          "amount": 38670,
+          "general": 1,
+          "special": 2
+        },
+        {
+          "type": "059.0000D",
+          "area": 87.19,
+          "amount": 39050,
+          "general": 16,
+          "special": 60
+        },
+        {
+          "type": "059.0000E",
+          "area": 87.15,
+          "amount": 38670,
+          "general": 9,
+          "special": 35
+        },
+        {
+          "type": "059.0000F",
+          "area": 86.66,
+          "amount": 37154,
+          "general": 9,
+          "special": 37
+        },
+        {
+          "type": "059.0000G",
+          "area": 86.94,
+          "amount": 37912,
+          "general": 25,
+          "special": 95
+        },
+        {
+          "type": "059.0000H",
+          "area": 86.56,
+          "amount": 37154,
+          "general": 4,
+          "special": 20
+        },
+        {
+          "type": "059.0000I",
+          "area": 88.61,
+          "amount": 39050,
+          "general": 1,
+          "special": 6
+        }
+      ],
+      "typesAt": "2026-10-31T02:24:03.938Z"
     },
     {
       "kind": "무순위",
@@ -530,7 +637,7 @@
           "special": 53
         }
       ],
-      "typesAt": "2026-10-30T02:37:09.687Z"
+      "typesAt": "2026-10-31T02:24:03.938Z"
     },
     {
       "kind": "APT",
@@ -621,167 +728,6 @@
       "cnt": 1542,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
       "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "고덕강일지구 3단지 토지임대부(본청약)",
-      "area": "서울",
-      "adres": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
-      "mno": "2026000373",
-      "pno": "2026000373",
-      "d1": "2026-11-02",
-      "d2": "2026-11-06",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-11-26",
-      "c1": "2027-03-22",
-      "c2": "2027-04-02",
-      "cnt": 1305,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
-      "typeOp": "getAPTLttotPblancMdl",
-      "types": [
-        {
-          "type": "049.0000A",
-          "area": 72.54,
-          "amount": 30800,
-          "general": 5,
-          "special": 18
-        },
-        {
-          "type": "049.0000B",
-          "area": 72.56,
-          "amount": 30800,
-          "general": 2,
-          "special": 6
-        },
-        {
-          "type": "049.0000C",
-          "area": 72.19,
-          "amount": 31416,
-          "general": 19,
-          "special": 74
-        },
-        {
-          "type": "049.0000D",
-          "area": 72.21,
-          "amount": 30800,
-          "general": 3,
-          "special": 10
-        },
-        {
-          "type": "049.0000E",
-          "area": 72.32,
-          "amount": 30800,
-          "general": 4,
-          "special": 20
-        },
-        {
-          "type": "049.0000F",
-          "area": 72.64,
-          "amount": 31724,
-          "general": 14,
-          "special": 58
-        },
-        {
-          "type": "049.0000G",
-          "area": 72.05,
-          "amount": 31724,
-          "general": 2,
-          "special": 5
-        },
-        {
-          "type": "049.0000H",
-          "area": 73.5,
-          "amount": 29567,
-          "general": 8,
-          "special": 31
-        },
-        {
-          "type": "049.0000I",
-          "area": 73.26,
-          "amount": 31416,
-          "general": 2,
-          "special": 7
-        },
-        {
-          "type": "049.0000J",
-          "area": 72.38,
-          "amount": 31416,
-          "general": 2,
-          "special": 5
-        },
-        {
-          "type": "049.0000K",
-          "area": 72.24,
-          "amount": 30184,
-          "general": 3,
-          "special": 11
-        },
-        {
-          "type": "059.0000A",
-          "area": 86.54,
-          "amount": 38670,
-          "general": 6,
-          "special": 18
-        },
-        {
-          "type": "059.0000B",
-          "area": 86.76,
-          "amount": 39050,
-          "general": 12,
-          "special": 48
-        },
-        {
-          "type": "059.0000C",
-          "area": 87.19,
-          "amount": 38670,
-          "general": 1,
-          "special": 2
-        },
-        {
-          "type": "059.0000D",
-          "area": 87.19,
-          "amount": 39050,
-          "general": 16,
-          "special": 60
-        },
-        {
-          "type": "059.0000E",
-          "area": 87.15,
-          "amount": 38670,
-          "general": 9,
-          "special": 35
-        },
-        {
-          "type": "059.0000F",
-          "area": 86.66,
-          "amount": 37154,
-          "general": 9,
-          "special": 37
-        },
-        {
-          "type": "059.0000G",
-          "area": 86.94,
-          "amount": 37912,
-          "general": 25,
-          "special": 95
-        },
-        {
-          "type": "059.0000H",
-          "area": 86.56,
-          "amount": 37154,
-          "general": 4,
-          "special": 20
-        },
-        {
-          "type": "059.0000I",
-          "area": 88.61,
-          "amount": 39050,
-          "general": 1,
-          "special": 6
-        }
-      ],
-      "typesAt": "2026-10-30T02:37:09.687Z"
     },
     {
       "kind": "무순위",
@@ -895,7 +841,7 @@
           "special": 0
         }
       ],
-      "typesAt": "2026-10-30T02:37:09.687Z"
+      "typesAt": "2026-10-31T02:24:03.938Z"
     },
     {
       "kind": "무순위",
@@ -932,6 +878,187 @@
       "cnt": 1,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910267&pblancNo=2026910267",
       "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "남춘천 센트레빌",
+      "area": "강원",
+      "adres": "강원특별자치도 춘천시 효자동 681-12 일원",
+      "mno": "2026000539",
+      "pno": "2026000539",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-11-30",
+      "c2": "2026-12-02",
+      "cnt": 264,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000539&pblancNo=2026000539",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "안산신길2지구 B-1블록 공공분양주택(본청약)",
+      "area": "경기",
+      "adres": "경기도 안산시 단원구 신길동 일원 안산신길2 공공주택지구 내 B-1블록",
+      "mno": "2026000533",
+      "pno": "2026000533",
+      "d1": "2026-11-09",
+      "d2": "2026-11-18",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-30",
+      "c1": "2027-03-15",
+      "c2": "2027-03-18",
+      "cnt": 387,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000533&pblancNo=2026000533",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "광교 자연앤 센트레빌(A17BL) 공공분양주택",
+      "area": "경기",
+      "adres": "경기도 수원시 영통구 원천동 633번지 일원",
+      "mno": "2026000528",
+      "pno": "2026000528",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-12-21",
+      "c2": "2026-12-23",
+      "cnt": 360,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000528&pblancNo=2026000528",
+      "typeOp": "getAPTLttotPblancMdl",
+      "types": [
+        {
+          "type": "084.7637A",
+          "area": 111.4847,
+          "amount": 94930,
+          "general": 10,
+          "special": 30
+        },
+        {
+          "type": "084.8159B",
+          "area": 112.5694,
+          "amount": 94890,
+          "general": 70,
+          "special": 208
+        },
+        {
+          "type": "084.6192C",
+          "area": 111.3422,
+          "amount": 93860,
+          "general": 10,
+          "special": 32
+        }
+      ],
+      "typesAt": "2026-10-31T02:24:03.938Z"
+    },
+    {
+      "kind": "APT",
+      "name": "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+      "area": "경기",
+      "adres": "경기도 수원시 영통구 원천동 633번지 일원",
+      "mno": "2026000527",
+      "pno": "2026000527",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-18",
+      "c1": "2027-01-25",
+      "c2": "2027-01-27",
+      "cnt": 240,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000527&pblancNo=2026000527",
+      "typeOp": "getAPTLttotPblancMdl",
+      "types": [
+        {
+          "type": "059.8958A",
+          "area": 80.372,
+          "amount": 68440,
+          "general": 13,
+          "special": 30
+        },
+        {
+          "type": "059.9657B",
+          "area": 80.5572,
+          "amount": 68590,
+          "general": 43,
+          "special": 100
+        },
+        {
+          "type": "059.7232C",
+          "area": 79.2357,
+          "amount": 66790,
+          "general": 13,
+          "special": 29
+        },
+        {
+          "type": "059.9593D",
+          "area": 80.4996,
+          "amount": 67850,
+          "general": 3,
+          "special": 9
+        }
+      ],
+      "typesAt": "2026-10-31T02:24:03.938Z"
+    },
+    {
+      "kind": "APT",
+      "name": "형곡 센트럴 아테라",
+      "area": "경북",
+      "adres": "경상북도 구미시 형곡동 141-11번지 외 3필지",
+      "mno": "2026000523",
+      "pno": "2026000523",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-11-30",
+      "c2": "2026-12-02",
+      "cnt": 135,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000523&pblancNo=2026000523",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "평택 고덕 우미 린 더 프리미어",
+      "area": "경기",
+      "adres": "경기도 평택시 고덕 국제화계획지구 내 Abc-33블록",
+      "mno": "2026000515",
+      "pno": "2026000515",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-11-29",
+      "c2": "2026-12-01",
+      "cnt": 623,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000515&pblancNo=2026000515",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "구리갈매역세권 B-1블록 신안인스빌 디센트",
+      "area": "경기",
+      "adres": "경기도 구리시 구리갈매역세권 B-1블록",
+      "mno": "2026000472",
+      "pno": "2026000472",
+      "d1": "2026-11-09",
+      "d2": "2026-11-11",
+      "sp1": "2026-11-09",
+      "sp2": "2026-11-09",
+      "win": "2026-11-17",
+      "c1": "2026-11-30",
+      "c2": "2026-12-02",
+      "cnt": 213,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000472&pblancNo=2026000472",
+      "typeOp": "getAPTLttotPblancMdl"
     },
     {
       "kind": "APT",
@@ -989,6 +1116,24 @@
     },
     {
       "kind": "APT",
+      "name": "안산신길2 A-6블록 신혼희망타운(공공분양)(본청약)",
+      "area": "경기",
+      "adres": "경기도 안산시 단원구 신길동 일원 안산신길2 공공주택지구 내 A-6블록",
+      "mno": "2026820013",
+      "pno": "2026820013",
+      "d1": "2026-11-16",
+      "d2": "2026-11-24",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-12-04",
+      "c1": "2027-03-30",
+      "c2": "2027-04-02",
+      "cnt": 251,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820013&pblancNo=2026820013",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
       "name": "삼도이동 2지구 토지임대부 공공분양주택",
       "area": "제주",
       "adres": "제주특별자치도 제주시 삼도이동 1246-1 외 4필지",
@@ -1039,8 +1184,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-10-30T02:37:09.674Z",
-    "completedAt": "2026-10-30T02:39:38.153Z",
+    "startedAt": "2026-10-31T02:24:03.927Z",
+    "completedAt": "2026-10-31T02:25:10.750Z",
     "healthy": true,
     "problems": []
   }
