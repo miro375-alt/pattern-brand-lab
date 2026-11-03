@@ -1,8 +1,8 @@
 {
   "v": 2,
-  "updated": "2026-11-02",
-  "at": "2026-11-02T02:32:01.833Z",
-  "lastAttemptAt": "2026-11-02T02:32:01.833Z",
+  "updated": "2026-11-03",
+  "at": "2026-11-03T03:57:49.338Z",
+  "lastAttemptAt": "2026-11-03T03:57:49.338Z",
   "items": [
     {
       "kind": "APT",
@@ -38,24 +38,6 @@
       "c2": "2026-11-15",
       "cnt": 543,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "한양립스 에듀포레(조합원 취소분)",
-      "area": "광주",
-      "adres": "전남광주통합특별시 광산구 하산동 269번지 일원",
-      "mno": "2026000471",
-      "pno": "2026000471",
-      "d1": "2026-10-19",
-      "d2": "2026-10-20",
-      "sp1": null,
-      "sp2": null,
-      "win": "2026-10-26",
-      "c1": "2026-11-06",
-      "c2": "2026-11-10",
-      "cnt": 19,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000471&pblancNo=2026000471",
       "typeOp": "getAPTLttotPblancMdl"
     },
     {
@@ -433,7 +415,7 @@
           "special": 6
         }
       ],
-      "typesAt": "2026-11-02T02:32:01.833Z"
+      "typesAt": "2026-11-03T03:57:49.338Z"
     },
     {
       "kind": "무순위",
@@ -637,7 +619,7 @@
           "special": 53
         }
       ],
-      "typesAt": "2026-11-02T02:32:01.833Z"
+      "typesAt": "2026-11-03T03:57:49.338Z"
     },
     {
       "kind": "APT",
@@ -817,31 +799,7 @@
       "c2": "2026-11-13",
       "cnt": 169,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269",
-      "typeOp": "getRemndrLttotPblancMdl",
-      "types": [
-        {
-          "type": "084.7459A",
-          "area": null,
-          "amount": 89800,
-          "general": 26,
-          "special": 0
-        },
-        {
-          "type": "084.8508B",
-          "area": null,
-          "amount": 89300,
-          "general": 76,
-          "special": 0
-        },
-        {
-          "type": "084.9663D",
-          "area": null,
-          "amount": 89300,
-          "general": 67,
-          "special": 0
-        }
-      ],
-      "typesAt": "2026-11-02T02:32:01.833Z"
+      "typeOp": "getRemndrLttotPblancMdl"
     },
     {
       "kind": "무순위",
@@ -955,7 +913,7 @@
           "special": 32
         }
       ],
-      "typesAt": "2026-11-02T02:32:01.833Z"
+      "typesAt": "2026-11-03T03:57:49.338Z"
     },
     {
       "kind": "APT",
@@ -1004,7 +962,7 @@
           "special": 9
         }
       ],
-      "typesAt": "2026-11-02T02:32:01.833Z"
+      "typesAt": "2026-11-03T03:57:49.338Z"
     },
     {
       "kind": "APT",
@@ -1115,6 +1073,24 @@
       "typeOp": "getAPTLttotPblancMdl"
     },
     {
+      "kind": "무순위",
+      "name": "빌리브센트하이(2차)",
+      "area": "경기",
+      "adres": "경기도 남양주시 화도읍 마석우리 295-32번지 일원",
+      "mno": "2026910281",
+      "pno": "2026910281",
+      "d1": "2026-11-09",
+      "d2": "2026-11-09",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-12",
+      "c1": "2026-11-14",
+      "c2": "2026-11-14",
+      "cnt": 5,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
       "kind": "APT",
       "name": "안산신길2 A-6블록 신혼희망타운(공공분양)(본청약)",
       "area": "경기",
@@ -1184,8 +1160,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-11-02T02:32:01.812Z",
-    "completedAt": "2026-11-02T02:33:19.951Z",
+    "startedAt": "2026-11-03T03:56:17.412Z",
+    "completedAt": "2026-11-03T03:59:00.567Z",
     "healthy": true,
     "problems": []
   }

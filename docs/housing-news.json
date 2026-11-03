@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-02T02:32:01.936Z",
-  "lastAttemptAt": "2026-11-02T02:32:01.936Z",
+  "collectedAt": "2026-11-03T03:57:49.339Z",
+  "lastAttemptAt": "2026-11-03T03:57:49.339Z",
   "items": [
     {
       "title": "[보도자료] 한성숙 국무총리, 제8차 주택공급 현장점검(은평구 불광동)",
@@ -475,8 +475,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-11-02T02:32:01.812Z",
-    "completedAt": "2026-11-02T02:33:19.951Z",
+    "startedAt": "2026-11-03T03:56:17.412Z",
+    "completedAt": "2026-11-03T03:59:00.567Z",
     "healthy": true,
     "problems": []
   }
