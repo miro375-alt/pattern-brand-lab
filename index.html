@@ -80,6 +80,13 @@ const enc = new TextEncoder(), dec = new TextDecoder();
 const b64d = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 let CREDS = null;
 const cache = {};
+const DOCUMENT_PATHS = new Set(["docs/banned.enc.json","docs/charter.enc.json","docs/competitor-products.enc.json","docs/competitor-profile.enc.json","docs/decisions.enc.json","docs/home-buying.enc.json","docs/kcfee.enc.json","docs/plan.enc.json","docs/playbook.enc.json","docs/portfolio-plan.enc.json","docs/readme.enc.json","docs/res-channel.enc.json","docs/res-fund.enc.json","docs/res-legal.enc.json","docs/res-logi.enc.json","docs/res-make.enc.json","docs/res-mkt.enc.json","docs/res-scale.enc.json","docs/res-tax.enc.json","docs/startup-research.enc.json","docs/startup-roadmap.enc.json","docs/strategy.enc.json","docs/tool.enc.json"]);
+const BRIDGE_ORIGIN = self.origin;
+function isAppMessage(e){
+  const m = e.data;
+  return !!(BRIDGE_ORIGIN && BRIDGE_ORIGIN !== 'null' && e.origin === BRIDGE_ORIGIN &&
+    e.source === $('app').contentWindow && m && typeof m === 'object' && !Array.isArray(m));
+}
 
 async function derive(id, pw, salt, iter){
   const mat = await crypto.subtle.importKey('raw', enc.encode(id + ':' + pw), 'PBKDF2', false, ['deriveKey']);
@@ -180,12 +187,12 @@ async function enterApp(creds, name){
   const html = await decryptDoc('docs/app.enc.json'); // 잘못된 계정이면 여기서 throw
   $('gate').style.display = 'none';
   const app = $('app'); app.style.display = 'block';
-  localStorage.setItem('pbl.name', name);
+  try { localStorage.setItem('pbl.name', name); } catch {}
   /* 단축어 진입(?q=카드 문자) — 앱에 넘기고 URL에서 지운다(새로고침 재실행 방지) */
   const q = new URLSearchParams(location.search).get('q') || '';
   if (q) history.replaceState(null, '', location.pathname);
   app.addEventListener('load', () => {
-    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, '*');
+    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, BRIDGE_ORIGIN);
   }, {once: true});
   app.srcdoc = html;
 }
@@ -199,7 +206,8 @@ $('loginForm').addEventListener('submit', async e => {
     const entered = { id: $('uid').value.trim(), pw: $('upw').value };
     const u = await unwrapUser(entered.id, entered.pw);
     const creds = u ? { id: u.id, pw: u.pw } : entered;
-    const name = (u && u.name) || localStorage.getItem('pbl.name') || '나';
+    let remembered = ''; try { remembered = localStorage.getItem('pbl.name') || ''; } catch {}
+    const name = (u && u.name) || remembered || '나';
     await enterApp(creds, name);
     keepSave(creds, name);
   } catch {
@@ -210,13 +218,15 @@ $('loginForm').addEventListener('submit', async e => {
 
 /* 자동 해제 — 저장된 자격이 살아 있으면 폼을 거치지 않는다. 실패하면 무조건 레코드를 지우고 폼으로. */
 (async () => {
-  const hinted = +(localStorage.getItem('pbl.keep') || 0) > Date.now();
+  let hinted = false;
+  try { hinted = +(localStorage.getItem('pbl.keep') || 0) > Date.now(); } catch {}
   if (hinted) showWait();
   const k = await keepLoad();
   if (k) {
     if (!hinted) showWait();
     try {
-      const name = k.name || localStorage.getItem('pbl.name') || '나';
+      let remembered = ''; try { remembered = localStorage.getItem('pbl.name') || ''; } catch {}
+      const name = k.name || remembered || '나';
       await enterApp(k.creds, name);
       keepSave(k.creds, name);   // 슬라이딩 — 쓸 때마다 만료를 다시 하루 뒤로
       return;
@@ -227,12 +237,16 @@ $('loginForm').addEventListener('submit', async e => {
 
 /* 앱(iframe)과의 복호화 브리지 */
 window.addEventListener('message', async e => {
-  const m = e.data || {};
+  if (!isAppMessage(e)) return;
+  const m = e.data;
   if (m.t === 'getdoc') {
-    const reply = html => $('app').contentWindow.postMessage({t:'dochtml', src:m.src, html}, '*');
-    if (!CREDS || !/^docs\/[a-z0-9-]+\.enc\.json$/.test(m.src)) { reply('<p style="font-family:sans-serif;padding:20px">문서를 열 수 없습니다.</p>'); return; }
+    if (typeof m.src !== 'string' || m.src.length > 160 ||
+        (m.requestId !== undefined && (typeof m.requestId !== 'string' || m.requestId.length > 160))) return;
+    const reply = (html, error = false) => $('app').contentWindow.postMessage(
+      {t:'dochtml', src:m.src, html, error, requestId:m.requestId || ''}, BRIDGE_ORIGIN);
+    if (!CREDS || !DOCUMENT_PATHS.has(m.src)) { reply('<p>문서를 열 수 없습니다.</p>', true); return; }
     try { reply(await decryptDoc(m.src)); }
-    catch { reply('<p style="font-family:sans-serif;padding:20px">복호화 실패</p>'); }
+    catch { reply('<p>문서를 불러오지 못했습니다. 다시 시도해 주세요.</p>', true); }
   }
   if (m.t === 'lock') {
     CREDS = null; Object.keys(cache).forEach(k => delete cache[k]);
