@@ -1,7 +1,7 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-03T03:57:49.343Z",
-  "lastAttemptAt": "2026-11-03T03:57:49.343Z",
+  "collectedAt": "2026-11-04T03:00:39.789Z",
+  "lastAttemptAt": "2026-11-04T03:00:39.789Z",
   "sources": [
     {
       "id": "sh-rent",
@@ -9,8 +9,8 @@
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T297C4476/www/brd/m_247/list.do?multi_itm_seq=2&itm_seq_1=1",
       "coverage": "최근 120일 모집공고 및 이전 수집 중 접수 유효 공고",
       "ok": true,
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "lastAttemptAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "lastAttemptAt": "2026-11-04T03:00:39.789Z",
       "error": null,
       "count": 22
     },
@@ -20,8 +20,8 @@
       "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C296/www/brd/m_244/list.do?multi_itm_seq=1&itm_seq_1=1",
       "coverage": "최근 120일 모집공고 및 이전 수집 중 접수 유효 공고",
       "ok": true,
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "lastAttemptAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "lastAttemptAt": "2026-11-04T03:00:39.789Z",
       "error": null,
       "count": 1
     },
@@ -31,10 +31,10 @@
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026",
       "coverage": "서울·경기·전국 표시의 공고중·접수중 목록",
       "ok": true,
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "lastAttemptAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "lastAttemptAt": "2026-11-04T03:00:39.789Z",
       "error": null,
-      "count": 7
+      "count": 6
     },
     {
       "id": "lh-sale",
@@ -42,10 +42,10 @@
       "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1027",
       "coverage": "서울·경기·전국 표시의 공고중·접수중 목록",
       "ok": true,
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "lastAttemptAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "lastAttemptAt": "2026-11-04T03:00:39.789Z",
       "error": null,
-      "count": 5
+      "count": 7
     }
   ],
   "items": [
@@ -79,7 +79,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "ab016cf281a52032a8a2",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -112,7 +112,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "6011d2b14e9e7e0c47c6",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -145,7 +145,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "376e4b03151b2aa943de",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -178,7 +178,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "be51a27da8e0c07b962d",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -211,7 +211,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "093303c87f95fa946dbc",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -244,7 +244,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "689033bf815940756663",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -277,7 +277,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "b611114cddf43be8dda6",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -319,7 +319,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "4370d255eb58b7c433eb",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -352,7 +352,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "c1294b021cb7e2ce9b31",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -385,7 +385,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "279f90a073730012ea48",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -418,7 +418,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "016977068c61555c6342",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -451,7 +451,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "cf9b340648dda9f3e3ce",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -484,7 +484,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "e28bdd987d6c6443d150",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -517,7 +517,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "ce4e63fb01630819dc9d",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -655,7 +655,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "12e929510f4da4d18e83",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -793,136 +793,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "5c7e5ddfb1346a71fa1f",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "firstSeenAt": "2026-10-28T07:10:23.114Z"
-    },
-    {
-      "id": "LH-0000061165",
-      "pno": "0000061165",
-      "name": "시흥하중 A1블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
-      "area": "경기도",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39",
-      "publishedAt": "2026-10-23",
-      "boardDeadline": "2026-11-03",
-      "boardStatus": "접수중",
-      "agency": "LH",
-      "sourceId": "lh-sale",
-      "tenure": "sale",
-      "kind": "LH 분양",
-      "addresses": [
-        "경기도 시흥시 하중동 시흥하중 A1블록"
-      ],
-      "adres": "경기도 시흥시 하중동 시흥하중 A1블록",
-      "schedules": [
-        {
-          "label": "예비신혼부부",
-          "start": "2026-11-02",
-          "end": "2026-11-03",
-          "startTime": "10:00",
-          "endTime": "17:00",
-          "origin": "공고 본문",
-          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
-        },
-        {
-          "label": "신혼부부",
-          "start": "2026-11-02",
-          "end": "2026-11-03",
-          "startTime": "10:00",
-          "endTime": "17:00",
-          "origin": "공고 본문",
-          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
-        },
-        {
-          "label": "한부모가족",
-          "start": "2026-11-02",
-          "end": "2026-11-03",
-          "startTime": "10:00",
-          "endTime": "17:00",
-          "origin": "공고 본문",
-          "evidence": "2026.11.02 10:00 ~ 2026.11.03 17:00"
-        }
-      ],
-      "d1": "2026-11-02",
-      "d2": "2026-11-03",
-      "types": [
-        {
-          "type": "55.0000A",
-          "area": 55.95,
-          "deposit": null,
-          "rent": null
-        },
-        {
-          "type": "55.0000B",
-          "area": 55.74,
-          "deposit": null,
-          "rent": null
-        },
-        {
-          "type": "55.0000C",
-          "area": 55.85,
-          "deposit": null,
-          "rent": null
-        }
-      ],
-      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69083286",
-      "scheduleStatus": "confirmed",
-      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
-      "revision": "06de9921afc2ae0241d3",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
-      "firstSeenAt": "2026-10-28T07:10:23.114Z"
-    },
-    {
-      "id": "LH-0000061190",
-      "pno": "0000061190",
-      "name": "구리갈매 S1블록 10년공공임대주택 예비입주자 모집공고",
-      "area": "경기도",
-      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1026&panId=0000061190&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08",
-      "publishedAt": "2026-10-22",
-      "boardDeadline": "2026-11-04",
-      "boardStatus": "접수중",
-      "agency": "LH",
-      "sourceId": "lh-rent",
-      "tenure": "rent",
-      "kind": "LH 임대·전세",
-      "addresses": [
-        "경기도 구리시 갈매동 갈매중앙로25 (갈매6단지)"
-      ],
-      "adres": "경기도 구리시 갈매동 갈매중앙로25 (갈매6단지)",
-      "schedules": [
-        {
-          "label": "일반공급(우선) - 해당주택건설지역",
-          "start": "2026-11-03",
-          "end": "2026-11-03",
-          "startTime": "09:00",
-          "endTime": "16:00",
-          "origin": "공고 본문",
-          "evidence": "2026.11.03 09:00 ~ 2026.11.03 16:00"
-        },
-        {
-          "label": "일반공급(추첨)",
-          "start": "2026-11-04",
-          "end": "2026-11-04",
-          "startTime": "09:00",
-          "endTime": "16:00",
-          "origin": "공고 본문",
-          "evidence": "2026.11.04 09:00 ~ 2026.11.04 16:00"
-        }
-      ],
-      "d1": "2026-11-03",
-      "d2": "2026-11-04",
-      "types": [
-        {
-          "type": "59.0000H",
-          "area": 59.97,
-          "deposit": 57636000,
-          "rent": 565050
-        }
-      ],
-      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102241",
-      "scheduleStatus": "confirmed",
-      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
-      "revision": "442618d755e69c7bc618",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -955,7 +826,7 @@
       "scheduleStatus": "confirmed",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "3251147ec40cb608f48d",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-29T02:27:57.611Z"
     },
     {
@@ -1123,7 +994,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "a6b08630dfa99a12224e",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-31T02:24:03.980Z"
     },
     {
@@ -1234,7 +1105,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "1373cc725018b0d98340",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1586,7 +1457,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "6981f4d336a0842b666d",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1697,8 +1568,199 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "16248ba7a0bdc738cf58",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
+    },
+    {
+      "id": "LH-0000061192",
+      "pno": "0000061192",
+      "name": "남양주왕숙 A-2블록 신혼희망타운[공공분양] 잔여세대 추가입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061192&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39",
+      "publishedAt": "2026-11-03",
+      "boardDeadline": "2026-11-12",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 남양주시 진접읍 연평리 진접읍 연평리 등 일원 남양주왕숙 A-2블록 공공분양주택"
+      ],
+      "adres": "경기도 남양주시 진접읍 연평리 진접읍 연평리 등 일원 남양주왕숙 A-2블록 공공분양주택",
+      "schedules": [
+        {
+          "label": "예비신혼부부",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.11 10:00 ~ 2026.11.12 17:00"
+        },
+        {
+          "label": "신혼부부",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.11 10:00 ~ 2026.11.12 17:00"
+        },
+        {
+          "label": "한부모가족",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.11 10:00 ~ 2026.11.12 17:00"
+        }
+      ],
+      "d1": "2026-11-11",
+      "d2": "2026-11-12",
+      "types": [
+        {
+          "type": "46.0000O",
+          "area": 46.7,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55.0000O",
+          "area": 55.76,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69279377",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "91a1a6059456369786c8",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "firstSeenAt": "2026-11-04T03:00:39.789Z"
+    },
+    {
+      "id": "LH-0000061200",
+      "pno": "0000061200",
+      "name": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05",
+      "publishedAt": "2026-11-03",
+      "boardDeadline": "2026-11-13",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 고양시 덕양구 지축동 875"
+      ],
+      "adres": "경기도 고양시 덕양구 지축동 875",
+      "schedules": [
+        {
+          "label": "무순위",
+          "start": "2026-11-12",
+          "end": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.12 10:00 ~ 2026.11.13 17:00"
+        }
+      ],
+      "d1": "2026-11-12",
+      "d2": "2026-11-13",
+      "types": [
+        {
+          "type": "59.9300B",
+          "area": 59.93,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "84.8800A",
+          "area": 84.88,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272976",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "7d26fb59393ee17503ad",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "firstSeenAt": "2026-11-04T03:00:39.789Z"
+    },
+    {
+      "id": "LH-0000061199",
+      "pno": "0000061199",
+      "name": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "area": "경기도",
+      "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?mi=1027&panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39",
+      "publishedAt": "2026-11-03",
+      "boardDeadline": "2026-11-13",
+      "boardStatus": "공고중",
+      "agency": "LH",
+      "sourceId": "lh-sale",
+      "tenure": "sale",
+      "kind": "LH 분양",
+      "addresses": [
+        "경기도 고양시 일산동구 장항동 장항동 일원 고양장항 공공주택지구내 A-4블록",
+        "경기도 고양시 일산동구 장항동 장항동 일원 고양장항 공공주택지구내 A-5블록",
+        "경기도 고양시 일산동구 장항동 일원 고양장항지구 내 A-2블록"
+      ],
+      "adres": "경기도 고양시 일산동구 장항동 장항동 일원 고양장항 공공주택지구내 A-4블록",
+      "schedules": [
+        {
+          "label": "무순위",
+          "start": "2026-11-12",
+          "end": "2026-11-13",
+          "startTime": "10:00",
+          "endTime": "17:00",
+          "origin": "공고 본문",
+          "evidence": "2026.11.12 10:00 ~ 2026.11.13 17:00"
+        }
+      ],
+      "d1": "2026-11-12",
+      "d2": "2026-11-13",
+      "types": [
+        {
+          "type": "56.8200A",
+          "area": 56.82,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "56.8200A",
+          "area": 56.82,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "46.7000A",
+          "area": 46.7,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55.9200A",
+          "area": 55.92,
+          "deposit": null,
+          "rent": null
+        },
+        {
+          "type": "55.8200B",
+          "area": 55.82,
+          "deposit": null,
+          "rent": null
+        }
+      ],
+      "pdf": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272304",
+      "scheduleStatus": "confirmed",
+      "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
+      "revision": "3fe58d777cc47ca203f9",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
+      "firstSeenAt": "2026-11-04T03:00:39.789Z"
     },
     {
       "id": "LH-2015122300020896",
@@ -1748,7 +1810,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "2d69a6ed589c9a963288",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-11-02T02:32:01.945Z"
     },
     {
@@ -1826,7 +1888,7 @@
       "scheduleStatus": "confirmed",
       "note": "신청대상·순위별 접수일을 원문에서 확인하세요.",
       "revision": "217e71faeb3ea144828c",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-31T02:24:03.980Z"
     },
     {
@@ -1849,7 +1911,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "d2c153909476823c3b5f",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1872,7 +1934,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "c5dc6077e5cb62cc8c58",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1895,7 +1957,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "737a877d07ea2f40f904",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1918,7 +1980,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "9f13aeb4f8adbf37386f",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1941,7 +2003,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "a3d794afdb0df48ceb60",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1964,7 +2026,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "3f6705c3284d2834227a",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -1987,7 +2049,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "3a73897587da66b4316a",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -2010,7 +2072,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "e0b76d25f0521051502f",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -2035,7 +2097,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "18098d90458225953e6e",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     },
     {
@@ -2060,7 +2122,7 @@
       "scheduleStatus": "unknown",
       "note": "접수기간을 확인하지 못했습니다. 공고일·게시판 마감일을 청약일로 사용하지 않습니다.",
       "revision": "46943680f07df18f15de",
-      "checkedAt": "2026-11-03T03:57:49.343Z",
+      "checkedAt": "2026-11-04T03:00:39.789Z",
       "firstSeenAt": "2026-10-28T07:10:23.114Z"
     }
   ],
@@ -2069,8 +2131,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-11-03T03:56:17.412Z",
-    "completedAt": "2026-11-03T03:59:00.567Z",
+    "startedAt": "2026-11-04T03:00:39.707Z",
+    "completedAt": "2026-11-04T03:01:52.400Z",
     "healthy": true,
     "problems": []
   }

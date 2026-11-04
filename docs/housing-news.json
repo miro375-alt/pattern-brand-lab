@@ -1,8 +1,17 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-03T03:57:49.339Z",
-  "lastAttemptAt": "2026-11-03T03:57:49.339Z",
+  "collectedAt": "2026-11-04T03:00:39.776Z",
+  "lastAttemptAt": "2026-11-04T03:00:39.776Z",
   "items": [
+    {
+      "title": "[보도자료] 모듈러주택 산업 현장소통을 위한 규제합리화 현장캠프 개최",
+      "date": "2026-11-03",
+      "url": "https://www.opm.go.kr/opm/news/press-release.do?mode=view&articleNo=164056&article.offset=0&articleLimit=10",
+      "source": "국무조정실 주택 공급 발표",
+      "category": "housing",
+      "firstSeenAt": "2026-11-04T03:00:39.776Z",
+      "changedAt": null
+    },
     {
       "title": "[보도자료] 한성숙 국무총리, 제8차 주택공급 현장점검(은평구 불광동)",
       "date": "2026-10-30",
@@ -475,8 +484,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-11-03T03:56:17.412Z",
-    "completedAt": "2026-11-03T03:59:00.567Z",
+    "startedAt": "2026-11-04T03:00:39.707Z",
+    "completedAt": "2026-11-04T03:01:52.400Z",
     "healthy": true,
     "problems": []
   }

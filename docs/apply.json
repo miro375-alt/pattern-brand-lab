@@ -1,27 +1,9 @@
 {
   "v": 2,
-  "updated": "2026-11-03",
-  "at": "2026-11-03T03:57:49.338Z",
-  "lastAttemptAt": "2026-11-03T03:57:49.338Z",
+  "updated": "2026-11-04",
+  "at": "2026-11-04T03:00:39.724Z",
+  "lastAttemptAt": "2026-11-04T03:00:39.724Z",
   "items": [
-    {
-      "kind": "APT",
-      "name": "청주 가경 아이파크 8단지",
-      "area": "충북",
-      "adres": "충청북도 청주시 흥덕구 가경동 701번지 일원",
-      "mno": "2026000492",
-      "pno": "2026000492",
-      "d1": "2026-10-19",
-      "d2": "2026-10-21",
-      "sp1": "2026-10-19",
-      "sp2": "2026-10-19",
-      "win": "2026-10-27",
-      "c1": "2026-11-09",
-      "c2": "2026-11-15",
-      "cnt": 1128,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
     {
       "kind": "APT",
       "name": "청주 가경 아이파크 7단지",
@@ -38,78 +20,6 @@
       "c2": "2026-11-15",
       "cnt": 543,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "연제갤러리자이",
-      "area": "부산",
-      "adres": "부산광역시 연제구 연산동 1123-1번지",
-      "mno": "2026000469",
-      "pno": "2026000469",
-      "d1": "2026-10-19",
-      "d2": "2026-10-21",
-      "sp1": "2026-10-19",
-      "sp2": "2026-10-19",
-      "win": "2026-10-27",
-      "c1": "2026-11-09",
-      "c2": "2026-11-11",
-      "cnt": 459,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000469&pblancNo=2026000469",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "힐스테이트 거제시그니처(1회차)",
-      "area": "경남",
-      "adres": "경상남도 거제시 옥포동 1670번지 일원",
-      "mno": "2026000464",
-      "pno": "2026000464",
-      "d1": "2026-10-19",
-      "d2": "2026-10-21",
-      "sp1": "2026-10-19",
-      "sp2": "2026-10-19",
-      "win": "2026-10-27",
-      "c1": "2026-11-09",
-      "c2": "2026-11-11",
-      "cnt": 356,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000464&pblancNo=2026000464",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "산곡역자이힐스테이트앤하늘채",
-      "area": "인천",
-      "adres": "인천광역시 부평구 산곡동 10번지 일원(산곡6 주택재개발정비사업)",
-      "mno": "2026000458",
-      "pno": "2026000458",
-      "d1": "2026-10-19",
-      "d2": "2026-10-21",
-      "sp1": "2026-10-19",
-      "sp2": "2026-10-19",
-      "win": "2026-10-27",
-      "c1": "2026-11-09",
-      "c2": "2026-11-11",
-      "cnt": 1289,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000458&pblancNo=2026000458",
-      "typeOp": "getAPTLttotPblancMdl"
-    },
-    {
-      "kind": "APT",
-      "name": "아산 그랑시티필하우스",
-      "area": "충남",
-      "adres": "충청남도 아산시 배방읍 휴대리 143번지 일원 (휴대지구 도시개발사업구역 내 공동주택 1블럭)",
-      "mno": "2026000267",
-      "pno": "2026000267",
-      "d1": "2026-10-19",
-      "d2": "2026-10-21",
-      "sp1": "2026-10-19",
-      "sp2": "2026-10-19",
-      "win": "2026-10-27",
-      "c1": "2026-11-09",
-      "c2": "2026-11-11",
-      "cnt": 1380,
-      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000267&pblancNo=2026000267",
       "typeOp": "getAPTLttotPblancMdl"
     },
     {
@@ -415,7 +325,7 @@
           "special": 6
         }
       ],
-      "typesAt": "2026-11-03T03:57:49.338Z"
+      "typesAt": "2026-11-04T03:00:39.724Z"
     },
     {
       "kind": "무순위",
@@ -619,7 +529,7 @@
           "special": 53
         }
       ],
-      "typesAt": "2026-11-03T03:57:49.338Z"
+      "typesAt": "2026-11-04T03:00:39.724Z"
     },
     {
       "kind": "APT",
@@ -913,7 +823,7 @@
           "special": 32
         }
       ],
-      "typesAt": "2026-11-03T03:57:49.338Z"
+      "typesAt": "2026-11-04T03:00:39.724Z"
     },
     {
       "kind": "APT",
@@ -962,7 +872,7 @@
           "special": 9
         }
       ],
-      "typesAt": "2026-11-03T03:57:49.338Z"
+      "typesAt": "2026-11-04T03:00:39.724Z"
     },
     {
       "kind": "APT",
@@ -1074,6 +984,60 @@
     },
     {
       "kind": "무순위",
+      "name": "천안 롯데캐슬 더 청당",
+      "area": "충남",
+      "adres": "충청남도 천안시 동남구 청당4로 20",
+      "mno": "2026910274",
+      "pno": "2026910274",
+      "d1": "2026-11-09",
+      "d2": "2026-11-09",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-12",
+      "c1": "2026-11-20",
+      "c2": "2026-11-20",
+      "cnt": 2,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910274&pblancNo=2026910274",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "무순위",
+      "name": "캐슬앤파밀리에 디아트(4-1생활권 P1구역 L2블록 수루배마을2단지)",
+      "area": "세종",
+      "adres": "세종특별자치시 반곡1길 9 (반곡동, 수루배마을2단지)",
+      "mno": "2026910273",
+      "pno": "2026910273",
+      "d1": "2026-11-09",
+      "d2": "2026-11-09",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-12",
+      "c1": "2026-11-19",
+      "c2": "2026-11-19",
+      "cnt": 1,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910273&pblancNo=2026910273",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "무순위",
+      "name": "캐슬앤파밀리에 디아트(4-1생활권 P1구역 M1블록 수루배마을1단지)",
+      "area": "세종",
+      "adres": "세종특별자치시 반곡로 14 (반곡동, 수루배마을1단지)",
+      "mno": "2026910272",
+      "pno": "2026910272",
+      "d1": "2026-11-09",
+      "d2": "2026-11-09",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-12",
+      "c1": "2026-11-19",
+      "c2": "2026-11-19",
+      "cnt": 1,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910272&pblancNo=2026910272",
+      "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "무순위",
       "name": "빌리브센트하이(2차)",
       "area": "경기",
       "adres": "경기도 남양주시 화도읍 마석우리 295-32번지 일원",
@@ -1089,6 +1053,42 @@
       "cnt": 5,
       "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
       "typeOp": "getRemndrLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+      "area": "경기",
+      "adres": "경기도 남양주시 진접읍, 진건읍, 퇴계원읍 일원, 남양주왕숙 공공주택지구 내 A-2블록",
+      "mno": "2026820014",
+      "pno": "2026820014",
+      "d1": "2026-11-11",
+      "d2": "2026-11-12",
+      "sp1": null,
+      "sp2": null,
+      "win": "2026-11-19",
+      "c1": "2027-02-01",
+      "c2": "2027-02-02",
+      "cnt": 32,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014",
+      "typeOp": "getAPTLttotPblancMdl"
+    },
+    {
+      "kind": "APT",
+      "name": "리첼 에듀포레 경산역",
+      "area": "경북",
+      "adres": "경상북도 경산시 사정동 301-22번지 일원",
+      "mno": "2026000554",
+      "pno": "2026000554",
+      "d1": "2026-11-13",
+      "d2": "2026-11-17",
+      "sp1": "2026-11-13",
+      "sp2": "2026-11-13",
+      "win": "2026-11-23",
+      "c1": "2026-12-04",
+      "c2": "2026-12-06",
+      "cnt": 201,
+      "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000554&pblancNo=2026000554",
+      "typeOp": "getAPTLttotPblancMdl"
     },
     {
       "kind": "APT",
@@ -1160,8 +1160,8 @@
     "scheduleKst": [
       "08:15"
     ],
-    "startedAt": "2026-11-03T03:56:17.412Z",
-    "completedAt": "2026-11-03T03:59:00.567Z",
+    "startedAt": "2026-11-04T03:00:39.707Z",
+    "completedAt": "2026-11-04T03:01:52.400Z",
     "healthy": true,
     "problems": []
   }
