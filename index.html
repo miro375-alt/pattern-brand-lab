@@ -74,6 +74,7 @@ button:disabled{opacity:.5;cursor:wait}
 <!-- clipboard-write: 앱이 iframe이라 이게 없으면 navigator.clipboard가 막힌다(캡션·블로그 글 복사) -->
 <iframe id="app" title="workspace" allow="clipboard-write"></iframe>
 
+<script src="push-shell.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 const enc = new TextEncoder(), dec = new TextDecoder();
@@ -192,7 +193,7 @@ async function enterApp(creds, name){
   const q = new URLSearchParams(location.search).get('q') || '';
   if (q) history.replaceState(null, '', location.pathname);
   app.addEventListener('load', () => {
-    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q}, BRIDGE_ORIGIN);
+    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q, pushReady:typeof window.pblPushCommand==='function',view:new URLSearchParams(location.search).get('view')}, BRIDGE_ORIGIN);
   }, {once: true});
   app.srcdoc = html;
 }
@@ -239,6 +240,11 @@ $('loginForm').addEventListener('submit', async e => {
 window.addEventListener('message', async e => {
   if (!isAppMessage(e)) return;
   const m = e.data;
+  if(m.t==='push-command'){
+    if(!CREDS||!['status','connect','disconnect'].includes(m.action)||typeof m.requestId!=='string'||m.requestId.length>80)return;
+    try{const result=await window.pblPushCommand(m.action);$('app').contentWindow.postMessage({t:'push-result',requestId:m.requestId,result},BRIDGE_ORIGIN);}
+    catch(error){$('app').contentWindow.postMessage({t:'push-result',requestId:m.requestId,error:error.message},BRIDGE_ORIGIN);}
+  }
   if (m.t === 'getdoc') {
     if (typeof m.src !== 'string' || m.src.length > 160 ||
         (m.requestId !== undefined && (typeof m.requestId !== 'string' || m.requestId.length > 160))) return;
