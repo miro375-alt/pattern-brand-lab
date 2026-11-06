@@ -7,6 +7,10 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#2a78d6">
 <link rel="apple-touch-icon" href="icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="PBL">
+<link rel="stylesheet" href="install-shell.css">
 <title>Pattern Brand Lab</title>
 <style>
 @font-face{font-family:'Pretendard';src:url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/woff2/PretendardVariable.woff2') format('woff2-variations');font-weight:45 920;font-display:swap}
@@ -61,6 +65,7 @@ button:disabled{opacity:.5;cursor:wait}
     <label for="upw">비밀번호</label>
     <input id="upw" type="password" autocomplete="current-password">
     <button id="goBtn" type="submit">열기</button>
+    <button type="button" class="pbl-install-entry" data-pbl-install-open>휴대폰 앱 설치</button>
     <div id="err"></div>
     <div class="note">문서·업무툴은 AES-256으로 암호화되어 있으며 올바른 계정 정보로만 열립니다. 이름은 계정에서 자동으로 표시됩니다.</div>
   </form>
@@ -74,6 +79,7 @@ button:disabled{opacity:.5;cursor:wait}
 <!-- clipboard-write: 앱이 iframe이라 이게 없으면 navigator.clipboard가 막힌다(캡션·블로그 글 복사) -->
 <iframe id="app" title="workspace" allow="clipboard-write"></iframe>
 
+<script src="install-shell.js"></script>
 <script src="push-shell.js"></script>
 <script>
 const $ = id => document.getElementById(id);
@@ -241,8 +247,8 @@ window.addEventListener('message', async e => {
   if (!isAppMessage(e)) return;
   const m = e.data;
   if(m.t==='push-command'){
-    if(!CREDS||!['status','connect','disconnect'].includes(m.action)||typeof m.requestId!=='string'||m.requestId.length>80)return;
-    try{const result=await window.pblPushCommand(m.action);$('app').contentWindow.postMessage({t:'push-result',requestId:m.requestId,result},BRIDGE_ORIGIN);}
+    if(!CREDS||!['status','connect','disconnect','install'].includes(m.action)||typeof m.requestId!=='string'||m.requestId.length>80)return;
+    try{const result=m.action==='install'?window.pblInstall.open():await window.pblPushCommand(m.action);$('app').contentWindow.postMessage({t:'push-result',requestId:m.requestId,result},BRIDGE_ORIGIN);}
     catch(error){$('app').contentWindow.postMessage({t:'push-result',requestId:m.requestId,error:error.message},BRIDGE_ORIGIN);}
   }
   if (m.t === 'getdoc') {
