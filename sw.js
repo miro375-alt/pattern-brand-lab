@@ -1,10 +1,10 @@
-const C='pbl-v9-install';
+const C='pbl-v10-install-id';
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{
   const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==location.origin)return;
   e.respondWith(caches.open(C).then(async cache=>{
-    if(u.pathname.includes('/docs/')){try{const r=await fetch(e.request);if(r.ok)cache.put(e.request,r.clone());return r;}catch{return(await cache.match(e.request))??Response.error();}}
+    if(u.pathname.includes('/docs/')||u.pathname.endsWith('/manifest.json')){try{const r=await fetch(e.request);if(r.ok)cache.put(e.request,r.clone());return r;}catch{return(await cache.match(e.request))??Response.error();}}
     const cached=await cache.match(e.request),net=fetch(e.request).then(r=>{if(r.ok)cache.put(e.request,r.clone());return r;}).catch(()=>cached);
     return cached||net;
   }));
