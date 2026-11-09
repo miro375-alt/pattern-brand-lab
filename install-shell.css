@@ -16,3 +16,5 @@
 .pbl-install-dialog .pbl-install-url{display:block;font-size:11px;color:#a9b7cd;letter-spacing:normal;margin-top:18px}
 .pbl-install-dialog input{box-sizing:border-box;width:100%;min-width:0;font:11px system-ui;color:#cfddf4;background:#0e1520;border:1px solid #43516a;border-radius:6px;padding:10px;margin-top:5px}
 .pbl-install-entry{background:transparent;color:var(--acc-ink);border:1px solid var(--line);margin-top:12px;font-size:13px}
+
+.pbl-install-dialog [data-install-ios]{background:#315bc5;width:100%;font-size:16px}.pbl-install-dialog [hidden]{display:none!important}
