@@ -20,7 +20,7 @@ window.pblPushCommand=async function(action){
   return new Promise((resolve,reject)=>{
     const box=document.createElement('div');window.pblPushModal=box;box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');
     box.style.cssText='position:fixed;inset:0;z-index:9999;background:#000c;display:grid;place-items:center;padding:20px;color:#edf2f8;font:16px/1.6 system-ui';
-    box.innerHTML='<section style="max-width:420px;background:#151c25;border:1px solid #62748a;padding:24px;border-radius:12px"><h2>휴대폰 투자 알림</h2><p>앱을 닫아도 새 위험·수집 오류·복구를 알려드립니다. 기기 주소와 점검 종목 코드만 암호화해 저장합니다.</p><p>보유 수량·매수금액·계좌번호는 알림 서버에 보내지 않습니다.</p><button type="button" data-push-allow style="font:inherit;padding:12px">알림 허용하고 연결</button> <button type="button" data-push-cancel style="font:inherit;padding:12px">취소</button><p data-push-error role="status"></p></section>';
+    box.innerHTML='<section style="max-width:420px;background:#151c25;border:1px solid #62748a;padding:24px;border-radius:12px"><h2>휴대폰 투자 알림</h2><p>매일 07:30·17:30 발행한 시장 뉴스레터를 앱에서 읽을 수 있도록 알려드립니다. 기기 주소와 점검 종목 코드만 암호화해 저장합니다.</p><p>보유 수량·매수금액·계좌번호는 알림 서버에 보내지 않습니다.</p><button type="button" data-push-allow style="font:inherit;padding:12px">알림 허용하고 연결</button> <button type="button" data-push-cancel style="font:inherit;padding:12px">취소</button><p data-push-error role="status"></p></section>';
     document.body.append(box);const close=()=>{box.remove();window.pblPushModal=null;};
     box.querySelector('[data-push-cancel]').onclick=()=>{close();reject(Error('연결을 취소했습니다.'));};
     box.querySelector('[data-push-allow]').onclick=async()=>{

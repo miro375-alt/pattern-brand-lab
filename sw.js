@@ -20,13 +20,13 @@ self.addEventListener('push',event=>event.waitUntil((async()=>{
   const id=valid?data.id:crypto.randomUUID().replaceAll('-','');
   const title=valid?String(data.title).slice(0,70):'투자 알림 확인 필요';
   const body=valid?String(data.body).slice(0,240):'알림 내용을 읽지 못했습니다. 대시보드에서 최신 점검을 확인하세요.';
-  await self.registration.showNotification(title,{body,icon:'icon-192.png',badge:'icon-192.png',tag:'pbl-'+(data.testId?'test':'risk'),data:{id,testId:valid?data.testId:null},requireInteraction:false});
+  await self.registration.showNotification(title,{body,icon:'icon-192.png',badge:'icon-192.png',tag:'pbl-'+(data.testId?'test':'risk'),data:{id,testId:valid?data.testId:null,newsletter:valid&&data.category==='newsletter'},requireInteraction:false});
   await pushReceipt({id,testId:valid?data.testId:null,receivedAt:new Date().toISOString()});
 })()));
 self.addEventListener('notificationclick',event=>{
   event.notification.close();event.waitUntil((async()=>{
     const data=event.notification.data??{};if(data.id)await pushReceipt({id:data.id,testId:data.testId??null,clickedAt:new Date().toISOString()});
-    const target=new URL('./?view=portfolio',self.registration.scope).href;
+    const target=new URL('./?view=portfolio'+(data.newsletter?'#newsletter':''),self.registration.scope).href;
     const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
     const existing=windows.find(w=>w.url.startsWith(self.registration.scope));
     if(existing){await existing.navigate(target);await existing.focus();}else await self.clients.openWindow(target);
