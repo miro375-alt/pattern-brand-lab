@@ -1,8 +1,58 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-24T01:45:33.367Z",
-  "lastAttemptAt": "2026-11-24T01:45:33.367Z",
+  "collectedAt": "2026-11-24T02:55:33.237Z",
+  "lastAttemptAt": "2026-11-24T02:55:33.237Z",
   "items": [
+    {
+      "title": "다자녀가구 및 노부모부양 주택 특별공급 운용지침 일부개정",
+      "date": "2026-11-24",
+      "url": "https://police.molit.go.kr/USR/I0204/m_14993/dtl.jsp?gubun=&idx=19016&lcmspage=1&old_search_dept_nm=&psize=10&search=&search_dept_id=&search_dept_nm=&search_regdate_e=&search_regdate_s=&srch_usr_ctnt=&srch_usr_nm=&srch_usr_num=&srch_usr_titl=Y&srch_usr_year=",
+      "source": "국토교통부 고시",
+      "category": "supply",
+      "note": "국토교통부고시 제618호. 적용 기준과 시행일은 첨부 원문과 개별 모집공고를 확인하세요.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
+    {
+      "title": "부동산 거래신고 등에 관한 법률 시행령 일부개정령안 입법예고",
+      "date": "2026-11-24",
+      "url": "https://molit.go.kr/USR/law/m_46/dtl.jsp?r_id=10172",
+      "source": "국토교통부 입법예고",
+      "category": "housing",
+      "note": "의견 제출 기간은 12월 14일까지입니다. 현재 입법예고 단계입니다.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
+    {
+      "title": "서울시·자치구 도시계획 주요 열람공고 및 결정고시(11월 3주)",
+      "date": "2026-11-24",
+      "url": "https://news.seoul.go.kr/citybuild/archives/544265",
+      "source": "서울특별시 도시계획",
+      "category": "redevelopment",
+      "note": "사당동 모아타운 변경안 재공람, 망우1구역 공공재건축 정비계획 변경 결정, 중화동 우성타운 주민공람 등을 포함합니다. 각 절차는 원문에서 확인하세요.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
+    {
+      "title": "공공주택 업무처리지침 일부개정훈령",
+      "date": "2026-11-23",
+      "url": "https://molit.go.kr/USR/I0204/m_45/dtl.jsp?idx=19044",
+      "source": "국토교통부 훈령",
+      "category": "supply",
+      "note": "국토교통부훈령 제2026-2015호. 개정문과 개정 전문이 첨부돼 있습니다.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
+    {
+      "title": "최저주거기준 개정 추진과 공공임대 제도 개선 논의",
+      "date": "2026-11-19",
+      "url": "https://molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092619&lcmspage=1",
+      "source": "국토교통부 보도자료",
+      "category": "housing",
+      "note": "최저주거기준 개정과 공공임대 선택 확대 방안을 논의하는 내용입니다.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
     {
       "title": "전월세 계약, 아는 만큼 안전하다! 청년 전세사기예방 설명회",
       "url": "https://mediahub.seoul.go.kr/archives/2020084",
@@ -10,6 +60,26 @@
       "source": "서울시 주택 소식",
       "category": "housing",
       "firstSeenAt": "2026-11-24T01:45:33.367Z",
+      "changedAt": null
+    },
+    {
+      "title": "제3차 주택공급 정례브리핑",
+      "date": "2026-11-13",
+      "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156789157",
+      "source": "국무조정실·정책브리핑",
+      "category": "supply",
+      "note": "2027년 1분기까지 수도권 입주·분양 전망과 LH 민간참여 공공주택사업 공모 추진계획을 발표했습니다.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
+      "changedAt": null
+    },
+    {
+      "title": "서울시 신속통합기획 재개발 후보지 6곳 추가 선정",
+      "date": "2026-11-13",
+      "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=470318",
+      "source": "서울특별시 보도자료",
+      "category": "redevelopment",
+      "note": "독산·대림·쌍문·천호·대조·용두동이 후보지로 선정됐습니다.",
+      "firstSeenAt": "2026-11-24T02:55:33.237Z",
       "changedAt": null
     },
     {
