@@ -1,8 +1,26 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-04T03:00:39.776Z",
-  "lastAttemptAt": "2026-11-04T03:00:39.776Z",
+  "collectedAt": "2026-11-24T01:45:33.367Z",
+  "lastAttemptAt": "2026-11-24T01:45:33.367Z",
   "items": [
+    {
+      "title": "전월세 계약, 아는 만큼 안전하다! 청년 전세사기예방 설명회",
+      "url": "https://mediahub.seoul.go.kr/archives/2020084",
+      "date": "2026-11-17",
+      "source": "서울시 주택 소식",
+      "category": "housing",
+      "firstSeenAt": "2026-11-24T01:45:33.367Z",
+      "changedAt": null
+    },
+    {
+      "title": "2026년 10월 가계대출 동향(잠정)",
+      "date": "2026-11-12",
+      "url": "https://www.fsc.go.kr/no010101/88124",
+      "source": "금융위원회 대출",
+      "category": "finance",
+      "firstSeenAt": "2026-11-24T01:45:33.367Z",
+      "changedAt": null
+    },
     {
       "title": "[보도자료] 모듈러주택 산업 현장소통을 위한 규제합리화 현장캠프 개최",
       "date": "2026-11-03",
@@ -478,15 +496,5 @@
       "ok": true,
       "error": null
     }
-  ],
-  "collector": {
-    "mode": "server",
-    "scheduleKst": [
-      "08:15"
-    ],
-    "startedAt": "2026-11-04T03:00:39.707Z",
-    "completedAt": "2026-11-04T03:01:52.400Z",
-    "healthy": true,
-    "problems": []
-  }
+  ]
 }
