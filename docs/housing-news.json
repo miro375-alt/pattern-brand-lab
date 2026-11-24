@@ -1,7 +1,5 @@
 {
   "v": 1,
-  "collectedAt": "2026-11-24T02:55:33.237Z",
-  "lastAttemptAt": "2026-11-24T02:55:33.237Z",
   "items": [
     {
       "title": "다자녀가구 및 노부모부양 주택 특별공급 운용지침 일부개정",
@@ -34,6 +32,16 @@
       "changedAt": null
     },
     {
+      "title": "공공주택 특별법 하위법령 개정안 입법예고",
+      "date": "2026-11-24",
+      "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092637&lcmspage=1",
+      "source": "국토교통부 보도자료",
+      "category": "supply",
+      "note": "주택 공급을 위한 후속 개정안입니다. 공공주택 특별법 시행령 개정안의 의견 제출은 2027년 1월 4일까지입니다.",
+      "firstSeenAt": "2026-11-24T03:59:14.771Z",
+      "changedAt": null
+    },
+    {
       "title": "공공주택 업무처리지침 일부개정훈령",
       "date": "2026-11-23",
       "url": "https://molit.go.kr/USR/I0204/m_45/dtl.jsp?idx=19044",
@@ -63,6 +71,25 @@
       "changedAt": null
     },
     {
+      "title": "서울시 및 자치구 도시계획 관련 주요 열람공고 및 결정고시(11월 2주)",
+      "date": "2026-11-17",
+      "url": "https://news.seoul.go.kr/citybuild/archives/544111",
+      "source": "서울시 도시계획·정비",
+      "category": "redevelopment",
+      "firstSeenAt": "2026-11-24T03:59:14.771Z",
+      "changedAt": null
+    },
+    {
+      "title": "주택법 시행령 개정안 국무회의 의결",
+      "date": "2026-11-17",
+      "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092610&lcmspage=1",
+      "source": "국토교통부 보도자료",
+      "category": "redevelopment",
+      "note": "리모델링 주민 동의율을 75%에서 70%로 낮추는 내용 등을 의결했습니다. 시행일과 적용 범위는 개정 원문을 확인하세요.",
+      "firstSeenAt": "2026-11-24T03:59:14.771Z",
+      "changedAt": null
+    },
+    {
       "title": "제3차 주택공급 정례브리핑",
       "date": "2026-11-13",
       "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156789157",
@@ -89,6 +116,25 @@
       "source": "금융위원회 대출",
       "category": "finance",
       "firstSeenAt": "2026-11-24T01:45:33.367Z",
+      "changedAt": null
+    },
+    {
+      "title": "공공재개발 사업수수료 3%에서 1%로 한시 인하",
+      "date": "2026-11-12",
+      "url": "https://molit.go.kr/USR/NEWS/m_71/dtl.jsp/dtl.jsp?id=95092589&lcmspage=1",
+      "source": "국토교통부 보도자료",
+      "category": "redevelopment",
+      "note": "2027년 말까지 LH에 새 후보지로 신청하는 사업에 적용한다고 발표했습니다.",
+      "firstSeenAt": "2026-11-24T03:59:14.771Z",
+      "changedAt": null
+    },
+    {
+      "title": "2026 신속통합기획 워크숍",
+      "date": "2026-11-11",
+      "url": "https://news.seoul.go.kr/citybuild/archives/543939",
+      "source": "서울시 도시계획·정비",
+      "category": "redevelopment",
+      "firstSeenAt": "2026-11-24T03:59:14.771Z",
       "changedAt": null
     },
     {
@@ -543,6 +589,12 @@
       "error": null
     },
     {
+      "name": "서울시 도시계획·정비",
+      "url": "https://news.seoul.go.kr/citybuild",
+      "ok": true,
+      "error": null
+    },
+    {
       "name": "금융위원회 주택",
       "url": "https://www.fsc.go.kr/no010101?srchKey=sj&srchText=%EC%A3%BC%ED%83%9D",
       "ok": true,
@@ -566,5 +618,13 @@
       "ok": true,
       "error": null
     }
-  ]
+  ],
+  "collectedAt": "2026-11-24T03:59:14.771Z",
+  "lastAttemptAt": "2026-11-24T03:59:14.771Z",
+  "collector": {
+    "mode": "manual",
+    "completedAt": "2026-11-24T03:59:14.771Z",
+    "healthy": true,
+    "problems": []
+  }
 }
