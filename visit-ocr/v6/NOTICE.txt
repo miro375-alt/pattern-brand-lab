@@ -1,0 +1,10 @@
+Browser OCR distribution for Pattern Brand Lab
+
+Tesseract.js 6.0.1 — https://github.com/naptha/tesseract.js/tree/v6.0.1
+Tesseract.js-core 6.0.0 — https://github.com/naptha/tesseract.js-core
+Tesseract Korean fast language data 4.1.0 —
+https://github.com/tesseract-ocr/tessdata_fast/tree/4.1.0
+
+The runtime assets and trained data are from these releases. The language
+files are gzip-compressed for browser distribution. Apache License 2.0
+notices are included with the distribution.
