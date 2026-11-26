@@ -187,6 +187,15 @@ async function unwrapUser(id, pw){
   } catch {}
   return null;
 }
+
+async function photoAccount(id, pw){
+  const encode = bytes => btoa(String.fromCharCode(...new Uint8Array(bytes)));
+  const salt = enc.encode('pattern-brand-lab/housing-visit-photos/v1/' + id);
+  const scope = await crypto.subtle.digest('SHA-256', salt);
+  const base = await crypto.subtle.importKey('raw', enc.encode(pw), 'PBKDF2', false, ['deriveBits']);
+  const key = await crypto.subtle.deriveBits({name:'PBKDF2', hash:'SHA-256', salt, iterations:310000}, base, 256);
+  return {id:encode(scope).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''), key:encode(key)};
+}
 /* 로그인 성공 뒤 실제로 여는 부분 — 폼 제출과 자동 해제가 같은 길을 쓴다.
    자격이 틀리면 decryptDoc이 throw하므로 화면을 바꾸기 전에 걸러진다. */
 async function enterApp(creds, name){
@@ -199,7 +208,7 @@ async function enterApp(creds, name){
   const q = new URLSearchParams(location.search).get('q') || '';
   if (q) history.replaceState(null, '', location.pathname);
   app.addEventListener('load', () => {
-    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, name, q, pushReady:typeof window.pblPushCommand==='function',view:new URLSearchParams(location.search).get('view')}, BRIDGE_ORIGIN);
+    app.contentWindow.postMessage({t:'init', id: CREDS.id, pw: CREDS.pw, photo:CREDS.photo, name, q, pushReady:typeof window.pblPushCommand==='function',view:new URLSearchParams(location.search).get('view')}, BRIDGE_ORIGIN);
   }, {once: true});
   app.srcdoc = html;
 }
@@ -213,6 +222,8 @@ $('loginForm').addEventListener('submit', async e => {
     const entered = { id: $('uid').value.trim(), pw: $('upw').value };
     const u = await unwrapUser(entered.id, entered.pw);
     const creds = u ? { id: u.id, pw: u.pw } : entered;
+    // 로그인 ID로 저절로 분리하고, 별칭 비밀번호를 바꿔도 같은 계정에서 읽을 수 있다.
+    creds.photo = await photoAccount(entered.id, creds.pw);
     let remembered = ''; try { remembered = localStorage.getItem('pbl.name') || ''; } catch {}
     const name = (u && u.name) || remembered || '나';
     await enterApp(creds, name);
