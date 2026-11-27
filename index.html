@@ -87,7 +87,7 @@ const enc = new TextEncoder(), dec = new TextDecoder();
 const b64d = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 let CREDS = null;
 const cache = {};
-const DOCUMENT_PATHS = new Set(["docs/banned.enc.json","docs/charter.enc.json","docs/competitor-products.enc.json","docs/competitor-profile.enc.json","docs/decisions.enc.json","docs/home-buying.enc.json","docs/kcfee.enc.json","docs/plan.enc.json","docs/playbook.enc.json","docs/portfolio-plan.enc.json","docs/readme.enc.json","docs/res-channel.enc.json","docs/res-fund.enc.json","docs/res-legal.enc.json","docs/res-logi.enc.json","docs/res-make.enc.json","docs/res-mkt.enc.json","docs/res-scale.enc.json","docs/res-tax.enc.json","docs/startup-research.enc.json","docs/startup-roadmap.enc.json","docs/strategy.enc.json","docs/tool.enc.json"]);
+const DOCUMENT_PATHS = new Set(["docs/banned.enc.json","docs/charter.enc.json","docs/competitor-products.enc.json","docs/competitor-profile.enc.json","docs/decisions.enc.json","docs/home-buying.enc.json","docs/kcfee.enc.json","docs/plan.enc.json","docs/playbook.enc.json","docs/portfolio-plan.enc.json","docs/readme.enc.json","docs/res-channel.enc.json","docs/res-fund.enc.json","docs/res-legal.enc.json","docs/res-logi.enc.json","docs/res-make.enc.json","docs/res-mkt.enc.json","docs/res-scale.enc.json","docs/res-tax.enc.json","docs/startup-research.enc.json","docs/startup-roadmap.enc.json","docs/strategy.enc.json","docs/support.enc.json","docs/tool.enc.json"]);
 const BRIDGE_ORIGIN = self.origin;
 function isAppMessage(e){
   const m = e.data;
